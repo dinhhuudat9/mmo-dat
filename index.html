@@ -1739,6 +1739,7 @@ const firebaseConfig = {
             <button class="nav-item" data-nav="products"><i class="bi bi-bag"></i><span>Sản phẩm</span></button>
             <button class="nav-item" data-nav="resources"><i class="bi bi-folder-symlink"></i><span>Tài
                     nguyên</span></button>
+            <button class="nav-item" data-nav="web-tool"><i class="bi bi-code-slash"></i><span>Đặt làm Web/Tool</span></button>
             <div class="nav-section">Buff</div>
             <button class="nav-item" data-nav="buff-facebook"><i class="bi bi-facebook"></i><span>Buff
                     Facebook</span></button>
@@ -1752,6 +1753,8 @@ const firebaseConfig = {
             <button class="nav-item" data-nav="admin" id="adminNavItem" style="display:none"><i
                     class="bi bi-shield-check"></i><span>Admin Panel</span></button>
             <button class="nav-item" data-nav="wallet"><i class="bi bi-wallet2"></i><span>Ví của tôi</span></button>
+            <button class="nav-item" data-nav="support"><i class="bi bi-life-preserver"></i><span>Hỗ trợ / Ticket</span></button>
+            <button class="nav-item" data-nav="referral"><i class="bi bi-gift"></i><span>Giới thiệu nhận thưởng</span></button>
             <button class="nav-item" data-nav="ranking"><i class="bi bi-bar-chart-line"></i><span>Bảng xếp
                     hạng</span></button>
         </div>
@@ -1884,6 +1887,7 @@ const firebaseConfig = {
             products: [],
             resources: [],
             orders: [],
+            tickets: [],
             messages: [],
             notifications: [],
             activityLogs: [],
@@ -2123,9 +2127,14 @@ const firebaseConfig = {
             const tail = String(Math.abs((email.length * 97) % 10000)).padStart(4, '0');
             return base + tail;
         }
+        function ensureReferralCode(email, u) {
+            if (!u) return '';
+            if (!u.referralCode) u.referralCode = makeReferralCode(email, u);
+            return u.referralCode;
+        }
         function referralOwnerByCode(code) {
             const k = normalizeLogin(code);
-            return Object.entries(DB.users).find(([, u]) => normalizeLogin(u?.referralCode) === k) || null;
+            return Object.entries(DB.users).find(([email, u]) => normalizeLogin(u?.referralCode || makeReferralCode(email, u || {})) === k) || null;
         }
         function ensureProductDefaults(p) {
             const tags = Array.isArray(p.tags) ? p.tags : (typeof p.tags === 'string' && p.tags.trim() ? p.tags.split(',').map(s => s.trim()).filter(Boolean) : []);
@@ -2151,14 +2160,49 @@ const firebaseConfig = {
             setTimeout(() => el.remove(), 2800);
         }
 
-        function addNotification(email, message, opts = {}) {
-            DB.notifications.unshift({
-                id: uid(), userEmail: email, message, read: false,
-                kind: opts.kind || 'normal', system: !!opts.system, title: opts.title || '', timestamp: now()
-            });
-            DB.notifications = DB.notifications.slice(0, 400);
-            save();
+        function getNotificationList() {
+            const raw = DB.notifications || [];
+            return Array.isArray(raw) ? raw.filter(Boolean) : Object.values(raw).filter(Boolean);
+        }
+
+        function createNotificationRecord(email, message, opts = {}) {
+            return {
+                id: uid(),
+                userEmail: email,
+                message,
+                detail: opts.detail || '',
+                read: !!opts.read,
+                kind: opts.kind || 'normal',
+                system: !!opts.system,
+                title: opts.title || '',
+                ticketId: opts.ticketId || null,
+                timestamp: opts.timestamp || now()
+            };
+        }
+
+        function pushNotificationRecord(email, message, opts = {}) {
+            const next = getNotificationList();
+            const record = createNotificationRecord(email, message, opts);
+            next.unshift(record);
+            DB.notifications = next.slice(0, 400);
             updateNotifBadge();
+            return record;
+        }
+
+        function persistNotifications(list = getNotificationList()) {
+            DB.notifications = list.slice(0, 400);
+            updateNotifBadge();
+            return dbSet('notifications', DB.notifications);
+        }
+
+        function addNotification(email, message, opts = {}) {
+            pushNotificationRecord(email, message, opts);
+            save();
+        }
+
+        function persistTicketList(list = getTicketList()) {
+            DB.tickets = list;
+            return dbSet('tickets', list);
         }
 
         function getLocalDateKey(date = new Date()) {
@@ -2225,14 +2269,26 @@ const firebaseConfig = {
         window.uid = uid;
         window.now = now;
         window.log = log;
+        window.getNotificationList = getNotificationList;
+        window.pushNotificationRecord = pushNotificationRecord;
+        window.persistNotifications = persistNotifications;
+        window.persistTicketList = persistTicketList;
 
         function updateNotifBadge() {
             const badge = $('#notifBadge');
             const u = user();
             if (!u || !badge) { if (badge) badge.classList.add('hidden'); return; }
-            const unread = DB.notifications.filter(n => n.userEmail === currentEmail() && !n.read).length;
+            const unread = getNotificationList().filter(n => n.userEmail === currentEmail() && !n.read).length;
             if (unread > 0) { badge.textContent = unread; badge.classList.remove('hidden'); }
             else badge.classList.add('hidden');
+        }
+
+        function setNotificationReadState(id, read = true) {
+            const list = getNotificationList();
+            const item = list.find(x => String(x.id) === String(id));
+            if (!item) return Promise.resolve();
+            item.read = read;
+            return persistNotifications(list);
         }
 
         function toggleNotifications() {
@@ -2322,6 +2378,9 @@ const firebaseConfig = {
             if (page === 'members') loadMembers(container);
             if (page === 'chat') loadChat(container);
             if (page === 'admin') loadAdmin(container);
+            if (page === 'support') bindSupportTicketForm(container);
+            if (page === 'referral') bindReferralForm(container);
+            if (page === 'web-tool') bindWebToolForm(container);
             if (page.startsWith('buff-')) attachBuff(page, container);
             if (page === 'dashboard' || page === 'deposit') bindDepositForm(container);
             if (page === 'product-detail') setBotContext('product', activeProductId);
@@ -2343,6 +2402,9 @@ const firebaseConfig = {
                 case 'products': return productsHTML();
                 case 'product-detail': return productDetailHTML();
                 case 'resources': return resourcesHTML();
+                case 'support': return supportTicketHTML();
+                case 'referral': return referralHTML();
+                case 'web-tool': return webToolHTML();
                 case 'admin': return adminHTML();
                 case 'wallet': return walletHTML();
                 case 'ranking': return rankingHTML();
@@ -2389,7 +2451,8 @@ const firebaseConfig = {
                     }
 
                     updateUI();
-                    if (['dashboard', 'wallet', 'profile', 'admin'].includes(activePage)) {
+                    checkTicketReplyPopups();
+                    if (['dashboard', 'wallet', 'profile', 'admin', 'web-tool', 'support', 'referral'].includes(activePage)) {
                         const target = document.getElementById(`page-${activePage}`);
                         if (target) {
                             if (activePage === 'admin' && typeof adminHTML !== 'undefined') {
@@ -3270,6 +3333,505 @@ const firebaseConfig = {
             save(); notify('Đã xóa.'); navigate('resources');
         };
 
+        function getTicketList() {
+            const raw = DB.tickets || [];
+            return Array.isArray(raw) ? raw.filter(Boolean) : Object.values(raw).filter(Boolean);
+        }
+
+        function ticketStatusLabel(status) {
+            return ({ pending: 'Đang chờ', processing: 'Đang xử lý', closed: 'Đã đóng' })[status] || status || 'Đang chờ';
+        }
+
+        function ticketStatusClass(status) {
+            return status === 'closed' ? 'badge-green' : (status === 'processing' ? 'badge-blue' : 'badge-amber');
+        }
+
+        function getTicketReplies(ticket) {
+            return ensureArray(ticket?.replies).filter(Boolean);
+        }
+
+        function renderTicketReplies(ticket) {
+            const replies = getTicketReplies(ticket);
+            if (!replies.length) return '';
+            return `<div style="margin-top:14px;display:grid;gap:10px">
+                ${replies.map(reply => `<div style="padding:12px 14px;border-radius:14px;background:rgba(59,130,246,0.08);border:1px solid rgba(59,130,246,0.18)">
+                    <div class="toolbar" style="justify-content:space-between;align-items:center;gap:10px">
+                        <strong style="font-size:.9rem">${esc(reply.authorName || reply.author || 'Admin')}</strong>
+                        <span style="font-size:.75rem;color:var(--muted)">${new Date(reply.time || now()).toLocaleString('vi-VN')}</span>
+                    </div>
+                    <div style="white-space:pre-wrap;color:#dbe4f0;margin-top:8px">${esc(reply.message || '')}</div>
+                </div>`).join('')}
+            </div>`;
+        }
+
+        window._shownTicketReplyPopups = window._shownTicketReplyPopups || {};
+
+        function getUnreadTicketReplyNotifications() {
+            return getNotificationList()
+                .filter(n => n.userEmail === currentEmail() && !n.read && n.kind === 'ticket_reply')
+                .sort((a, b) => new Date(b.timestamp || 0).getTime() - new Date(a.timestamp || 0).getTime());
+        }
+
+        function showTicketReplyPopup(notification) {
+            if (!notification) return;
+            const ticket = getTicketList().find(item => String(item.id) === String(notification.ticketId));
+            openModal(
+                'Phản hồi ticket',
+                `<div style="display:grid;gap:14px">
+                    <div class="alert alert-success" style="margin:0">${esc(notification.message || 'Bạn có phản hồi mới từ admin.')}</div>
+                    ${ticket?.title ? `<div><strong>Ticket:</strong> ${esc(ticket.title)}</div>` : ''}
+                    ${notification.detail ? `<div style="white-space:pre-wrap;color:#dbe4f0">${esc(notification.detail)}</div>` : ''}
+                    <div class="toolbar" style="justify-content:flex-end">
+                        <button class="btn btn-ghost" type="button" onclick="closeModal()">Đóng</button>
+                        <button class="btn btn-primary" type="button" onclick="closeModal();navigate('support')">Xem ticket</button>
+                    </div>
+                </div>`
+            );
+        }
+
+        function checkTicketReplyPopups() {
+            if (!currentEmail()) return;
+            const unreadReplies = getUnreadTicketReplyNotifications();
+            const next = unreadReplies.find(item => !window._shownTicketReplyPopups[item.id]);
+            if (!next) return;
+            window._shownTicketReplyPopups[next.id] = true;
+            setNotificationReadState(next.id).finally(() => showTicketReplyPopup(next));
+        }
+
+        function toggleNotifications() {
+            const d = $('#notifDropdown'); d.classList.toggle('hidden');
+            if (d.classList.contains('hidden')) return;
+            const u = user();
+            if (!u) { d.innerHTML = '<p>Vui lÃ²ng Ä‘Äƒng nháº­p.</p>'; return; }
+            const notifs = getNotificationList().filter(n => n.userEmail === currentEmail()).sort((a, b) => b.id - a.id);
+            d.innerHTML = notifs.map(n => `<div style="padding:10px 8px;border-bottom:1px solid var(--border);cursor:pointer;color:${n.read ? 'var(--muted)' : '#fff'}" onclick="markNotifRead(${n.id})">
+                ${n.title ? `<div style="font-weight:700;margin-bottom:4px">${esc(n.title)}</div>` : ''}
+                <div>${esc(n.message)}</div>
+                ${n.detail ? `<div style="font-size:.8rem;color:var(--muted);margin-top:6px;white-space:pre-wrap">${esc(n.detail)}</div>` : ''}
+                <div style="font-size:.75rem;color:var(--muted);margin-top:4px">${new Date(n.timestamp).toLocaleString('vi-VN')}</div>
+            </div>`).join('') || '<p>KhÃ´ng cÃ³ thÃ´ng bÃ¡o.</p>';
+        }
+
+        window.markNotifRead = function (id) {
+            setNotificationReadState(id).finally(() => toggleNotifications());
+        };
+
+        function supportTicketHTML() {
+            if (!currentEmail()) {
+                return `<div class="form-panel" style="max-width:680px">
+    <h2>Hỗ trợ / Ticket</h2>
+    <p style="color:var(--muted);margin:0 0 18px">Vui lòng đăng nhập để gửi yêu cầu hỗ trợ và theo dõi trạng thái xử lý.</p>
+    <button class="btn btn-primary btn-block" data-nav="login"><i class="bi bi-box-arrow-in-right"></i> Đăng nhập</button>
+  </div>`;
+            }
+
+            const tickets = getTicketList()
+                .filter(ticket => ticket.userEmail === currentEmail())
+                .sort((a, b) => new Date(b.createdAt || b.date || 0).getTime() - new Date(a.createdAt || a.date || 0).getTime());
+
+            return `<div>
+    <div class="hero" style="padding:30px 24px;margin-bottom:18px;text-align:left;border-radius:28px;background:linear-gradient(135deg, rgba(20,30,68,0.95), rgba(10,41,63,0.95))">
+      <h1 style="font-size:clamp(2.2rem,6vw,4rem);margin-bottom:10px">Hỗ trợ / Ticket</h1>
+      <p style="margin:0;color:var(--muted)">Gửi yêu cầu hỗ trợ và theo dõi trạng thái xử lý.</p>
+    </div>
+    <div class="split" style="align-items:start">
+      <div class="glass-panel" style="padding:24px;border-radius:24px">
+        <h3 style="margin:0 0 18px">Tạo ticket</h3>
+        <form id="supportTicketForm">
+          <div class="form-group">
+            <label for="ticketTitle">Tiêu đề</label>
+            <input id="ticketTitle" placeholder="Vấn đề của bạn" required>
+          </div>
+          <div class="form-group">
+            <label for="ticketContent">Nội dung</label>
+            <textarea id="ticketContent" rows="6" placeholder="Mô tả chi tiết..." required style="min-height:120px"></textarea>
+          </div>
+          <button class="btn btn-primary btn-block" id="ticketSubmitBtn" type="submit"><i class="bi bi-send"></i> Gửi ticket</button>
+        </form>
+      </div>
+      <div class="glass-panel" style="padding:24px;border-radius:24px;min-height:100%">
+        <h3 style="margin:0 0 18px">Ticket của bạn</h3>
+        ${tickets.length ? `<div style="display:grid;gap:12px">
+          ${tickets.map(ticket => `<div class="post" style="margin:0;padding:16px;border-radius:16px">
+            <div class="toolbar" style="justify-content:space-between;align-items:flex-start;gap:10px">
+              <div>
+                <div style="font-weight:800">${esc(ticket.title || 'Ticket')}</div>
+                <div style="font-size:.78rem;color:var(--muted);margin-top:4px">${new Date(ticket.createdAt || ticket.date || now()).toLocaleString('vi-VN')}</div>
+              </div>
+              <span class="badge ${ticketStatusClass(ticket.status)}">${ticketStatusLabel(ticket.status)}</span>
+            </div>
+            <div style="white-space:pre-wrap;color:#dbe4f0;margin-top:12px">${esc(ticket.content || ticket.detail || '')}</div>
+            ${renderTicketReplies(ticket)}
+          </div>`).join('')}
+        </div>` : '<p style="margin:0">Chưa có ticket.</p>'}
+      </div>
+    </div>
+  </div>`;
+        }
+
+        function bindSupportTicketForm(container) {
+            const form = $('#supportTicketForm', container);
+            if (!form) return;
+
+            form.onsubmit = async (e) => {
+                e.preventDefault();
+                const u = user();
+                if (!u) return notify('Vui lòng đăng nhập.', 'error');
+
+                const title = ($('#ticketTitle', form)?.value || '').trim();
+                const content = ($('#ticketContent', form)?.value || '').trim();
+                if (title.length < 3) return notify('Tiêu đề tối thiểu 3 ký tự.', 'error');
+                if (content.length < 10) return notify('Nội dung tối thiểu 10 ký tự.', 'error');
+
+                const submitBtn = $('#ticketSubmitBtn', form);
+                if (submitBtn) {
+                    submitBtn.disabled = true;
+                    submitBtn.textContent = 'Đang gửi...';
+                }
+
+                const nextTickets = getTicketList();
+                nextTickets.unshift({
+                    id: uid(),
+                    userEmail: currentEmail(),
+                    title,
+                    content,
+                    status: 'pending',
+                    createdAt: now(),
+                    updatedAt: now(),
+                    replies: []
+                });
+
+                try {
+                    await persistTicketList(nextTickets);
+                    notify('Đã gửi ticket hỗ trợ.');
+                    navigate('support');
+                } catch (err) {
+                    notify('Lỗi Firebase: ' + (err?.message || err), 'error');
+                    if (submitBtn) {
+                        submitBtn.disabled = false;
+                        submitBtn.textContent = 'Gửi ticket';
+                    }
+                }
+            };
+        }
+
+        function getReferralRewardAmount() {
+            return Math.max(0, safeNum(DB.settings?.referralReward || 5000));
+        }
+
+        function getReferralUsers(email) {
+            const u = DB.users[email] || {};
+            return ensureArray(u.referredUsers).filter(Boolean);
+        }
+
+        function getReferralLeaderboard() {
+            return Object.entries(DB.users || {})
+                .map(([email, u]) => ({
+                    email,
+                    name: u.name || u.username || email,
+                    code: u.referralCode || makeReferralCode(email, u || {}),
+                    count: getReferralUsers(email).length
+                }))
+                .sort((a, b) => b.count - a.count || a.name.localeCompare(b.name))
+                .slice(0, 10);
+        }
+
+        async function copyTextValue(text, successMessage) {
+            const value = (text || '').trim();
+            if (!value) return notify('Không có dữ liệu để sao chép.', 'error');
+
+            try {
+                if (navigator.clipboard?.writeText) {
+                    await navigator.clipboard.writeText(value);
+                } else {
+                    const input = document.createElement('textarea');
+                    input.value = value;
+                    document.body.appendChild(input);
+                    input.select();
+                    document.execCommand('copy');
+                    input.remove();
+                }
+                notify(successMessage || 'Đã sao chép.');
+            } catch (err) {
+                notify('Không thể sao chép.', 'error');
+            }
+        }
+
+        function getReferralShareUrl(code) {
+            const url = new URL(window.location.href);
+            url.searchParams.set('ref', code);
+            return url.toString();
+        }
+
+        function referralHTML() {
+            if (!currentEmail()) {
+                return `<div class="form-panel" style="max-width:680px">
+    <h2>Giới thiệu nhận thưởng</h2>
+    <p style="color:var(--muted);margin:0 0 18px">Vui lòng đăng nhập để lấy mã giới thiệu và nhận thưởng.</p>
+    <button class="btn btn-primary btn-block" data-nav="login"><i class="bi bi-box-arrow-in-right"></i> Đăng nhập</button>
+  </div>`;
+            }
+
+            const u = user() || {};
+            const reward = getReferralRewardAmount();
+            const myCode = ensureReferralCode(currentEmail(), u);
+            const myReferrals = getReferralUsers(currentEmail());
+            const topCodes = getReferralLeaderboard();
+            const prefillCode = new URL(window.location.href).searchParams.get('ref') || '';
+            const alreadyClaimed = !!u.referredBy;
+
+            return `<div>
+    <div class="hero" style="padding:30px 24px;margin-bottom:18px;text-align:left;border-radius:28px;background:linear-gradient(135deg, rgba(20,30,68,0.95), rgba(10,41,63,0.95))">
+      <h1 style="font-size:clamp(2.2rem,6vw,4rem);margin-bottom:10px">Giới thiệu nhận thưởng</h1>
+      <p style="margin:0;color:var(--muted)">Chia sẻ mã của bạn, bạn bè nhập mã sẽ nhận quà và bạn cũng được thưởng.</p>
+    </div>
+
+    <div class="split" style="align-items:start">
+      <div class="glass-panel" style="padding:24px;border-radius:24px">
+        <h3 style="margin:0 0 18px">Mã của bạn</h3>
+        <div class="post" style="margin:0;padding:20px;border-radius:20px;background:rgba(255,255,255,0.03)">
+          <div style="color:var(--muted);font-size:.86rem">Mã giới thiệu</div>
+          <div style="font-size:2rem;font-weight:900;letter-spacing:.5px;margin-top:4px">${esc(myCode)}</div>
+          <div style="color:var(--muted);margin-top:6px">Đã giới thiệu thành công: ${myReferrals.length} người</div>
+        </div>
+        <div class="toolbar" style="margin-top:16px">
+          <button class="btn btn-primary" type="button" onclick="copyReferralCode()"><i class="bi bi-link-45deg"></i> Copy link</button>
+          <button class="btn btn-ghost" type="button" onclick="copyReferralUrl()"><i class="bi bi-copy"></i> Copy URL</button>
+        </div>
+      </div>
+
+      <div class="glass-panel" style="padding:24px;border-radius:24px">
+        <h3 style="margin:0 0 18px">Nhập mã nhận thưởng</h3>
+        <form id="referralClaimForm">
+          <div class="form-group">
+            <label for="referralCodeInput">Mã của người giới thiệu</label>
+            <input id="referralCodeInput" value="${esc(prefillCode)}" placeholder="Nhập mã và bấm nhận thưởng" ${alreadyClaimed ? 'disabled' : ''}>
+          </div>
+          <button class="btn btn-primary btn-block" id="referralSubmitBtn" type="submit" ${alreadyClaimed ? 'disabled' : ''}><i class="bi bi-gift"></i> Nhận thưởng</button>
+        </form>
+        <div style="margin-top:14px;color:var(--muted)">Thưởng hiện tại: ${reward.toLocaleString()}đ / người.</div>
+        ${alreadyClaimed ? `<div style="margin-top:10px" class="alert alert-success">Bạn đã dùng mã giới thiệu: ${esc(u.referredBy)}</div>` : ''}
+      </div>
+    </div>
+
+    <div class="glass-panel" style="margin-top:18px;padding:24px;border-radius:24px">
+      <h3 style="margin:0 0 18px">Top mã giới thiệu</h3>
+      <div style="display:grid;gap:12px">
+        ${topCodes.map((item, index) => `<div class="post" style="margin:0;padding:18px 20px;border-radius:18px;background:rgba(255,255,255,0.03)">
+          <div class="toolbar" style="justify-content:space-between;align-items:center;gap:12px">
+            <div>
+              <div style="font-weight:800">#${index + 1} ${esc(item.name)}</div>
+              <div style="color:var(--muted);margin-top:6px">Mã: ${esc(item.code)}</div>
+            </div>
+            <span class="badge badge-amber">${item.count}</span>
+          </div>
+        </div>`).join('') || '<p>Chưa có dữ liệu.</p>'}
+      </div>
+    </div>
+  </div>`;
+        }
+
+        function bindReferralForm(container) {
+            const form = $('#referralClaimForm', container);
+            if (!form) return;
+
+            form.onsubmit = async (e) => {
+                e.preventDefault();
+                const u = user();
+                if (!u) return notify('Vui lòng đăng nhập.', 'error');
+                if (u.referredBy) return notify('Bạn đã nhận thưởng giới thiệu rồi.', 'error');
+
+                const codeInput = $('#referralCodeInput', form);
+                const code = (codeInput?.value || '').trim().toUpperCase();
+                if (!code) return notify('Vui lòng nhập mã giới thiệu.', 'error');
+
+                const owner = referralOwnerByCode(code);
+                if (!owner) return notify('Mã giới thiệu không hợp lệ.', 'error');
+
+                const [ownerEmail, ownerUser] = owner;
+                if (ownerEmail === currentEmail()) return notify('Bạn không thể nhập mã của chính mình.', 'error');
+
+                const ownerCode = ensureReferralCode(ownerEmail, ownerUser);
+                const reward = getReferralRewardAmount();
+                ownerUser.referredUsers = ensureArray(ownerUser.referredUsers);
+                if (ownerUser.referredUsers.includes(currentEmail())) return notify('Mã này đã được sử dụng cho tài khoản của bạn.', 'error');
+
+                const submitBtn = $('#referralSubmitBtn', form);
+                if (submitBtn) {
+                    submitBtn.disabled = true;
+                    submitBtn.textContent = 'Đang nhận...';
+                }
+
+                u.referredBy = ownerCode;
+                u.referralClaimedAt = now();
+                u.balance = safeNum(u.balance) + reward;
+                u.walletNotes = ensureArray(u.walletNotes);
+                u.walletNotes.unshift({
+                    id: uid(),
+                    time: now(),
+                    kind: 'referral',
+                    title: 'Thưởng giới thiệu',
+                    detail: `Nhập mã ${ownerCode}`,
+                    amount: reward
+                });
+
+                ownerUser.balance = safeNum(ownerUser.balance) + reward;
+                ownerUser.walletNotes = ensureArray(ownerUser.walletNotes);
+                ownerUser.walletNotes.unshift({
+                    id: uid(),
+                    time: now(),
+                    kind: 'referral',
+                    title: 'Thưởng giới thiệu',
+                    detail: `Mời thành công ${u.name || currentEmail()}`,
+                    amount: reward
+                });
+                ownerUser.referredUsers.unshift(currentEmail());
+                ownerUser.referredUsers = [...new Set(ownerUser.referredUsers)];
+
+                addNotification(currentEmail(), `Bạn đã nhận ${reward.toLocaleString()}đ từ mã giới thiệu ${ownerCode}.`, { title: 'Giới thiệu' });
+                addNotification(ownerEmail, `Bạn vừa nhận ${reward.toLocaleString()}đ vì giới thiệu thành công ${u.name || currentEmail()}.`, { title: 'Giới thiệu' });
+                log('referral_reward', `${currentEmail()} -> ${ownerEmail}`);
+
+                try {
+                    await saveNow();
+                    notify(`Nhận thưởng thành công +${reward.toLocaleString()}đ.`);
+                    navigate('referral');
+                } catch (err) {
+                    notify('Lỗi Firebase: ' + (err?.message || err), 'error');
+                    if (submitBtn) {
+                        submitBtn.disabled = false;
+                        submitBtn.innerHTML = '<i class="bi bi-gift"></i> Nhận thưởng';
+                    }
+                }
+            };
+        }
+
+        window.copyReferralCode = function () {
+            const u = user();
+            if (!u) return notify('Vui lòng đăng nhập.', 'error');
+            copyTextValue(ensureReferralCode(currentEmail(), u), 'Đã sao chép mã giới thiệu.');
+        };
+
+        window.copyReferralUrl = function () {
+            const u = user();
+            if (!u) return notify('Vui lòng đăng nhập.', 'error');
+            const code = ensureReferralCode(currentEmail(), u);
+            copyTextValue(getReferralShareUrl(code), 'Đã sao chép URL giới thiệu.');
+        };
+
+        function getCustomOrderList() {
+            const raw = DB.customOrders || [];
+            return Array.isArray(raw) ? raw.filter(Boolean) : Object.values(raw).filter(Boolean);
+        }
+
+        function getWebToolRequests() {
+            return getCustomOrderList().filter(o =>
+                o && (o.kind === 'web_tool' || o.type === 'web_tool' || o.title === 'Đặt làm Web/Tool')
+            );
+        }
+
+        function webToolStatusLabel(status) {
+            return ({ pending: 'Đang chờ', approved: 'Đã duyệt', rejected: 'Từ chối' })[status] || status || 'Đang chờ';
+        }
+
+        function webToolStatusClass(status) {
+            return status === 'approved' ? 'badge-green' : (status === 'rejected' ? 'badge-red' : 'badge-amber');
+        }
+
+        function webToolHTML() {
+            if (!currentEmail()) {
+                return `<div class="form-panel" style="max-width:640px">
+    <h2>Đặt làm Web/Tool</h2>
+    <p style="color:var(--muted);margin:0 0 18px">Vui lòng đăng nhập để gửi yêu cầu làm website hoặc tool.</p>
+    <button class="btn btn-primary btn-block" data-nav="login"><i class="bi bi-box-arrow-in-right"></i> Đăng nhập</button>
+  </div>`;
+            }
+
+            const items = getWebToolRequests()
+                .filter(o => o.userEmail === currentEmail())
+                .sort((a, b) => new Date(b.date || b.createdAt || b.time || 0).getTime() - new Date(a.date || a.createdAt || a.time || 0).getTime());
+
+            return `<div style="min-height:calc(100dvh - 160px);display:flex;align-items:flex-start;justify-content:center">
+    <div class="form-panel" style="width:100%;max-width:640px;border-radius:24px;padding:24px;background:rgba(17,24,39,.94)">
+      <h2 style="margin:0 0 22px;font-size:1.55rem;font-weight:900">Đặt làm Web/Tool</h2>
+      <form id="webToolForm">
+        <div class="form-group">
+          <label for="webToolDetail">Yêu cầu chi tiết</label>
+          <textarea id="webToolDetail" rows="6" required style="min-height:144px;border-radius:14px;background:#030712"></textarea>
+        </div>
+        <button class="btn btn-primary btn-block" id="webToolSubmit" type="submit" style="justify-content:center">
+          Gửi yêu cầu
+        </button>
+      </form>
+
+      <div class="glass-panel" style="margin:18px 0 0;border-radius:22px;padding:24px;background:rgba(15,23,42,.48)">
+        <h3 style="margin:0 0 20px;font-size:1.15rem">Lịch sử yêu cầu</h3>
+        ${items.length ? `<div style="display:grid;gap:12px">
+          ${items.map(o => `<div class="tx-item" style="align-items:flex-start">
+            <div style="min-width:0">
+              <div style="white-space:pre-wrap;color:#e5e7eb">${esc(o.detail || o.description || '')}</div>
+              <div style="font-size:.78rem;color:var(--muted);margin-top:8px">${new Date(o.date || o.createdAt || o.time || now()).toLocaleString('vi-VN')}</div>
+            </div>
+            <span class="badge ${webToolStatusClass(o.status)}">${webToolStatusLabel(o.status)}</span>
+          </div>`).join('')}
+        </div>` : '<p style="margin:0;color:#fff">Chưa có yêu cầu.</p>'}
+      </div>
+    </div>
+  </div>`;
+        }
+
+        function bindWebToolForm(container) {
+            const form = $('#webToolForm', container);
+            if (!form) return;
+
+            form.onsubmit = async (e) => {
+                e.preventDefault();
+                const u = user();
+                if (!u) {
+                    notify('Vui lòng đăng nhập.', 'error');
+                    navigate('login');
+                    return;
+                }
+
+                const detail = ($('#webToolDetail', form)?.value || '').trim();
+                if (detail.length < 10) return notify('Yêu cầu chi tiết tối thiểu 10 ký tự.', 'error');
+
+                const submitBtn = $('#webToolSubmit', form);
+                if (submitBtn) {
+                    submitBtn.disabled = true;
+                    submitBtn.textContent = 'Đang gửi...';
+                }
+
+                const order = {
+                    id: uid(),
+                    kind: 'web_tool',
+                    title: 'Đặt làm Web/Tool',
+                    detail,
+                    userEmail: currentEmail(),
+                    status: 'pending',
+                    date: now()
+                };
+
+                DB.customOrders = getCustomOrderList();
+                DB.customOrders.unshift(order);
+                DB.activityLogs = DB.activityLogs || [];
+                DB.activityLogs.unshift({ id: uid(), time: now(), actor: currentEmail(), action: 'web_tool_request', detail: detail.slice(0, 120) });
+                DB.activityLogs = DB.activityLogs.slice(0, 250);
+
+                try {
+                    await saveNow();
+                    notify('Đã gửi yêu cầu làm Web/Tool.');
+                    navigate('web-tool');
+                } catch (err) {
+                    notify('Lỗi Firebase: ' + (err?.message || err), 'error');
+                    if (submitBtn) {
+                        submitBtn.disabled = false;
+                        submitBtn.textContent = 'Gửi yêu cầu';
+                    }
+                }
+            };
+        }
+
         function buffHTML(platform, icon, types) {
             return `<div class="form-panel">
     <h2><i class="bi bi-${icon}"></i> Buff ${platform}</h2>
@@ -3498,7 +4060,10 @@ const firebaseConfig = {
                         bio: '', 
                         joined: now(), purchaseHistory: [], depositRequests: [], serviceHistory: [],
                         studioUsage: { date: '', removeCount: 0 }, missionsClaimed: {}, walletNotes: [],
-                        referralCode: makeReferralCode(email, { username })
+                        referralCode: makeReferralCode(email, { username }),
+                        referredBy: '',
+                        referredUsers: [],
+                        referralClaimedAt: ''
                     };
 
                     // Save to Firebase
@@ -3571,6 +4136,7 @@ const firebaseConfig = {
         });
                 function bootUI() {
             updateUI();
+            checkTicketReplyPopups();
             navigate('home');
             
             // Tự động bật realtime nếu đã có user
