@@ -2602,32 +2602,58 @@ const firebaseConfig = {
         };
 
         function depositHTML() {
-            return `
-  <div class="hero" style="margin-bottom:20px"><h1>Nạp tiền</h1><p>Gửi yêu cầu nạp tiền, admin sẽ duyệt và cộng vào số dư.</p></div>
-  <div class="split">
+            return `<div class="hero" style="margin-bottom:20px">
+    <h1>Nạp tiền</h1>
+    <p>Gửi yêu cầu nạp tiền, admin sẽ duyệt và cộng vào số dư.</p>
+</div>
+
+<div class="split">
     <div class="glass-panel">
-      <h3>QR thanh toán</h3>
-      <div class="profile-mini" style="text-align:center;margin:0 0 16px">
-        <div style="font-weight:800;margin-bottom:10px">Quét mã QR để nạp tiền</div>
-        <div style="width:180px;height:180px;background:rgba(255,255,255,.05);border-radius:18px;display:grid;place-items:center;margin:0 auto;font-size:2rem;color:var(--muted)">
-          <i class="bi bi-qr-code"></i>
+        <h3>QR thanh toán</h3>
+        <div class="profile-mini" style="text-align:center; margin:0 0 16px">
+            <div style="font-weight:800; margin-bottom:10px">Quét mã QR để nạp tiền</div>
+            
+            <div style="width:180px; height:180px; background:#fff; border-radius:18px; display:grid; place-items:center; margin:0 auto; overflow:hidden; padding:10px; box-shadow: 0 4px 15px rgba(0,0,0,0.1)">
+                <!-- THAY LINK ẢNH CỦA BẠN VÀO ĐÂY -->
+                <img src="https://your-link-here.com/image.png" alt="QR Code" style="width:100%; height:100%; object-fit:contain;">
+            </div>
+
+            <div style="color:var(--muted); font-size:.82rem; margin-top:12px">
+                Vui lòng quét đúng mã và nhập đúng số tiền
+            </div>
         </div>
-        <div style="color:var(--muted);font-size:.82rem;margin-top:10px">Admin cần cập nhật ảnh QR trong Firebase</div>
-      </div>
-      <form id="depositForm">
-        <div class="form-group"><label>Số tiền</label><input id="depositAmount" type="number" min="10000" placeholder="Nhập số tiền cần nạp" required></div>
-        <div class="form-group"><label>Ghi chú</label><textarea id="depositNote" rows="3" placeholder="Nội dung giao dịch..."></textarea></div>
-        <button class="btn btn-primary btn-block">Gửi yêu cầu nạp tiền</button>
-      </form>
+
+        <form id="depositForm">
+            <div class="form-group">
+                <label>Số tiền (VNĐ)</label>
+                <input id="depositAmount" type="number" min="10000" placeholder="Tối thiểu 10,000đ" required>
+            </div>
+            <div class="form-group">
+                <label>Ghi chú</label>
+                <textarea id="depositNote" rows="2" placeholder="Nội dung chuyển khoản..."></textarea>
+            </div>
+            <button class="btn btn-primary btn-block">Gửi yêu cầu nạp tiền</button>
+        </form>
     </div>
+
     <div class="glass-panel">
-      <h3>Thông báo gần đây</h3>
-      ${(DB.notifications || []).filter(n => n.userEmail === currentEmail()).slice(0, 6).map(n => `
-        <div class="post" style="padding:12px"><div>${esc(n.message)}</div>
-          <div style="font-size:.8rem;color:var(--muted);margin-top:4px">${new Date(n.timestamp).toLocaleString('vi-VN')}</div>
-        </div>`).join('') || '<p>Chưa có thông báo.</p>'}
+        <h3>Thông báo gần đây</h3>
+        <div class="notification-list">
+            ${(DB.notifications || [])
+                .filter(n => n.userEmail === currentEmail())
+                .reverse()
+                .slice(0, 6)
+                .map(n => `
+                    <div class="post" style="padding:12px; border-bottom:1px solid rgba(255,255,255,0.05)">
+                        <div>${esc(n.message)}</div>
+                        <div style="font-size:.8rem; color:var(--muted); margin-top:4px">
+                            ${new Date(n.timestamp).toLocaleString('vi-VN')}
+                        </div>
+                    </div>
+                `).join('') || '<p>Chưa có thông báo.</p>'}
+        </div>
     </div>
-  </div>`;
+</div>`;
         }
 
         function bindDepositForm(container) {
