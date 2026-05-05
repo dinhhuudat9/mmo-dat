@@ -1,1 +1,859 @@
-const _0x11acdc=_0x3207;(function(_0x2de6a8,_0x24c4a6){const _0x51ab8c=_0x3207,_0x1dd010=_0x2de6a8();while(!![]){try{const _0x2b196d=-parseInt(_0x51ab8c(0x64d))/(0x1*-0x24c5+-0x1327+-0x67*-0x8b)+-parseInt(_0x51ab8c(0x35c))/(-0xcd*-0x6+-0x281*0x4+0x538)+parseInt(_0x51ab8c(0x2d7))/(-0x847*0x2+-0x1a1a+0x2aab)*(-parseInt(_0x51ab8c(0x2fc))/(-0x1d*0xce+-0x1223*0x1+-0x331*-0xd))+parseInt(_0x51ab8c(0x1e2))/(0x3*0x20c+-0x10f2+-0x11*-0xa3)*(parseInt(_0x51ab8c(0x447))/(-0x53f*0x2+0x198e*0x1+-0xf0a))+parseInt(_0x51ab8c(0x2b4))/(0x247b+-0x9f*-0x6+0x25*-0x116)*(parseInt(_0x51ab8c(0x5ed))/(0x4*-0xca+-0x55d*0x6+0x235e))+parseInt(_0x51ab8c(0x48f))/(0x78c+-0xe6*0x18+0x147*0xb)+-parseInt(_0x51ab8c(0x576))/(-0x44*-0x26+-0x1*-0xa7f+-0x1*0x148d)*(parseInt(_0x51ab8c(0x50a))/(0xe53*-0x2+-0x3*-0x882+0x1*0x32b));if(_0x2b196d===_0x24c4a6)break;else _0x1dd010['push'](_0x1dd010['shift']());}catch(_0x13466f){_0x1dd010['push'](_0x1dd010['shift']());}}}(_0x5765,-0x136*-0x4cc+0xbcc15+-0x24ad*0x29),window[_0x11acdc(0x2ea)+_0x11acdc(0x450)]=window[_0x11acdc(0x2ea)+_0x11acdc(0x450)]||_0x11acdc(0x462),window[_0x11acdc(0x27d)+'b']=function(_0x2fdd62){const _0x5c3687=_0x11acdc,_0x515176={'EtoPG':_0x5c3687(0x374),'gHKTA':function(_0x327f61){return _0x327f61();}};window[_0x5c3687(0x2ea)+_0x5c3687(0x450)]=_0x2fdd62;const _0x869572=document[_0x5c3687(0x1b1)+_0x5c3687(0x19b)](_0x515176[_0x5c3687(0x648)]);_0x869572&&(_0x869572[_0x5c3687(0x5de)]=_0x515176[_0x5c3687(0x433)](adminHTML));},window[_0x11acdc(0x1fb)]=function(){const _0x1db4e1=_0x11acdc,_0x258c8f={'PQNlx':function(_0x431e9c){return _0x431e9c();},'HGFKV':_0x1db4e1(0x462),'pxPcw':_0x1db4e1(0x655)+'2','DBiIk':_0x1db4e1(0x23d),'lPlGd':_0x1db4e1(0x3bd),'jvsXG':_0x1db4e1(0x5f9),'XipmJ':_0x1db4e1(0x240),'AlCCy':_0x1db4e1(0x4e2),'RZsMM':_0x1db4e1(0x47b)+'m','DjTCZ':_0x1db4e1(0x3f1),'EzdBs':_0x1db4e1(0x629),'CPwDY':_0x1db4e1(0x3d6)+_0x1db4e1(0x541),'dTIFh':_0x1db4e1(0x40b),'VPKZE':_0x1db4e1(0x58a),'yfDbG':_0x1db4e1(0x372)+_0x1db4e1(0x4be),'nglXJ':_0x1db4e1(0x2e7),'NXCYK':_0x1db4e1(0x44a),'mEPqj':_0x1db4e1(0x1f3),'bMfwo':_0x1db4e1(0x111),'phLvJ':function(_0x5d9f97,_0x2dc706,_0xf0da8a,_0x154e78){return _0x5d9f97(_0x2dc706,_0xf0da8a,_0x154e78);}};if(!_0x258c8f[_0x1db4e1(0x47e)](isAdmin))return _0x1db4e1(0x579)+_0x1db4e1(0x2e0)+_0x1db4e1(0x220)+_0x1db4e1(0x482)+_0x1db4e1(0x24d)+_0x1db4e1(0x1c1);const _0x21be10=window[_0x1db4e1(0x2ea)+_0x1db4e1(0x450)],_0x105c14=Object[_0x1db4e1(0x54b)](DB[_0x1db4e1(0x3bd)]||{})[_0x1db4e1(0x2d4)](([_0x5badd1,_0xc10f24])=>(_0xc10f24[_0x1db4e1(0x544)+_0x1db4e1(0x226)]||[])[_0x1db4e1(0x656)](_0x1d2c02=>({..._0x1d2c02,'userEmail':_0x5badd1})))[_0x1db4e1(0x554)](_0x3f4b03=>_0x3f4b03[_0x1db4e1(0x567)]===_0x1db4e1(0x1a1)),_0x51e59a=(DB[_0x1db4e1(0x58a)]||[])[_0x1db4e1(0x554)](_0x214bc2=>_0x214bc2[_0x1db4e1(0x567)]===_0x1db4e1(0x1a1)),_0x1f1c0c=[{'id':_0x258c8f[_0x1db4e1(0x24c)],'icon':_0x258c8f[_0x1db4e1(0x185)],'label':_0x258c8f[_0x1db4e1(0x2f4)]},{'id':_0x258c8f[_0x1db4e1(0x246)],'icon':_0x258c8f[_0x1db4e1(0x4ac)],'label':_0x258c8f[_0x1db4e1(0x506)]},{'id':_0x258c8f[_0x1db4e1(0x52e)],'icon':_0x258c8f[_0x1db4e1(0x3fc)],'label':_0x258c8f[_0x1db4e1(0x332)]},{'id':_0x258c8f[_0x1db4e1(0x51d)],'icon':_0x258c8f[_0x1db4e1(0x171)],'label':_0x258c8f[_0x1db4e1(0x3c8)]},{'id':_0x258c8f[_0x1db4e1(0x638)],'icon':_0x258c8f[_0x1db4e1(0x4c0)],'label':_0x258c8f[_0x1db4e1(0x3e9)]},{'id':_0x258c8f[_0x1db4e1(0x408)],'icon':_0x258c8f[_0x1db4e1(0x115)],'label':_0x258c8f[_0x1db4e1(0x4a9)]}];return _0x1db4e1(0x4f3)+_0x1db4e1(0x1fd)+_0x1db4e1(0x1a5)+_0x1db4e1(0x1d7)+_0x1db4e1(0x37d)+_0x1db4e1(0x64f)+_0x1db4e1(0x53b)+_0x1db4e1(0x287)+_0x1db4e1(0x26a)+_0x1db4e1(0x269)+_0x1db4e1(0x292)+_0x1db4e1(0x42b)+_0x1db4e1(0x2c6)+_0x1db4e1(0x1ae)+_0x1db4e1(0x416)+_0x1db4e1(0x366)+_0x1db4e1(0x1bc)+_0x1db4e1(0x616)+_0x1db4e1(0x2cd)+_0x1db4e1(0x1c5)+_0x1db4e1(0x1f5)+_0x1db4e1(0x2f3)+_0x1db4e1(0x32c)+_0x1db4e1(0x370)+_0x1db4e1(0x55e)+_0x1db4e1(0x205)+_0x1db4e1(0x5d4)+_0x1db4e1(0x200)+_0x1db4e1(0x291)+_0x1db4e1(0x47f)+_0x1db4e1(0x1a9)+_0x1db4e1(0x592)+_0x1db4e1(0x3ea)+_0x1db4e1(0x245)+_0x1db4e1(0x363)+_0x1db4e1(0x61e)+_0x1db4e1(0x630)+_0x1db4e1(0x558)+_0x1db4e1(0x55d)+_0x1db4e1(0x32e)+_0x1db4e1(0x611)+_0x1db4e1(0x22f)+_0x1db4e1(0x582)+_0x1db4e1(0x4c4)+_0x1db4e1(0x2b8)+_0x1db4e1(0x361)+_0x1db4e1(0x53a)+_0x1db4e1(0x286)+_0x1db4e1(0x273)+_0x1db4e1(0x3aa)+_0x1db4e1(0x54a)+_0x1db4e1(0x13f)+_0x1db4e1(0x55f)+_0x1db4e1(0x21c)+_0x1db4e1(0x4f3)+_0x1db4e1(0x1c9)+_0x1db4e1(0x122)+_0x1db4e1(0x414)+_0x1db4e1(0x596)+_0x1db4e1(0x61a)+_0x1db4e1(0x259)+_0x1db4e1(0x1b0)+_0x1db4e1(0x3cc)+_0x1db4e1(0x3ee)+_0x1db4e1(0x39d)+_0x1db4e1(0x3a3)+_0x1f1c0c[_0x1db4e1(0x656)](_0x209e44=>_0x1db4e1(0x491)+_0x1db4e1(0x1c3)+_0x1db4e1(0x1b8)+(_0x21be10===_0x209e44['id']?_0x1db4e1(0x38e)+'y':_0x1db4e1(0x1b3))+(_0x1db4e1(0x545)+_0x1db4e1(0x17d)+_0x1db4e1(0x38f))+_0x209e44['id']+(_0x1db4e1(0x347)+_0x1db4e1(0x1bd)+_0x1db4e1(0x28c)+_0x1db4e1(0x611)+_0x1db4e1(0x495)+_0x1db4e1(0x66a))+_0x209e44[_0x1db4e1(0x45b)]+_0x1db4e1(0x58d)+_0x209e44[_0x1db4e1(0x242)]+(_0x1db4e1(0x491)+_0x1db4e1(0x13d)+_0x1db4e1(0x181)))[_0x1db4e1(0x1d0)]('')+(_0x1db4e1(0x21c)+_0x1db4e1(0x4f3)+_0x1db4e1(0x1c9)+_0x1db4e1(0x5a3)+_0x1db4e1(0x137)+_0x1db4e1(0x530)+_0x1db4e1(0x3a3))+_0x258c8f[_0x1db4e1(0x441)](renderTabContent,_0x21be10,_0x105c14,_0x51e59a)+(_0x1db4e1(0x21c)+_0x1db4e1(0x25b));});function renderTabContent(_0x35027c,_0x365b6c,_0x58ba9c){const _0x102221=_0x11acdc,_0x3c622b={'WYLJx':_0x102221(0x462),'KwNNp':function(_0x36e776,_0x3b2f61,_0x3b45c2){return _0x36e776(_0x3b2f61,_0x3b45c2);},'KfUBm':_0x102221(0x3bd),'LwFKB':function(_0x50c69d){return _0x50c69d();},'RAibZ':_0x102221(0x4e2),'IxXld':_0x102221(0x629),'kWjTt':_0x102221(0x58a),'nNEgw':_0x102221(0x44a),'klBpF':function(_0x11c60f){return _0x11c60f();}};switch(_0x35027c){case _0x3c622b[_0x102221(0x4a0)]:return _0x3c622b[_0x102221(0x1c6)](renderOverview,_0x365b6c,_0x58ba9c);case _0x3c622b[_0x102221(0x471)]:return _0x3c622b[_0x102221(0x618)](renderUsers);case _0x3c622b[_0x102221(0x2ca)]:return _0x3c622b[_0x102221(0x618)](renderProducts);case _0x3c622b[_0x102221(0x5b0)]:return _0x3c622b[_0x102221(0x618)](renderResources);case _0x3c622b[_0x102221(0x5ea)]:return _0x3c622b[_0x102221(0x618)](renderOrders);case _0x3c622b[_0x102221(0x212)]:return _0x3c622b[_0x102221(0x3f8)](renderSettings);default:return'';}}function _0x5765(){const _0x385c30=['ar(--green','\x20id=\x22rDesc','>Bật\x20(Chỉ\x20','\x20\x20\x20\x20\x20\x20\x20<fo','i\x20nguyên.','filter','azqzG','stock','true','bộ\x20hoạt\x20độ','een;align-','s=\x22bi\x20bi-c','ihBHh','label>Số\x20t','ng\x20của\x20MMO','\x20\x20\x20\x20\x20\x20<h1\x20','\x20\x20\x20\x20</div>','nt-size:.7','GKSwc','k\x22\x20style=\x22','ss=\x22bi\x20bi-','resources/','\x22\x20style=\x22b','n-primary\x20','status','s-panel\x22>\x0a','div\x20class=','on>\x0a\x20\x20\x20\x20\x20\x20','ser(\x27','price','behtX','><label>Mô','host\x22\x20oncl','6\x22\x20require','thay\x20đổi</','Notif()\x22>G','<h3>🚀\x20Tiện','✅\x20Đã\x20duyệt','in-width:1','20zJHPfU','sit','keys','<div\x20class','\x20/\x20Source<','\x22backgroun','nk\x20tải\x20hoặ','\x20class=\x22sp','u\x20sản\x20phẩm','ary\x20btn-sm','ELQHx','author','\x20\x20\x20\x20\x20<div\x20','ass-panel\x22','ring','qmzct','đ\x20của\x20bạn\x20','=\x22bi\x20bi-cl','#contactTe','nt-size:1.','orders','v>\x0a\x0a\x20\x20\x20\x20<d','\x0a\x20\x20\x20\x20<div\x20','\x22></i>\x20','d\x22></i>\x20Re','ize:.7rem;','Thông\x20báo\x20','phẩm\x20mới</','\x20\x20\x20\x20\x20\x20\x20\x20\x20<','bi-people\x22','quests','YỆT\x20thành\x20','y:flex;gap','base</butt','ản\x20lý\x20Vouc','p:10px\x22>\x0a\x20','px;align-i','ybULl','XbeHf','style=\x22dis','positReque','\x20<div\x20clas','CmOFp','message','v\x20style=\x22f','-content-a','PkFgH',':15px\x22>\x0a\x20\x20','ue)\x22><i\x20cl','Chỉ\x20admin.','ugSOF','lass=\x22glas','YcYdq','\x20đơn\x20hàng\x20','label>Link','</b>\x20','HjpJx','\x20<div\x20styl','IxXld','-top:5px\x22>','HJLOX','YAfGJ','e\x20của\x20','>Thêm\x20tài\x20','hdaKK','\x20\x20\x20\x20\x20\x20\x20<bu','cebook','px\x22>Đã\x20xử\x20','Buff</h3>\x0a','DfCrY','t\x20đơn.','()\x22><i\x20cla','rejected','cherAdminF','r\x22\x20style=\x22','\x27)\x22>Xóa</b','#bulkMsg','VRcGC','size:.9rem',':1;padding','er);border','ành\x20viên</','</h3><p>Sả','hfeAc','s:center;g','d=\x22pCat\x22\x20v','\x22openAddPr','\x20\x20<h3>🎁\x20Qu','lick=\x22togg','label>Danh','oolbar\x22>\x0a\x20','\x20Đơn\x20hàng<','pName\x22\x20req','tn-ghost\x20b','gin:0;font','3|1|2|0|4','ts-grid\x22>\x0a','d=\x22voucher','y:grid;gap','\x20phẩm.','users/','TOxZc','igo);font-','tn-primary','innerHTML','findIndex','\x20nguyên.','el>\x0a\x20\x20\x20\x20\x20\x20','mnKzG','placeholde','saveProduc','\x20\x20\x20\x20\x20\x20</di','category','kground-im','#pLink','ypkUQ','kWjTt','yoCwU','\x20class=\x22fo','720184YPIXOA','\x27)\x22>Hủy</b','weight:700','accept','\x20placehold','0000\x20hoặc\x20','ersBI','CrAgp','ed></div>\x0a','her</h3>\x0a\x20','e\x22\x20','ffNPC','bi-people','\x20cầu\x20nạp\x20t','bi\x20bi-patc','m:8px\x22>\x0a\x20\x20','v>\x0a\x20\x20\x20\x20\x20\x20\x20','ung\x20thông\x20','ljtzT','\x20\x20\x20\x20\x20\x20<div','onclick=\x22d','rgin-botto','badge-gree','label>Ảnh\x20','\x22></div>\x0a\x20','\x20\x20\x20</div>\x0a','x;backgrou','hKWKf','p\x20tiền\x20chờ','y\x20đã\x20được\x20','pbeAu','biSzH','click=\x22del','splay:grid','PriceSetti','mount\x22\x20typ','>\x0a\x20\x20\x20\x20\x20\x20\x20\x20','vKhyg','\x22sendAdmin','LGtVl','\x22Bật/Tắt\x20t','ustify-con','holder=\x22Li','LwFKB','mmo-fireba',':10px;marg','nguyên\x20mới','bottom:15p','Hình\x20ảnh\x20s','y:0.7\x22>Quả','mit=\x22event','olbar\x22\x20sty','\x22split\x22>\x0a\x20','ytJqE','vào\x20được)<','und:#03071','class=\x22too','er-radius:','k\x22>Tạo\x20Vou','put\x20id=\x22pL','resources','ầu.','r\x22\x20value=\x22','jeeEw',');\x22>\x0a\x20\x20\x20\x20\x20','er;margin-','rue\x22\x20','n\x20lý\x20toàn\x20','ocBax','YWAHo','yle=\x22margi','\x20\x20\x20\x20\x20</div','lkMsg\x22\x20pla','\x27)\x22><i\x20cla','></textare','VPKZE','tton>\x0a\x20\x20\x20\x20','#rDesc','hWkJC','p\x20chờ\x20duyệ','\x20ích\x20hệ\x20th','ass=\x22glass','sendAdminN','\x22color:','ry-thumb\x22\x20','fPriceSett','rejectDepo','amount','art-check\x22','font-weigh','Reset\x20toàn','EtoPG','div\x20id=\x22de','nce(\x27','(URL)</lab','openAddPro','32298RMjRqg','n\x20hàng</p>','ttom:18px;','ectDeposit','BNegl','#pPrice','h3>Lịch\x20sử','ss=\x22split\x22','bi-grid-1x','map','var(--blue','loud-uploa','ent','JYsdw','-blue\x22>','\x20báo\x20hệ\x20th','BeYcZ','type','DwrVf','atus','cher','btn-sm\x22\x20on','iOaaF','reload','style=\x22fon','=\x22badge\x20','Đã\x20thêm\x20tà','nJuiO','\x20class=\x22bt','ss=\x22bi\x20','BKkvS','><label>Tá','px;backgro','broadcast','utton>\x0a\x20\x20\x20','Cài\x20đặt','\x20|\x20<span\x20c','dqjzf','toLowerCas','mEPqj','etTPN','qYcOU','<input\x20id=','tQJGW','SkSMA','space-betw','\x20liệu.','Tlztk','Đã\x20xóa\x20tài','iền.','sts\x22>\x0a\x20\x20\x20\x20','\x20\x20\x20<div\x20st','-tabs\x22\x20sty','VsPzv','lệ.','ll\x22\x20style=','etuMu','k\x20sản\x20phẩm','margin-top','mageFile\x22\x20','ghost\x20btn-','Admin\x20crea','#pDesc','label><inp','10px\x22>\x0a\x20\x20\x20','EBbRB','-bottom:8p','HvwyW','argin-top:','EEHhy','ebase?','Nhập\x20role\x20','(--muted)\x22','rea\x20animat','gin:0\x22>Dan','hPwtk','sh-stack\x22>','ắn</label>','-top:12px;','/button>\x0a\x20','\x22approveDe','ive</div>\x0a','se-db.json','length','ích\x20xanh\x22>','padding:10','adjustBala','er=\x22MMO202','\x20\x20\x20\x20<h3>','nd:#000;co','\x27)\x22>Xử\x20lý<','lign:right','service','rjHsf','v\x20class=\x22f','nce','\x22></i></bu','or:var(--m','host\x20btn-s','minh\x20họa</','m\x22\x20onclick','charAt','Số\x20tiền\x20kh','form>\x0a\x20\x20\x20\x20','BUsiX','solid\x20var(','yên</butto','MWylf','đã\x20được\x20DU','btn-ghost\x22',')\x22>Xóa</bu','\x0a\x20\x20\x20\x20</div','exportDB()','NjYxW','etnUp','play:flex;','00%;margin','yFqym','Lưu\x20tài\x20ng','><i\x20class=','uted)\x22>','\x20<option\x20v','báo\x20gửi\x20đế','n-bottom:8',':12px;widt','rm\x20id=\x22vou','0px;height','urce','\x22>#','neNev','HWPzA','CPwDY','setRole','dProductFo','resetDB','\x20chính\x20mìn','Đang\x20tải\x20ả','rder);bord','Nhập\x20số\x20ti','NKVav','\x20(admin\x20ho','ile\x22\x20id=\x22r','5rem;color','\x22setAdminT','le\x22\x20id=\x22pI','YgwtE','orm-group\x22','\x20\x20\x20','em;opacity','dcoNq','t\x20type=\x22fi','pxPcw','\x20users</di','h:100%\x22>\x0a\x20','\x20required>','\x20\x20\x20\x20\x20\x20<h3\x20','kxwRW','href','saveQuickS','\x20\x20<h3>💰\x20Gi','></div>\x0a\x20\x20','\x20onchange=','legram','up\x22><label','\x20hàng\x20mới\x20','pSneQ','bel>Mã\x20Vou','tDBPrompt(','=\x22setRole(','summary\x20st','title','ick=\x22saveQ','lass=\x22btn\x20','ById','rgba(245,1','ThumbFile\x22','revokeObje','ss-panel\x22>','class=\x22btn','pending','n\x20phẩm.','anger\x20btn-','/i>\x20Thêm\x20m','\x20style=\x22pa','r:1px\x20soli','AdminCode\x22','danger\x22\x20on','g</h1>\x0a\x20\x20\x20','gs()\x22>Lưu\x20','ass=\x22form-','n\x20btn-prim','Giá\x20(đ)</l','2,0.1))\x22>\x0a','\x20\x20\x20\x20\x20<b>','20px;overf','getElement','yrGFc','btn-ghost','click=\x22ope','Đã\x20','rem;margin','files','ss=\x22btn\x20','disabled','lass=\x22badg','FromAdmin(','lay:flex;j','\x22white-spa','toggleTick','ặc\x20member)','<label>Lin','p></div>','\x20\x20\x20\x20<div\x20c','button\x20cla','split','-between;a','KwNNp','xử\x20lý.','n-top:5px\x22','ass=\x22admin','size:.8rem','#rCat','Xóa\x20tài\x20ng','\x20\x20\x20\x20\x20\x20</de','</h3><p>Đơ','pNoey','join','var(--bord','approved','>\x0a\x20\x20\x20\x20</di','r\x20btn-sm\x22\x20','plit\x22>\x0a\x20\x20\x20','addResourc','dding:24px','ht\x22>\x0a\x20\x20\x20\x20\x20','>Thêm\x20sản\x20','\x20accept=\x22i','ont-weight','czXeK','\x20cho\x20','st\x20btn-sm\x22','cho\x20','#rAuthor','yle=\x22displ','1090KJrzSm','Admin\x22></d',':12px;back','Lưu\x20sản\x20ph','at\x22\x20style=','\x20</form>\x0a\x20','\x20bộ\x20dữ\x20liệ','gyWPD','Bạn\x20không\x20','6,182,212,','DTWUm','ons','</b>\x0a\x20\x20\x20\x20\x20','label>Số\x20l','n\x20bộ</butt','\x20value=\x22','ICTBw','bi-gear','click=\x22rej','lign-items','ceholder=\x22','MbKxV','thể\x20tự\x20xóa','MuDTB','minmax(280','adminHTML','unshift','ass=\x22hero\x22','#voucherAd','\x20class=\x22bi','-size:1.8r','lex-start\x22','0.1)\x22>\x0a\x20\x20\x20','</b>\x20(+','avatar-sm\x22','style=\x22mar','balance','alue=\x22999\x22','group\x22><la','ời\x20dùng.','plus-lg\x22><','Admin\x20mới\x20','6\x22>','</span>\x0a\x20\x20','e\x22>','n-top:10px','minCode','#pName','nNEgw','order:1px\x20','ing(\x27','\x20\x20\x20<button','rUESl','ống</h3>\x0a\x20',':.8rem;col','ass=\x22badge','n/json','userEmail','\x0a\x20\x20</div>\x0a','bật','s:repeat(a','siteName','nel\x22><p>Tr','đ\x20cho\x20','\x22stat\x22\x20sty','n\x20class=\x22b','Đã\x20xóa\x20ngư','HiIkF','uests','n>\x0a\x20\x20\x20\x20\x20\x20\x20',':700;color','r(--amber)','catch',':8px;justi','image',':flex-end\x22','\x20\x20\x20\x20\x20\x20\x20\x20<f','</div>\x0a\x20\x20\x20','p>\x0a\x20\x20\x20\x20\x20\x20\x20','ap:10px;ma','ới</button','\x20tải\x20file\x20','padding:5p','ue)\x22>\x0a\x20\x20\x20\x20','te</label>','le=\x22font-s','tn-sm\x22\x20onc','\x20style=\x22fo','lý\x20hết\x20đơn','yle=\x22flex-','\x20style=\x22di','Tổng\x20quan','ohgyy','#pImageFil','Thành\x20viên','px,\x201fr));','label','YdgMh','xJnuU','argin:5px\x20','lPlGd','MTxAI','\x20cập\x20nhật:','\x20\x20\x20\x20\x20\x20\x20<di','setOrderSt','GpocV','HGFKV','từ\x20chối.</','var(--mute','ss=\x22toolba','\x22font-size','Nkssm','id=\x22rAutho','Xóa\x20sản\x20ph','\x20tả</label','thấy\x20người','ground:#03','neFqi','Không\x20thể\x20','in-bottom:','\x20Reset\x20Toà','\x20\x20\x20\x20','ar(--indig','tn\x20btn-pri','exportDB',')\x22>\x0a\x20\x20\x20\x20\x20\x20','cherAdminA','<label>Tiê','Xóa\x20vĩnh\x20v','m</label><','n\x20ImgBB','\x20btn-dange','px\x22>Không\x20','y-content:',':60px\x22></d','deg,\x20rgba(','adient(135','<i\x20class=\x22','#maintenan','SINDd','>Tắt\x20(Hoạt','iền\x20tặng</','\x20|\x20','it=\x22savePr','\x20\x20<span><b','ck\x22></i>\x20F','#pStock','age/*\x22></d','oductAdmin','ode\x22\x20class','ick=\x22impor','/label><in','\x20Đăng\x20tải<','wBiZZ','u\x20trên\x20Fir','setAdminTa','opacity:0.','e=\x22color:v','/status','jeRWH','Đã\x20cập\x20nhậ','vouchers','\x27)\x22>Role</','le=\x22text-a','-shield-lo',':linear-gr','\x20\x20\x20\x20\x20\x20<inp','\x20Xóa</butt','Không\x20có\x20g','approveDep','ce:nowrap\x22','s=\x22tx-item','cher</labe','mqVok','\x20động\x20bình','em\x22>Quản\x20t','99,102,241','le=\x22margin','YQXCW','name','set','idth:80px;','alue=\x22fals','vCWYx','5rem;margi','store</but','lCALc','ưu\x20tài\x20ngu','\x20\x20\x20\x20\x20\x20<h3>','class=\x22gla','</summary>','code','5;text-ali','UqfuA','oup\x22><labe','ton\x20class=','><textarea','en)\x22>','RpCps','ackground:','<form\x20id=\x22','find','t-size:1.5','#contactFa','u\x20đề</labe','WDzbb','công.','\x20\x20\x20\x20\x20\x20\x20\x20</','digo)\x22><i\x20','qdliv','28dfVjoU','h1></div>\x0a','adge\x20badge','ên\x20sản\x20phẩ','ge\x20badge-b','\x20Tài\x20nguyê','\x20\x0a\x20\x20\x20\x20<div','active','Đã\x20tạo\x20Vou','\x20hàng</p>','ht:700\x22>','px;color:v','(255,255,2','=\x22btn\x20btn-','x-item\x22>\x0a\x20','JpEAu','DvfXx','gn:center;','a(6,182,21','x;border-r','ửi\x20ngay</b','<textarea\x20','RAibZ','yle=\x22font-','e=\x22backgro','tent:space','\x20<div>\x0a\x20\x20\x20','bgftV','\x20</div>\x0a\x20\x20','Đã\x20nhập\x20dữ','ẩm\x20này?','se:\x20','flatMap','lex;gap:12','\x20\x20\x20\x20<label','6NUEDwQ','und:rgba(9','/depositRe','n</h3>\x0a\x20\x20\x20','MMO\x20Studio','el><input\x20','tAdmin','adding-top','pIipv','=\x22glass-pa','toUpperCas','toLocaleSt','eteVoucher','ue=\x22','k\x22\x20id=\x22rSu','tails>\x0a\x20\x20\x20','Đơn\x20hàng','x-item\x22\x20st','target','_adminActi','EpRPs','oewFM','\x22number\x22\x20v','ted','contactInf',';gap:10px\x22','saveResour','badge-red',':center\x22>\x0a','DBiIk','\x20\x20\x20\x20<span\x20','hfuMu',':0.6\x22>đ/1k','ceModal()\x22','\x20\x20\x20\x20\x20\x20<but','ce\x22\x20type=\x22','tn-danger\x20','262452VMYdjt','QKSRu',',\x27rejected','adding:10p','#rUrl','rUxwc','otif','tyle=\x22text','Đã\x20thêm\x20sả','#rTitle','btn\x20btn-pr','round:rgba','GiYNv','-radius:12','ZoRpo','uct','t</p>\x0a\x20\x20\x20\x20','iễn\x20người\x20','\x20thường)</','aveVoucher','ERFQU','\x20</select>','tyle=\x22flex','s\x20style=\x22m','</i></div>','lass=\x22tool','#siteName','mary\x20btn-b','\x20\x20<button\x20','mage/*\x22></','ntent:spac','m:8px;colo','\x20\x20\x20\x20\x20\x20\x20\x20\x20','\x20duyệt\x20(','\x20phẩm</h3>','\x20\x20\x20\x20\x20','\x22display:f','items:cent','thấy\x20yêu\x20c','rEpsG','click=\x22res','\x22\x20rows=\x223\x22','quests/','saveVouche','applicatio','File\x20JSON\x20','glass-pane','eResourceA','\x20\x20\x20\x20\x20\x20\x20\x20<d','m-group\x22><','\x20Studio</p','column;ali','download','e-between\x22','DjTCZ','nh...','\x20\x20\x20\x20\x20\x20','y\x20btn-bloc','class=\x22sta','ukAdt','RuUwR','fJxGD','slice','piBrD','iv\x20class=\x22','leTick(\x27','\x20\x20<div\x20sty','bmitBtn\x22>L','deleteProd','/role','ền\x20muốn\x20CỘ','-10000):','\x20btn-block','Thông\x20tin\x20',':5px\x22>\x0a\x20\x20\x20','\x27)\x22\x20style=','ault','sGIdl','thlWH','</h3><p>Th','v\x20class=\x22t','tắt','YrjrE','Bạn\x20có\x20chắ','value','lbar\x22\x20styl','cAIsB','/...\x22></di','\x27)\x22>Tiền</','Đã\x20gửi\x20thô','cXOIO','không\x20hợp\x20','h3>📢\x20Thông','\x22siteName\x22','NG\x20cho\x20','14px;color','1830082oPpmOH','e=\x22width:1','YCrxg','d></div>\x0a\x20','nạp\x20tiền\x20','lue\x22><i\x20cl','\x20\x20\x20\x20\x20\x20\x20<b>','0\x200;opacit','\x20\x20\x20<b>',':var(--mut','tyle=\x22disp','tải\x20ảnh\x20lê','\x20\x20\x20\x20\x20\x20\x20<in','vmzsb','oSqWK','n\x20toàn\x20bộ\x20','ation-tria','orm\x20id=\x22ad','ss=\x22glass-','style=\x22bac','iv>\x0a\x20\x20\x20\x20\x20\x20','d=\x22rTitle\x22','bi-cart-ch','\x22updateBuf','page-admin','zQTqO','tton\x20class','button>\x0a\x20\x20','fault();\x20s','Đã\x20xóa\x20yêu','lnUfY','JwpDG','bar\x22>\x0a\x20\x20\x20\x20',';margin-bo','\x20style=\x22ba','deleteUser','posit(\x27','VLtrH','Yêu\x20cầu\x20nà','r:var(--in','ELMmP','c\x20giả</lab','c\x20truy\x20cập','TNcLY','\x20\x20\x20\x20\x20\x20\x20</d','vAeQf','uyên\x20này?','ubmit=\x22sav','\x27,this.val','></button>','btn-primar','ab(\x27','createElem','aWeUL','YtebY','ackup\x20Data','1px\x20solid\x20','\x22hero\x22><h1','\x20\x20</form>\x0a',';color:var','div\x20style=','rash\x22></i>','badge-ambe','ct(','lUISW','ottom:5px\x22','then',')\x22><i\x20clas','gap:15px\x22>','</textarea','Không\x20tìm\x20','>\x0a\x20\x20\x20\x20','ourceModal','RQnJe','\x20\x20\x20\x20<optio','LeThm','trim','ukIRs','irebase\x20Se','gin:0\x22>Kho','\x22font-weig','\x20\x20</div>\x0a\x20','lPUYa','le=\x22backgr','Khác','\x20class=\x22to','ilWZZ','NWwqu','pkjpK','QiUpA','p\x22><label>','ZPcBw','\x20nhanh</h3','xheYO','197,94,0.1','hi\x20chú','onchange','users','eForm\x22\x20ons','\x20onclick=\x22','lit\x22>\x0a\x20\x20\x20\x20','/balance','Đã\x20đổi\x20rol','NbYPX','file','etDB()\x22><i','</button>\x0a','(event)\x22>\x0a','dTIFh','e=\x22number\x22','l><input\x20i','\x22\x20style=\x22m','low-x:auto','gin:0\x22>Quả','UHOgv','note','accept=\x22im','9,102,241,','imary\x20btn-','\x27)\x22\x20title=','oQmPr','DxPqE','bi-folder2','MmTEa','>Tên\x20Websi','hệ\x20thống','k=\x22deleteU','RxtbE','\x20\x20\x20\x20\x20\x20\x20\x20','align-item','\x20\x20\x20<detail','intenanceM','reverse','Lỗi\x20Fireba','createdAt','\x20tích\x20xanh','nAddResour','l\x22>\x0a\x20\x20\x20\x20\x20\x20','rm\x22\x20onsubm','<p\x20style=\x22','/h3>\x0a\x20\x20\x20\x20\x20','nglXJ','p\x20style=\x22m','number\x22\x20va','padding:20','t:700\x22>',';padding-b','onload','lock\x22\x20oncl','Sản\x20phẩm','zWtrE','openAddRes','\x20\x20<b>','GboYF','sold','ông\x20hợp\x20lệ','klBpF','ckground:v','KQlzn','v\x20class=\x22s','RZsMM','stringify','ce\x22></div>','ukkHq','xdOdJ','-panel\x22>\x0a\x20','ung.','ductModal','á\x20dịch\x20vụ\x20','\x20bi-exclam','v\x20style=\x22p','buffPrices','NXCYK','r:pointer;','<button\x20cl','Tài\x20nguyên','ound:rgba(','uickSettin','home','r=\x22https:/','<p>Trống</','tick','ate-column','ss=\x22btn\x20bt','le=\x22displa','justify-co','\x20\x20\x20\x20<div\x20s','-box-seam\x22','ng\x20báo.','Đơn\x20#','d=\x22rCat\x22\x20v','x;color:va','\x20nào</p>','preventDef','ass=\x22histo','\x22\x20id=\x22pSub','play:grid;','sjQXs','CgzoG','panel\x22>\x0a\x20\x20','direction:','SdExq','id=\x22pDesc\x22','DbGSl','iv\x20style=\x22','>Chế\x20độ\x20bả',');font-wei',',0.2),\x20rgb','20px;font-','d\x20var(--bo','s-lg\x22></i>','textConten','oKBap','uTEkF','osit','gHKTA','XVyOE','result','trash\x22></i','Lcxyd','\x20class=\x22st','r:var(--bl','products/','55,0.03);p','đ)</span>\x0a','XfQTi','ZKRap','có\x20yêu\x20cầu','ản\x20phẩm</l','phLvJ','notificati','\x20<button\x20c','cast)</h3>','\x20\x20\x20\x20\x20<butt',',\x27approved','1986YjjWzj','s=\x22form-gr','cầu\x20này?','settings','UryNA','click','yYhLn','t\x20số\x20dư\x20ch','\x20badge-blu','veTab','lue=\x2210000','x\x22>\x0a\x20\x20\x20\x20\x20\x20','\x22btn\x20btn-d','QCNQf','#rSubmitBt','(--blue)\x22>','rStatus(','XSjkr','laaBL','yle=\x22curso','icon','toJCC','-align:rig','xZyKD','wWdSM','parse','readAsText','overview','\x20(ví\x20dụ:\x201','eleteProdu','uyên','admin','o-grad)\x22>','updateBuff',':var(--gre','ght:700\x22>+','lass=\x22stat','push','nmSjV','AfJhc','</i>','\x20đặt.','KfUBm','=\x22form-gro','pmoYr','\x22><i\x20class','tWMQu','selected',')</h3>\x0a\x20\x20\x20','đ</div>\x0a\x20\x20','t-size:.8r','on\x20class=\x22','bi-box-sea','\x27,\x27','\x20dùng.','PQNlx','rị\x20Hệ\x20thốn','2;color:#f','mbnag','uy\x20cập\x20bị\x20','ut\x20type=\x22n','\x20rows=\x223\x22>','aMgAu','member','input','\x20class=\x22gl','ctURL','s=\x22bi\x20bi-t','/div>\x0a\x20\x20\x20\x20','\x22\x20style=\x22w','\x20\x20\x20\x20<butto','ink\x22\x20place','13556853YtezIu','ADxdh','\x0a\x20\x20\x20\x20\x20\x20\x20\x20<','Admin(\x27','✅\x20Yêu\x20cầu\x20','orm\x22\x20onsub','\x20\x20\x20\x20<i\x20cla','</h3><p>Nạ','ceAdmin','nào</p>','kTKlD','n\x20style=\x22m','\x22form-grou','</h1></div','o\x20trì</lab','.preventDe','ZYmhR','WYLJx','</div>\x0a\x0a\x20\x20','adius:12px','now',':10px\x22>\x0a\x20\x20','put\x20id=\x22bu',':var(--ind','oductModal','importDBPr','bMfwo','forEach','ed)\x22>Kho:\x20','jvsXG','lex;justif','oHtYs','div>\x0a\x20\x20\x20\x20\x20','\x20\x20\x20\x20\x20\x20<spa','tems:cente','OJAcG','\x20\x20\x20\x0a\x20\x20\x20\x20<d','KfffL','SVHCJ','--border)\x22','vENaO','Nhập\x20nội\x20d','qpRoA','\x22>\x0a\x20\x20\x20\x20\x20\x20\x20','grid-templ','age:url(\x27','ượng\x20kho</','eck','RuOQs','yfDbG','></i></div','class=\x22bi\x20','TEaFb','class=\x22bad','t\x20id=\x22pPri','=\x22btn-bloc','lor:#fff;b','eTfjl','uto-fill,\x20','badge-blue','mitBtn\x22>Lư','ut\x20id=\x22pSt','k=\x22setOrde','h-check-fi','r\x22>\x0a\x20\x20\x20\x20\x20\x20','AjdDE','qcvTl','minAmount','uired></di','\x20mục</labe','deleteReso','\x22\x20required','</span></d','nts','58,11,0.1)','ceMode','Đã\x20lưu\x20cài','#rThumbFil','ut\x20id=\x22vou','#pSubmitBt','d:rgba(34,','0712;borde','=\x22bi\x20bi-ca','products','\x20<h3>📦\x20Đơn','ut\x20type=\x22f','announceme','alue=\x22Sour','n\x20value=\x22t','\x20\x20\x20<div\x20cl','yle=\x22color','option>\x0a\x20\x20','\x20\x20\x20<h3>','\x22color:var','\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20','rFromAdmin','wArNW','00\x22\x20requir','⚙️\x20Cấu\x20hình','\x20\x20\x20\x20\x20\x20<sel','\x0a\x20\x20<div\x20cl','bIigq','h\x20sách\x20Sản','ngle\x22></i>','dùng\x20','id=\x22rUrl\x22\x20','role','\x22bi\x20bi-plu','ock\x22\x20type=','lex;gap:10','sm\x22\x20onclic','ton>\x0a\x20\x20\x20\x20\x20','umber\x22\x20val','\x20value=\x2250','abel><inpu','gn-items:f','ompt','l>Mô\x20tả\x20ng','user...\x22\x20s','XipmJ',')\x22>Duyệt</',':1.5rem;ma','ass=\x22btn\x20b','501215CzLFjX','cher</butt','flex:1\x22>\x0a\x20','\x20sản\x20phẩm\x20','xSkJg','#contactZa','rm-group\x22>','/option>\x0a\x20','\x20viên</h3>','\x22btn\x20btn-g','fTAow','n\x20xóa\x20yêu\x20','oud-downlo','ff;border:','\x20|\x20Đã\x20bán:','<p>Chưa\x20có','stat\x22\x20styl','\x20|\x20Tác\x20giả','Đã\x20xóa\x20sản','EzdBs','error','#pCat','\x27);width:6','10px;backg','ad\x22></i>\x20B','ect\x20id=\x22ma','input\x20id=\x22','ay:grid;ga','\x20\x20\x20<div>\x0a\x20','sKLOH','EXLIs','n\x20lý\x20Thành','\x20\x20<div\x20cla','SlJQY','maintenanc','n\x20phẩm</p>','AlCCy','px\x22>\x0a\x20\x20\x20\x20\x20','e-fade-in\x22','rtBeK','\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20','pmdFE','span\x20class','LlmqT','UcASD','oocwg',':#fff\x22>\x0a\x20\x20','alue=\x22Tool','ass=\x22bi\x20bi','background','a></div>\x0a\x20','c\x20chắn\x20muố','fy-content','form-group','ettings','-open','\x20\x20<h3>💵\x20Nạ','dmin(event','depositReq','\x22\x20onclick=','tn\x20btn-gho','ống\x20(Broad','class=\x22for','eteResourc','curity\x20Act','entries','createObje','\x22><label>T','egaJr'];_0x5765=function(){return _0x385c30;};return _0x5765();}function _0x3207(_0x3ff976,_0x3b93b1){_0x3ff976=_0x3ff976-(0x1*-0x20c2+0x1df2+-0x20*-0x1f);const _0x3a00b4=_0x5765();let _0x3d390c=_0x3a00b4[_0x3ff976];return _0x3d390c;}function renderOverview(_0x291630,_0x1c8ecd){const _0x315974=_0x11acdc,_0x4d5469={'JpEAu':_0x315974(0x3e7)+_0x315974(0x27e)+_0x315974(0x2a2)+_0x315974(0x2c5)+_0x315974(0x3ec)+_0x315974(0x266)+_0x315974(0x43f)+_0x315974(0x41c),'CgzoG':_0x315974(0x3e7)+_0x315974(0x27e)+_0x315974(0x2a2)+_0x315974(0x2c5)+_0x315974(0x3ec)+_0x315974(0x5b9)+_0x315974(0x23a)+_0x315974(0x2bd)};return _0x315974(0x58c)+_0x315974(0x336)+_0x315974(0x5d6)+_0x315974(0x32c)+_0x315974(0x33c)+_0x315974(0x51a)+_0x315974(0x2cc)+_0x315974(0x2d8)+_0x315974(0x3d1)+_0x315974(0x202)+_0x315974(0x592)+_0x315974(0x398)+_0x315974(0x250)+_0x315974(0x508)+_0x315974(0x602)+_0x315974(0x31b)+_0x315974(0x383)+_0x315974(0x2b2)+_0x315974(0x4c2)+_0x315974(0x593)+_0x315974(0x4c1)+_0x315974(0x611)+_0x315974(0x146)+Object[_0x315974(0x578)](DB[_0x315974(0x3bd)]||{})[_0x315974(0x141)]+(_0x315974(0x34b)+_0x315974(0x5c7)+_0x315974(0x230)+_0x315974(0x2d0)+_0x315974(0x600)+_0x315974(0x438)+_0x315974(0x1e6)+_0x315974(0x57b)+_0x315974(0x4df)+_0x315974(0x3ba)+_0x315974(0x25f)+_0x315974(0x600)+_0x315974(0x239)+_0x315974(0x589)+_0x315974(0x29a)+_0x315974(0x169)+_0x315974(0x2bf)+_0x315974(0x54f)+_0x315974(0x39f)+_0x315974(0x55a)+_0x315974(0x645)+_0x315974(0x4c1)+_0x315974(0x611)+_0x315974(0x146))+(DB[_0x315974(0x58a)]||[])[_0x315974(0x141)]+(_0x315974(0x1ce)+_0x315974(0x64e)+_0x315974(0x491)+_0x315974(0x48b)+_0x315974(0x1c2)+_0x315974(0x46b)+_0x315974(0x565)+_0x315974(0x2a9)+_0x315974(0x19c)+_0x315974(0x4d9)+_0x315974(0x4ba)+_0x315974(0x582)+_0x315974(0x665)+_0x315974(0x2ac)+_0x315974(0x1b6)+_0x315974(0x130)+_0x315974(0x41b)+_0x315974(0x229)+_0x315974(0x474)+_0x315974(0x4e1)+_0x315974(0x13a)+_0x315974(0x314)+_0x315974(0x532)+_0x315974(0x4eb))+_0x291630[_0x315974(0x141)]+(_0x315974(0x496)+_0x315974(0x63c)+_0x315974(0x30c)+_0x315974(0x55f)+_0x315974(0x491)+_0x315974(0x569)+_0x315974(0x222)+_0x315974(0x3af)+_0x315974(0x40c)+_0x315974(0x1eb)+_0x315974(0x202)+_0x315974(0x592)+_0x315974(0x398)+_0x315974(0x250)+_0x315974(0x508)+_0x315974(0x602)+_0x315974(0x31b)+_0x315974(0x439)+_0x315974(0x5a6)+_0x315974(0x53a)+_0x315974(0x417)+_0x315974(0x4c1)+_0x315974(0x611)+_0x315974(0x146))+(DB[_0x315974(0x4e2)]||[])[_0x315974(0x141)]+(_0x315974(0x5c8)+_0x315974(0x52d)+_0x315974(0x491)+_0x315974(0x48b)+_0x315974(0x22f)+_0x315974(0x2ba)+_0x315974(0x57d)+_0x315974(0x3c0)+_0x315974(0x1c2)+_0x315974(0x5a9)+_0x315974(0x568)+_0x315974(0x4ed)+_0x315974(0x542)+_0x315974(0x609)+_0x315974(0x31d))+_0x291630[_0x315974(0x141)]+(_0x315974(0x477)+_0x315974(0x592)+_0x315974(0x649)+_0x315974(0x59e)+_0x315974(0x120)+_0x315974(0x4ed)+'\x20\x20')+(_0x291630[_0x315974(0x656)](_0x4a8eb3=>_0x315974(0x532)+_0x315974(0x4ed)+_0x315974(0x59f)+_0x315974(0x28d)+_0x315974(0x3cb)+_0x315974(0x132)+_0x315974(0x12e)+_0x315974(0x4ed)+_0x315974(0x4ed)+_0x315974(0x2ce)+_0x315974(0x4ed)+_0x315974(0x4ed)+_0x315974(0x1af)+esc(_0x4a8eb3[_0x315974(0x21b)])+(_0x315974(0x1ee)+_0x315974(0x4ed)+_0x315974(0x4ed)+_0x315974(0x121)+_0x315974(0x2cb)+_0x315974(0x1ca)+_0x315974(0x397)+_0x315974(0x136)+'>')+esc(_0x4a8eb3[_0x315974(0x3cf)]||_0x315974(0x28a)+_0x315974(0x3bb))+(_0x315974(0x22f)+_0x315974(0x4ed)+_0x315974(0x4ed)+_0x315974(0x2d0)+_0x315974(0x4ed)+_0x315974(0x4ed)+_0x315974(0x33e)+_0x315974(0x285)+_0x315974(0x149)+_0x315974(0x4ba)+_0x315974(0x4ed)+_0x315974(0x4ed)+_0x315974(0x5af)+_0x315974(0x27f)+_0x315974(0x54f)+_0x315974(0x42a)+_0x315974(0x46a))+safeNum(_0x4a8eb3[_0x315974(0x644)])[_0x315974(0x2e2)+_0x315974(0x584)]()+(_0x315974(0x478)+_0x315974(0x4ed)+_0x315974(0x4ed)+_0x315974(0x600)+_0x315974(0x3b1)+_0x315974(0x620)+_0x315974(0x293)+_0x315974(0x5b1)+_0x315974(0x532)+_0x315974(0x4ed)+_0x315974(0x4ed)+_0x315974(0x215)+_0x315974(0x669)+_0x315974(0x1ac)+_0x315974(0x57f)+_0x315974(0x545)+_0x315974(0x13e)+_0x315974(0x380))+_0x4a8eb3[_0x315974(0x21b)]+'\x27,'+_0x4a8eb3['id']+(_0x315974(0x507)+_0x315974(0x377)+_0x315974(0x4ed)+_0x315974(0x4ed)+_0x315974(0x4ed)+_0x315974(0x40a)+_0x315974(0x509)+_0x315974(0x2fb)+_0x315974(0x662)+_0x315974(0x1f4)+_0x315974(0x650)+'(\x27')+_0x4a8eb3[_0x315974(0x21b)]+'\x27,'+_0x4a8eb3['id']+(_0x315974(0x15c)+_0x315974(0x639)+_0x315974(0x4ed)+_0x315974(0x4ed)+_0x315974(0x55f)+_0x315974(0x532)+_0x315974(0x4ed)+_0x315974(0x634)+_0x315974(0x611)+_0x315974(0x4ed)+_0x315974(0x3ad)+_0x315974(0x4ed)+_0x315974(0x31f)))[_0x315974(0x1d0)]('')||_0x4d5469[_0x315974(0x2c3)])+(_0x315974(0x532)+_0x315974(0x606)+_0x315974(0x2b1)+_0x315974(0x4af)+_0x315974(0x4e8)+_0x315974(0x63e)+_0x315974(0x401)+_0x315974(0x4ed)+_0x315974(0x4e3)+_0x315974(0x192)+'(')+_0x1c8ecd[_0x315974(0x141)]+(_0x315974(0x477)+_0x315974(0x31c))+(_0x1c8ecd[_0x315974(0x656)](_0x1e0902=>_0x315974(0x532)+_0x315974(0x249)+_0x315974(0x34c)+_0x315974(0x2e8)+_0x315974(0x633)+_0x315974(0x20f)+_0x315974(0x4ba)+_0x315974(0x4ed)+_0x315974(0x526)+_0x315974(0x4ed)+_0x315974(0x4ed)+_0x315974(0x364)+esc(_0x1e0902[_0x315974(0x14a)])+(_0x315974(0x1ee)+_0x315974(0x4ed)+_0x315974(0x592)+_0x315974(0x398)+_0x315974(0x250)+_0x315974(0x218)+_0x315974(0x14f)+_0x315974(0x166))+esc(_0x1e0902[_0x315974(0x21b)])+(_0x315974(0x22f)+_0x315974(0x4ed)+_0x315974(0x388)+_0x315974(0x370)+_0x315974(0x4ed)+_0x315974(0x416)+_0x315974(0x303)+_0x315974(0x45d)+_0x315974(0x1d8)+_0x315974(0x4ed)+_0x315974(0x592)+_0x315974(0x398)+_0x315974(0x3ac)+_0x315974(0x2be))+safeNum(_0x1e0902[_0x315974(0x56c)])[_0x315974(0x2e2)+_0x315974(0x584)]()+(_0x315974(0x478)+_0x315974(0x4ed)+_0x315974(0x4ed)+_0x315974(0x52a)+_0x315974(0x24f)+_0x315974(0x5c0)+_0x315974(0x128)+_0x315974(0x346)+_0x315974(0x4ed)+_0x315974(0x4ed)+_0x315974(0x445)+_0x315974(0x47a)+_0x315974(0x306)+_0x315974(0x3d2)+_0x315974(0x4fd)+_0x315974(0x4cd)+_0x315974(0x457))+_0x1e0902['id']+(_0x315974(0x446)+_0x315974(0x148)+_0x315974(0x13d)+_0x315974(0x4ed)+_0x315974(0x4ed)+_0x315974(0x5b7)+_0x315974(0x376)+_0x315974(0x2c1)+_0x315974(0x12a)+_0x315974(0x4fd)+_0x315974(0x4cd)+_0x315974(0x457))+_0x1e0902['id']+(_0x315974(0x2fe)+_0x315974(0x5ee)+_0x315974(0x110)+_0x315974(0x4ed)+_0x315974(0x4ed)+_0x315974(0x2d0)+_0x315974(0x4ed)+_0x315974(0x2b1)+_0x315974(0x4af)+_0x315974(0x4ed)+_0x315974(0x2d0)+_0x315974(0x4ed)))[_0x315974(0x1d0)]('')||_0x4d5469[_0x315974(0x422)])+(_0x315974(0x491)+_0x315974(0x48b)+_0x315974(0x22f)+_0x315974(0x2ba)+_0x315974(0x488)+_0x315974(0x583)+_0x315974(0x611)+_0x315974(0x573)+_0x315974(0x63d)+_0x315974(0x217)+_0x315974(0x249)+_0x315974(0x34c)+_0x315974(0x5d0)+_0x315974(0x4ed)+_0x315974(0x443)+_0x315974(0x19a)+_0x315974(0x15b)+_0x315974(0x3bf)+_0x315974(0x15e)+_0x315974(0x474)+_0x315974(0x587)+_0x315974(0x516)+_0x315974(0x522)+_0x315974(0x393)+_0x315974(0x597)+_0x315974(0x56a)+_0x315974(0x2f9)+_0x315974(0x2a5)+_0x315974(0x513)+_0x315974(0x56f)+_0x315974(0x278)+_0x315974(0x195)+_0x315974(0x39f)+_0x315974(0x55a)+_0x315974(0x658)+_0x315974(0x58e)+_0x315974(0x29b)+_0x315974(0x4fe)+_0x315974(0x5b7)+_0x315974(0x376)+_0x315974(0x2c1)+_0x315974(0x1a8)+_0x315974(0x324)+_0x315974(0x3c5)+_0x315974(0x1ff)+_0x315974(0x405)+_0x315974(0x36c)+_0x315974(0x4f6)+_0x315974(0x25a)+_0x315974(0x1f0)+_0x315974(0x56a)+_0x315974(0x3ad)+_0x315974(0x606)+_0x315974(0x25b));}window[_0x11acdc(0x28b)+_0x11acdc(0x432)]=function(_0x4e97e6,_0x196899){const _0x291398=_0x11acdc,_0x2550b9={'etnUp':function(_0x49c882,_0x2e0c6c){return _0x49c882(_0x2e0c6c);},'dcoNq':_0x291398(0x462),'ukAdt':function(_0x1eb014,_0x1e5bc4,_0x1c76de){return _0x1eb014(_0x1e5bc4,_0x1c76de);},'ocBax':_0x291398(0x3a2)+_0x291398(0x255)+_0x291398(0x47d),'rUESl':_0x291398(0x51e),'ilWZZ':function(_0x347b58,_0x5b2395){return _0x347b58===_0x5b2395;},'MTxAI':function(_0x2d449e,_0x151211,_0x2fc00d){return _0x2d449e(_0x151211,_0x2fc00d);},'sjQXs':_0x291398(0x3a2)+_0x291398(0x322)+_0x291398(0x62a),'etTPN':function(_0xb0141d,_0xd1c17e){return _0xb0141d!==_0xd1c17e;},'lUISW':_0x291398(0x1a1),'NWwqu':function(_0x1177b9,_0x5db61f){return _0x1177b9(_0x5db61f);},'tQJGW':_0x291398(0x382)+_0x291398(0x60a)+_0x291398(0x1c7),'xdOdJ':function(_0x4a328b,_0x237ad6){return _0x4a328b(_0x237ad6);},'lnUfY':function(_0xc571f,_0x309df8){return _0xc571f+_0x309df8;},'ukIRs':function(_0x487ece,_0x324cd7){return _0x487ece(_0x324cd7);},'DvfXx':_0x291398(0x1d2),'mnKzG':function(_0x1cda71){return _0x1cda71();},'piBrD':function(_0x387716){return _0x387716();},'oocwg':function(_0x20ee40,_0xd1e98b,_0x288e03){return _0x20ee40(_0xd1e98b,_0x288e03);}},_0x49fd2e=DB[_0x291398(0x3bd)][_0x4e97e6];if(!_0x49fd2e)return _0x2550b9[_0x291398(0x337)](notify,_0x2550b9[_0x291398(0x631)],_0x2550b9[_0x291398(0x216)]);const _0x53e59d=(_0x49fd2e[_0x291398(0x544)+_0x291398(0x226)]||[])[_0x291398(0x5df)](_0xfb298e=>_0xfb298e['id']===_0x196899);if(_0x2550b9[_0x291398(0x3b2)](_0x53e59d,-(-0x30b*0x1+0x1588+0x34*-0x5b)))return _0x2550b9[_0x291398(0x247)](notify,_0x2550b9[_0x291398(0x421)],_0x2550b9[_0x291398(0x216)]);const _0x4fd012=_0x49fd2e[_0x291398(0x544)+_0x291398(0x226)][_0x53e59d];if(_0x2550b9[_0x291398(0x116)](_0x4fd012[_0x291398(0x567)],_0x2550b9[_0x291398(0x39c)]))return _0x2550b9[_0x291398(0x3b3)](notify,_0x2550b9[_0x291398(0x119)]);const _0x477297=_0x2550b9[_0x291398(0x400)](safeNum,_0x4fd012[_0x291398(0x644)]),_0x2f62a5=_0x2550b9[_0x291398(0x37a)](_0x2550b9[_0x291398(0x3a9)](safeNum,_0x49fd2e[_0x291398(0x206)]),_0x477297),_0x352198=_0x2550b9[_0x291398(0x400)](encodeEmail,_0x4e97e6),_0x5ad59={};_0x5ad59[_0x291398(0x5da)+_0x352198+_0x291398(0x3c1)]=_0x2f62a5,_0x5ad59[_0x291398(0x5da)+_0x352198+(_0x291398(0x2d9)+_0x291398(0x326))+_0x53e59d+_0x291398(0x280)]=_0x2550b9[_0x291398(0x2c4)];const _0x5ae58=_0x2550b9[_0x291398(0x5e2)](uid),_0x2e4bea={'id':_0x5ae58,'userEmail':_0x4e97e6,'message':_0x291398(0x493)+_0x291398(0x360)+_0x477297[_0x291398(0x2e2)+_0x291398(0x584)]()+(_0x291398(0x586)+_0x291398(0x15a)+_0x291398(0x595)+_0x291398(0x2b0)),'timestamp':_0x2550b9[_0x291398(0x33b)](now),'read':![]};_0x2550b9[_0x291398(0x537)](dbUpdate,'/',_0x5ad59)[_0x291398(0x39e)](()=>dbPush(_0x291398(0x442)+_0x291398(0x1ed),_0x2e4bea))[_0x291398(0x39e)](()=>{const _0x133c84=_0x291398;_0x2550b9[_0x133c84(0x160)](notify,_0x133c84(0x574)+'\x20+'+_0x477297[_0x133c84(0x2e2)+_0x133c84(0x584)]()+_0x133c84(0x221)+_0x49fd2e[_0x133c84(0x295)]),_0x2550b9[_0x133c84(0x160)](setAdminTab,_0x2550b9[_0x133c84(0x183)]);})[_0x291398(0x22a)](_0x20994c=>notify(_0x291398(0x3e1)+_0x291398(0x2d3)+_0x20994c[_0x291398(0x5a1)],_0x291398(0x51e)));},window[_0x11acdc(0x643)+_0x11acdc(0x577)]=function(_0x2be93b,_0x83e2f9){const _0x47ecff=_0x11acdc,_0x1d263e={'NKVav':function(_0x563ebb,_0x2f36f4){return _0x563ebb(_0x2f36f4);},'aMgAu':_0x47ecff(0x379)+_0x47ecff(0x5fa)+_0x47ecff(0x11f),'oQmPr':function(_0x56a5ca,_0x62dcba){return _0x56a5ca(_0x62dcba);},'MbKxV':_0x47ecff(0x462),'HWPzA':function(_0x452093,_0x3702c7){return _0x452093(_0x3702c7);},'xSkJg':_0x47ecff(0x34f)+_0x47ecff(0x53d)+_0x47ecff(0x515)+_0x47ecff(0x449),'KfffL':function(_0x5b0960,_0x570710){return _0x5b0960(_0x570710);},'wArNW':function(_0x5591f2,_0x2d3182,_0x299c38){return _0x5591f2(_0x2d3182,_0x299c38);}};if(!_0x1d263e[_0x47ecff(0x170)](confirm,_0x1d263e[_0x47ecff(0x50e)]))return;const _0x2e4e98=DB[_0x47ecff(0x3bd)][_0x2be93b];if(!_0x2e4e98)return;const _0x443e6c=_0x1d263e[_0x47ecff(0x4b4)](encodeEmail,_0x2be93b),_0x5c0046=(_0x2e4e98[_0x47ecff(0x544)+_0x47ecff(0x226)]||[])[_0x47ecff(0x554)](_0x1ed9ef=>_0x1ed9ef['id']!==_0x83e2f9);_0x1d263e[_0x47ecff(0x4ef)](dbSet,_0x47ecff(0x5da)+_0x443e6c+(_0x47ecff(0x2d9)+_0x47ecff(0x594)),_0x5c0046)[_0x47ecff(0x39e)](()=>{const _0x287fdc=_0x47ecff;_0x1d263e[_0x287fdc(0x179)](notify,_0x1d263e[_0x287fdc(0x485)]),_0x1d263e[_0x287fdc(0x3d4)](setAdminTab,_0x1d263e[_0x287fdc(0x1f7)]);});},window[_0x11acdc(0x144)+_0x11acdc(0x14d)]=function(_0x3c3aac){const _0x324dd=_0x11acdc,_0x12e5af={'nmSjV':function(_0x369f34,_0x5e55ee){return _0x369f34(_0x5e55ee);},'wWdSM':_0x324dd(0x3bd),'ffNPC':function(_0x5dfe62,_0x25f897,_0x511b15){return _0x5dfe62(_0x25f897,_0x511b15);},'cAIsB':function(_0xea8227,_0x30732b){return _0xea8227===_0x30732b;},'NbYPX':function(_0x448e6b,_0x53d6f6,_0x40d20b){return _0x448e6b(_0x53d6f6,_0x40d20b);},'rtBeK':_0x324dd(0x154)+_0x324dd(0x3f7)+'.','ZYmhR':_0x324dd(0x51e),'UryNA':function(_0x4c19e6,_0x53146d){return _0x4c19e6+_0x53146d;},'czXeK':function(_0x16f6ca,_0x1524e8){return _0x16f6ca(_0x1524e8);},'lCALc':function(_0x156bf4,_0x1cf30b,_0x5742d6){return _0x156bf4(_0x1cf30b,_0x5742d6);},'ICTBw':function(_0x472690,_0x271033){return _0x472690(_0x271033);}},_0x3af176=DB[_0x324dd(0x3bd)][_0x3c3aac];if(!_0x3af176)return;const _0x2a1c8e=_0x12e5af[_0x324dd(0x5f8)](prompt,_0x324dd(0x178)+_0x324dd(0x342)+_0x324dd(0x35a)+_0x3af176[_0x324dd(0x295)]+(_0x324dd(0x463)+_0x324dd(0x5f2)+_0x324dd(0x343)),'0');if(_0x12e5af[_0x324dd(0x352)](_0x2a1c8e,null))return;const _0x5925c6=_0x12e5af[_0x324dd(0x3c3)](parseInt,_0x2a1c8e,0x1ee3+-0x4c+-0x1e8d);if(_0x12e5af[_0x324dd(0x46d)](isNaN,_0x5925c6))return _0x12e5af[_0x324dd(0x5f8)](notify,_0x12e5af[_0x324dd(0x531)],_0x12e5af[_0x324dd(0x49f)]);const _0x30f896=_0x12e5af[_0x324dd(0x44b)](_0x12e5af[_0x324dd(0x1dc)](safeNum,_0x3af176[_0x324dd(0x206)]),_0x5925c6);_0x12e5af[_0x324dd(0x29c)](dbSet,_0x324dd(0x5da)+_0x12e5af[_0x324dd(0x1f2)](encodeEmail,_0x3c3aac)+_0x324dd(0x3c1),_0x30f896)[_0x324dd(0x39e)](()=>{const _0x246be3=_0x324dd;_0x12e5af[_0x246be3(0x46d)](notify,_0x246be3(0x282)+_0x246be3(0x44e)+'o\x20'+_0x3af176[_0x246be3(0x295)]),_0x12e5af[_0x246be3(0x46d)](setAdminTab,_0x12e5af[_0x246be3(0x45f)]);});},window[_0x11acdc(0x172)]=function(_0x58dd27){const _0x460037=_0x11acdc,_0x228a59={'mqVok':function(_0x509d41,_0x565496){return _0x509d41(_0x565496);},'HiIkF':function(_0x599913,_0x5b9744){return _0x599913(_0x5b9744);},'YCrxg':_0x460037(0x3bd),'UcASD':function(_0x4aa248,_0x46082c,_0x26ae90){return _0x4aa248(_0x46082c,_0x26ae90);},'eTfjl':_0x460037(0x486),'YtebY':function(_0x4a9e83,_0x58462b){return _0x4a9e83(_0x58462b);}},_0x3a7704=DB[_0x460037(0x3bd)][_0x58dd27];if(!_0x3a7704)return;const _0x5f4145=_0x228a59[_0x460037(0x536)](prompt,_0x460037(0x135)+_0x460037(0x1df)+_0x3a7704[_0x460037(0x295)]+(_0x460037(0x17a)+_0x460037(0x1bf)+':'),_0x3a7704[_0x460037(0x4f9)]||_0x228a59[_0x460037(0x4c8)]);if(!_0x5f4145)return;_0x228a59[_0x460037(0x536)](dbSet,_0x460037(0x5da)+_0x228a59[_0x460037(0x392)](encodeEmail,_0x58dd27)+_0x460037(0x341),_0x5f4145[_0x460037(0x3a8)]()[_0x460037(0x114)+'e']())[_0x460037(0x39e)](()=>{const _0x58640f=_0x460037;_0x228a59[_0x58640f(0x28f)](notify,_0x58640f(0x3c2)+_0x58640f(0x5b4)+_0x3a7704[_0x58640f(0x295)]),_0x228a59[_0x58640f(0x225)](setAdminTab,_0x228a59[_0x58640f(0x35e)]);});},window[_0x11acdc(0x37f)]=function(_0x34fcff){const _0x317a00=_0x11acdc,_0x519d90={'QKSRu':function(_0x31ccc4,_0x850e16){return _0x31ccc4(_0x850e16);},'DfCrY':_0x317a00(0x224)+_0x317a00(0x209),'fJxGD':function(_0x5ee4de,_0x5308ff){return _0x5ee4de(_0x5308ff);},'ADxdh':_0x317a00(0x3bd),'CrAgp':function(_0x4fed69,_0x5776e8){return _0x4fed69===_0x5776e8;},'YAfGJ':function(_0x57b73b){return _0x57b73b();},'TOxZc':function(_0x6b9a6f,_0x5c94aa,_0x31d8bc){return _0x6b9a6f(_0x5c94aa,_0x31d8bc);},'XSjkr':_0x317a00(0x1ea)+_0x317a00(0x1f8)+_0x317a00(0x175)+'h.','xZyKD':_0x317a00(0x51e),'HvwyW':function(_0x4ed306,_0x1cbaff){return _0x4ed306(_0x1cbaff);},'GKSwc':function(_0x302869,_0x4c13c5,_0x69cfc8){return _0x302869(_0x4c13c5,_0x69cfc8);}};if(_0x519d90[_0x317a00(0x5f4)](_0x34fcff,_0x519d90[_0x317a00(0x5b3)](currentEmail)))return _0x519d90[_0x317a00(0x5db)](notify,_0x519d90[_0x317a00(0x458)],_0x519d90[_0x317a00(0x45e)]);if(!_0x519d90[_0x317a00(0x131)](confirm,_0x317a00(0x262)+_0x317a00(0x30d)+_0x317a00(0x4f7)+_0x34fcff+'?'))return;_0x519d90[_0x317a00(0x561)](dbSet,_0x317a00(0x5da)+_0x519d90[_0x317a00(0x131)](encodeEmail,_0x34fcff),null)[_0x317a00(0x39e)](()=>{const _0x529c81=_0x317a00;_0x519d90[_0x529c81(0x2fd)](notify,_0x519d90[_0x529c81(0x5bb)]),_0x519d90[_0x529c81(0x339)](setAdminTab,_0x519d90[_0x529c81(0x490)]);});};function renderUsers(){const _0x47bbbd=_0x11acdc;return _0x47bbbd(0x58c)+_0x47bbbd(0x29f)+_0x47bbbd(0x19f)+_0x47bbbd(0x491)+_0x47bbbd(0x398)+_0x47bbbd(0x320)+_0x47bbbd(0x4ad)+_0x47bbbd(0x267)+_0x47bbbd(0x11b)+_0x47bbbd(0x559)+_0x47bbbd(0x321)+_0x47bbbd(0x62e)+_0x47bbbd(0x61c)+_0x47bbbd(0x452)+_0x47bbbd(0x189)+_0x47bbbd(0x205)+_0x47bbbd(0x3cd)+_0x47bbbd(0x529)+_0x47bbbd(0x512)+_0x47bbbd(0x532)+_0x47bbbd(0x4e8)+_0x47bbbd(0x219)+_0x47bbbd(0x44f)+_0x47bbbd(0x20e)+Object[_0x47bbbd(0x578)](DB[_0x47bbbd(0x3bd)]||{})[_0x47bbbd(0x141)]+(_0x47bbbd(0x186)+_0x47bbbd(0x5fd)+_0x47bbbd(0x2d0)+_0x47bbbd(0x600)+_0x47bbbd(0x23c)+_0x47bbbd(0x60e)+_0x47bbbd(0x2f0)+_0x47bbbd(0x611)+_0x47bbbd(0x25b))+Object[_0x47bbbd(0x54b)](DB[_0x47bbbd(0x3bd)]||{})[_0x47bbbd(0x656)](([_0x5a0851,_0x34ada8])=>_0x47bbbd(0x532)+_0x47bbbd(0x249)+_0x47bbbd(0x34c)+_0x47bbbd(0x2c2)+_0x47bbbd(0x4ed)+_0x47bbbd(0x592)+_0x47bbbd(0x398)+_0x47bbbd(0x320)+_0x47bbbd(0x2d5)+_0x47bbbd(0x59a)+_0x47bbbd(0x4b1)+_0x47bbbd(0x4cf)+_0x47bbbd(0x4ed)+_0x47bbbd(0x32c)+_0x47bbbd(0x33c)+_0x47bbbd(0x204)+_0x47bbbd(0x37e)+_0x47bbbd(0x3f9)+_0x47bbbd(0x25c)+_0x47bbbd(0x467)+(_0x34ada8[_0x47bbbd(0x295)]||'?')[_0x47bbbd(0x153)](0x29*0xb7+-0x1*-0x3d3+0x1091*-0x2)[_0x47bbbd(0x2e1)+'e']()+(_0x47bbbd(0x22f)+_0x47bbbd(0x4ed)+_0x47bbbd(0x4ed)+_0x47bbbd(0x2ce)+_0x47bbbd(0x4ed)+_0x47bbbd(0x4ed)+_0x47bbbd(0x1af))+esc(_0x34ada8[_0x47bbbd(0x295)])+_0x47bbbd(0x5ad)+(_0x34ada8[_0x47bbbd(0x411)]?_0x47bbbd(0x26b)+_0x47bbbd(0x5fb)+_0x47bbbd(0x4ce)+_0x47bbbd(0x125)+_0x47bbbd(0x4ec)+_0x47bbbd(0x456)+_0x47bbbd(0x46f):'')+(_0x47bbbd(0x532)+_0x47bbbd(0x4ed)+_0x47bbbd(0x592)+_0x47bbbd(0x398)+_0x47bbbd(0x250)+_0x47bbbd(0x218)+_0x47bbbd(0x14f)+_0x47bbbd(0x166))+esc(_0x5a0851)+(_0x47bbbd(0x112)+_0x47bbbd(0x1ba)+'e\x20')+(_0x34ada8[_0x47bbbd(0x4f9)]===_0x47bbbd(0x466)?_0x47bbbd(0x39a)+'r':_0x47bbbd(0x4ca))+'\x22>'+_0x34ada8[_0x47bbbd(0x4f9)]+(_0x47bbbd(0x4d7)+_0x47bbbd(0x370)+_0x47bbbd(0x4ed)+_0x47bbbd(0x2b1)+_0x47bbbd(0x4af)+_0x47bbbd(0x4ed)+_0x47bbbd(0x634)+_0x47bbbd(0x611)+_0x47bbbd(0x4ed)+_0x47bbbd(0x33e)+_0x47bbbd(0x285)+_0x47bbbd(0x149)+_0x47bbbd(0x4ba)+_0x47bbbd(0x4ed)+_0x47bbbd(0x249)+_0x47bbbd(0x5a2)+_0x47bbbd(0x1db)+_0x47bbbd(0x228)+_0x47bbbd(0x469)+_0x47bbbd(0x2a7))+safeNum(_0x34ada8[_0x47bbbd(0x206)])[_0x47bbbd(0x2e2)+_0x47bbbd(0x584)]()+(_0x47bbbd(0x478)+_0x47bbbd(0x4ed)+_0x47bbbd(0x4ed)+_0x47bbbd(0x52a)+_0x47bbbd(0x24f)+_0x47bbbd(0x5c0)+_0x47bbbd(0x128)+_0x47bbbd(0x22b)+_0x47bbbd(0x53e)+_0x47bbbd(0x22d)+_0x47bbbd(0x611)+_0x47bbbd(0x4ed)+_0x47bbbd(0x4ed)+_0x47bbbd(0x40a)+_0x47bbbd(0x509)+_0x47bbbd(0x5d3)+_0x47bbbd(0x238)+_0x47bbbd(0x5ce)+_0x47bbbd(0x33d))+_0x5a0851+(_0x47bbbd(0x3d3)+_0x47bbbd(0x615)+_0x47bbbd(0x142)+_0x47bbbd(0x26b)+_0x47bbbd(0x5fb)+_0x47bbbd(0x4ce)+_0x47bbbd(0x125)+_0x47bbbd(0x640))+(_0x34ada8[_0x47bbbd(0x411)]?_0x47bbbd(0x657)+')':_0x47bbbd(0x24e)+'d)')+(_0x47bbbd(0x14e)+_0x47bbbd(0x639)+_0x47bbbd(0x4ed)+_0x47bbbd(0x4ed)+_0x47bbbd(0x48d)+_0x47bbbd(0x223)+_0x47bbbd(0x546)+_0x47bbbd(0x1de)+_0x47bbbd(0x3bf)+_0x47bbbd(0x144)+_0x47bbbd(0x64a))+_0x5a0851+(_0x47bbbd(0x354)+_0x47bbbd(0x377)+_0x47bbbd(0x4ed)+_0x47bbbd(0x4ed)+_0x47bbbd(0x2f9)+_0x47bbbd(0x2a5)+_0x47bbbd(0x513)+_0x47bbbd(0x150)+_0x47bbbd(0x152)+_0x47bbbd(0x196)+'\x27')+_0x5a0851+(_0x47bbbd(0x284)+_0x47bbbd(0x377)+_0x47bbbd(0x4ed)+_0x47bbbd(0x4ed)+_0x47bbbd(0x2f9)+_0x47bbbd(0x2a5)+_0x47bbbd(0x453)+_0x47bbbd(0x1a3)+_0x47bbbd(0x4fd)+_0x47bbbd(0x3da)+_0x47bbbd(0x56b))+_0x5a0851+(_0x47bbbd(0x636)+_0x47bbbd(0x563)+_0x47bbbd(0x436)+_0x47bbbd(0x38d)+_0x47bbbd(0x532)+_0x47bbbd(0x4ed)+_0x47bbbd(0x634)+_0x47bbbd(0x611)+_0x47bbbd(0x4ed)+_0x47bbbd(0x3ad)+_0x47bbbd(0x4ed)+_0x47bbbd(0x634)+_0x47bbbd(0x611)+_0x47bbbd(0x25b)))[_0x47bbbd(0x1d0)]('')+(_0x47bbbd(0x491)+_0x47bbbd(0x48b)+_0x47bbbd(0x22f)+'\x20');}function renderProducts(){const _0x59c4d4=_0x11acdc,_0x706198={'GiYNv':_0x59c4d4(0x519)+_0x59c4d4(0x50d)+_0x59c4d4(0x498)};return _0x59c4d4(0x58c)+_0x59c4d4(0x29f)+_0x59c4d4(0x19f)+_0x59c4d4(0x491)+_0x59c4d4(0x398)+_0x59c4d4(0x320)+_0x59c4d4(0x4ad)+_0x59c4d4(0x267)+_0x59c4d4(0x11b)+_0x59c4d4(0x559)+_0x59c4d4(0x321)+_0x59c4d4(0x62e)+_0x59c4d4(0x61c)+_0x59c4d4(0x452)+_0x59c4d4(0x189)+_0x59c4d4(0x205)+_0x59c4d4(0x138)+_0x59c4d4(0x4f5)+_0x59c4d4(0x31e)+_0x59c4d4(0x532)+_0x59c4d4(0x215)+_0x59c4d4(0x669)+_0x59c4d4(0x1ac)+_0x59c4d4(0x57f)+_0x59c4d4(0x545)+_0x59c4d4(0x5cc)+_0x59c4d4(0x4a7)+_0x59c4d4(0x5bd)+_0x59c4d4(0x563)+_0x59c4d4(0x20a)+_0x59c4d4(0x1a4)+_0x59c4d4(0x232)+_0x59c4d4(0x611)+_0x59c4d4(0x22f)+_0x59c4d4(0x582)+_0x59c4d4(0x59d)+_0x59c4d4(0x420)+_0x59c4d4(0x4bb)+_0x59c4d4(0x412)+_0x59c4d4(0x21e)+_0x59c4d4(0x4c9)+_0x59c4d4(0x1fa)+_0x59c4d4(0x241)+_0x59c4d4(0x3a0)+_0x59c4d4(0x532)+_0x59c4d4(0x181)+((DB[_0x59c4d4(0x4e2)]||[])[_0x59c4d4(0x656)](_0x148134=>_0x59c4d4(0x532)+_0x59c4d4(0x249)+_0x59c4d4(0x34c)+_0x59c4d4(0x2e8)+_0x59c4d4(0x23b)+_0x59c4d4(0x424)+_0x59c4d4(0x32f)+_0x59c4d4(0x502)+_0x59c4d4(0x201)+_0x59c4d4(0x611)+_0x59c4d4(0x4ed)+_0x59c4d4(0x33e)+_0x59c4d4(0x414)+_0x59c4d4(0x596)+_0x59c4d4(0x16a)+_0x59c4d4(0x187)+_0x59c4d4(0x4ed)+_0x59c4d4(0x4ed)+_0x59c4d4(0x4e8)+_0x59c4d4(0x41e)+_0x59c4d4(0x641)+_0x59c4d4(0x36f)+_0x59c4d4(0x5e7)+_0x59c4d4(0x4bc)+esc(_0x148134[_0x59c4d4(0x22c)]||'')+(_0x59c4d4(0x520)+_0x59c4d4(0x16c)+_0x59c4d4(0x268)+_0x59c4d4(0x370)+_0x59c4d4(0x4ed)+_0x59c4d4(0x32c)+_0x59c4d4(0x428)+_0x59c4d4(0x50c)+_0x59c4d4(0x4ed)+_0x59c4d4(0x4ed)+_0x59c4d4(0x362))+esc(_0x148134[_0x59c4d4(0x295)])+(_0x59c4d4(0x1ee)+_0x59c4d4(0x4ed)+_0x59c4d4(0x4ed)+_0x59c4d4(0x121)+_0x59c4d4(0x4e9)+_0x59c4d4(0x4a6)+_0x59c4d4(0x5dc)+_0x59c4d4(0x5ef)+'\x22>')+safeNum(_0x148134[_0x59c4d4(0x56c)])[_0x59c4d4(0x2e2)+_0x59c4d4(0x584)]()+(_0x59c4d4(0x478)+_0x59c4d4(0x4ed)+_0x59c4d4(0x4ed)+_0x59c4d4(0x600)+_0x59c4d4(0x239)+_0x59c4d4(0x560)+_0x59c4d4(0x17c)+_0x59c4d4(0x365)+_0x59c4d4(0x4ab))+_0x148134[_0x59c4d4(0x556)]+(_0x59c4d4(0x518)+'\x20')+_0x148134[_0x59c4d4(0x3f6)]+(_0x59c4d4(0x22f)+_0x59c4d4(0x4ed)+_0x59c4d4(0x4ed)+_0x59c4d4(0x2d0)+_0x59c4d4(0x4ed)+_0x59c4d4(0x2b1)+_0x59c4d4(0x4af)+_0x59c4d4(0x4ed)+_0x59c4d4(0x582)+_0x59c4d4(0x625)+_0x59c4d4(0x351)+_0x59c4d4(0x35d)+_0x59c4d4(0x162)+_0x59c4d4(0x13c)+_0x59c4d4(0x415)+_0x59c4d4(0x31a)+_0x59c4d4(0x331)+_0x59c4d4(0x611)+_0x59c4d4(0x4ed)+_0x59c4d4(0x4b0)+_0x59c4d4(0x223)+_0x59c4d4(0x2b6)+_0x59c4d4(0x65b))+esc(_0x148134[_0x59c4d4(0x5e6)])+(_0x59c4d4(0x20d)+_0x59c4d4(0x4ed)+_0x59c4d4(0x4ed)+_0x59c4d4(0x318)+_0x59c4d4(0x1a0)+_0x59c4d4(0x265)+_0x59c4d4(0x1d4)+_0x59c4d4(0x601)+_0x59c4d4(0x464)+_0x59c4d4(0x39b))+_0x148134['id']+(_0x59c4d4(0x39f)+_0x59c4d4(0x48a)+_0x59c4d4(0x399)+_0x59c4d4(0x289)+_0x59c4d4(0x56a)+_0x59c4d4(0x4ed)+_0x59c4d4(0x55f)+_0x59c4d4(0x532)+_0x59c4d4(0x388)+_0x59c4d4(0x370)+_0x59c4d4(0x334)))[_0x59c4d4(0x1d0)]('')||_0x706198[_0x59c4d4(0x308)])+(_0x59c4d4(0x491)+_0x59c4d4(0x48b)+_0x59c4d4(0x22f)+'\x20');}function renderResources(){const _0x1d00fb=_0x11acdc,_0x11684f={'laaBL':_0x1d00fb(0x410)+'p>'};return _0x1d00fb(0x58c)+_0x1d00fb(0x29f)+_0x1d00fb(0x19f)+_0x1d00fb(0x491)+_0x1d00fb(0x398)+_0x1d00fb(0x320)+_0x1d00fb(0x4ad)+_0x1d00fb(0x267)+_0x1d00fb(0x11b)+_0x1d00fb(0x559)+_0x1d00fb(0x321)+_0x1d00fb(0x62e)+_0x1d00fb(0x61c)+_0x1d00fb(0x452)+_0x1d00fb(0x189)+_0x1d00fb(0x205)+_0x1d00fb(0x3ab)+_0x1d00fb(0x2b9)+_0x1d00fb(0x2da)+_0x1d00fb(0x592)+_0x1d00fb(0x1c3)+_0x1d00fb(0x413)+_0x1d00fb(0x566)+_0x1d00fb(0x662)+_0x1d00fb(0x1b4)+_0x1d00fb(0x3e4)+_0x1d00fb(0x2f8)+_0x1d00fb(0x165)+_0x1d00fb(0x4fa)+_0x1d00fb(0x42e)+_0x1d00fb(0x27a)+_0x1d00fb(0x13d)+_0x1d00fb(0x388)+_0x1d00fb(0x370)+_0x1d00fb(0x33e)+_0x1d00fb(0x414)+_0x1d00fb(0x5d8)+_0x1d00fb(0x4a4)+_0x1d00fb(0x4ed)+((DB[_0x1d00fb(0x629)]||[])[_0x1d00fb(0x656)](_0x11a7cc=>_0x1d00fb(0x532)+_0x1d00fb(0x249)+_0x1d00fb(0x34c)+_0x1d00fb(0x2c2)+_0x1d00fb(0x4ed)+_0x1d00fb(0x592)+_0x1d00fb(0x4af)+_0x1d00fb(0x4ed)+_0x1d00fb(0x592)+'b>'+esc(_0x11a7cc[_0x1d00fb(0x198)])+(_0x1d00fb(0x1ee)+_0x1d00fb(0x4ed)+_0x1d00fb(0x592)+_0x1d00fb(0x398)+_0x1d00fb(0x250)+_0x1d00fb(0x218)+_0x1d00fb(0x14f)+_0x1d00fb(0x166))+esc(_0x11a7cc[_0x1d00fb(0x5e6)])+(_0x1d00fb(0x51b)+':\x20')+esc(_0x11a7cc[_0x1d00fb(0x581)])+(_0x1d00fb(0x22f)+_0x1d00fb(0x4ed)+_0x1d00fb(0x388)+_0x1d00fb(0x370)+_0x1d00fb(0x4ed)+_0x1d00fb(0x1c2)+_0x1d00fb(0x315)+_0x1d00fb(0x37c)+_0x1d00fb(0x4ed)+_0x1d00fb(0x4ed)+_0x1d00fb(0x40a)+_0x1d00fb(0x509)+_0x1d00fb(0x2fb)+_0x1d00fb(0x662)+_0x1d00fb(0x60d)+_0x1d00fb(0x549)+'e(')+_0x11a7cc['id']+(_0x1d00fb(0x39f)+_0x1d00fb(0x48a)+_0x1d00fb(0x399)+_0x1d00fb(0x3c6)+_0x1d00fb(0x4ed)+_0x1d00fb(0x4ed)+_0x1d00fb(0x22f)+_0x1d00fb(0x4ed)+_0x1d00fb(0x606)+_0x1d00fb(0x4ed)+'\x20\x20'))[_0x1d00fb(0x1d0)]('')||_0x11684f[_0x1d00fb(0x459)])+(_0x1d00fb(0x491)+_0x1d00fb(0x48b)+_0x1d00fb(0x22f)+'\x20');}function renderOrders(){const _0x39dd87=_0x11acdc,_0x4659f0={'vAeQf':_0x39dd87(0x519)+_0x39dd87(0x5ab)+_0x39dd87(0x498)};return _0x39dd87(0x58c)+_0x39dd87(0x29f)+_0x39dd87(0x19f)+_0x39dd87(0x491)+_0x39dd87(0x653)+_0x39dd87(0x5d1)+_0x39dd87(0x3e8)+_0x39dd87(0x121)+_0x39dd87(0x1e1)+_0x39dd87(0x525)+_0x39dd87(0x599)+_0x39dd87(0x4ed)+'\x20'+((DB[_0x39dd87(0x58a)]||[])[_0x39dd87(0x33a)]()[_0x39dd87(0x3e0)]()[_0x39dd87(0x656)](_0x3dff43=>_0x39dd87(0x532)+_0x39dd87(0x249)+_0x39dd87(0x34c)+_0x39dd87(0x2c2)+_0x39dd87(0x4ed)+_0x39dd87(0x592)+_0x39dd87(0x4af)+_0x39dd87(0x4ed)+_0x39dd87(0x592)+_0x39dd87(0x534)+_0x39dd87(0x666)+(_0x3dff43[_0x39dd87(0x567)]===_0x39dd87(0x1d2)?_0x39dd87(0x603)+'n':_0x3dff43[_0x39dd87(0x567)]===_0x39dd87(0x5be)?_0x39dd87(0x2f2):_0x39dd87(0x39a)+'r')+_0x39dd87(0x16e)+_0x3dff43['id']+(_0x39dd87(0x20d)+_0x39dd87(0x4ed)+_0x39dd87(0x4ed)+_0x39dd87(0x3f4))+esc(_0x3dff43[_0x39dd87(0x14a)])+(_0x39dd87(0x1ee)+_0x39dd87(0x4ed)+_0x39dd87(0x592)+_0x39dd87(0x398)+_0x39dd87(0x250)+_0x39dd87(0x218)+_0x39dd87(0x14f)+_0x39dd87(0x166))+esc(_0x3dff43[_0x39dd87(0x21b)])+_0x39dd87(0x270)+esc(_0x3dff43[_0x39dd87(0x65e)])+(_0x39dd87(0x22f)+_0x39dd87(0x4ed)+_0x39dd87(0x388)+_0x39dd87(0x370)+_0x39dd87(0x4ed)+_0x39dd87(0x416)+_0x39dd87(0x303)+_0x39dd87(0x45d)+_0x39dd87(0x1d8)+_0x39dd87(0x4ed)+_0x39dd87(0x592)+_0x39dd87(0x398)+_0x39dd87(0x3ac)+_0x39dd87(0x2be))+safeNum(_0x3dff43[_0x39dd87(0x56c)])[_0x39dd87(0x2e2)+_0x39dd87(0x584)]()+(_0x39dd87(0x478)+_0x39dd87(0x4ed)+_0x39dd87(0x4ed)+_0x39dd87(0x33e)+_0x39dd87(0x237)+_0x39dd87(0x58f)+_0x39dd87(0x27e)+_0x39dd87(0x20c))+(_0x3dff43[_0x39dd87(0x3e2)]||'')+(_0x39dd87(0x22f)+_0x39dd87(0x4ed)+_0x39dd87(0x388)+_0x39dd87(0x370)+_0x39dd87(0x4ed)+_0x39dd87(0x22f)+_0x39dd87(0x31c)))[_0x39dd87(0x1d0)]('')||_0x4659f0[_0x39dd87(0x389)])+(_0x39dd87(0x491)+_0x39dd87(0x48b)+_0x39dd87(0x22f)+'\x20');}function renderSettings(){const _0x1084a8=_0x11acdc,_0x536bf8={'hWkJC':function(_0x26785f,_0x322e54){return _0x26785f(_0x322e54);},'TNcLY':_0x1084a8(0x476)};return _0x1084a8(0x58c)+_0x1084a8(0x29f)+_0x1084a8(0x19f)+_0x1084a8(0x491)+_0x1084a8(0x358)+_0x1084a8(0x65c)+_0x1084a8(0x547)+_0x1084a8(0x444)+_0x1084a8(0x491)+_0x1084a8(0x398)+_0x1084a8(0x320)+_0x1084a8(0x4fc)+_0x1084a8(0x52f)+_0x1084a8(0x368)+_0x1084a8(0x4a5)+_0x1084a8(0x635)+_0x1084a8(0x1f6)+_0x1084a8(0x4b8)+_0x1084a8(0x5fe)+_0x1084a8(0x168)+_0x1084a8(0x36b)+_0x1084a8(0x505)+_0x1084a8(0x312)+_0x1084a8(0x5c5)+_0x1084a8(0x1e4)+_0x1084a8(0x256)+_0x1084a8(0x4e0)+_0x1084a8(0x1a6)+_0x1084a8(0x42d)+_0x1084a8(0x177)+_0x1084a8(0x626)+_0x1084a8(0x35b)+_0x1084a8(0x538)+_0x1084a8(0x4ed)+_0x1084a8(0x40a)+_0x1084a8(0x509)+_0x1084a8(0x5dd)+_0x1084a8(0x545)+_0x1084a8(0x613)+_0x1084a8(0x572)+_0x1084a8(0x2c8)+_0x1084a8(0x110)+_0x1084a8(0x634)+_0x1084a8(0x1d3)+_0x1084a8(0x58b)+_0x1084a8(0x33c)+_0x1084a8(0x32a)+_0x1084a8(0x3e5)+_0x1084a8(0x5cd)+_0x1084a8(0x598)+_0x1084a8(0x5f6)+_0x1084a8(0x552)+_0x1084a8(0x16b)+_0x1084a8(0x5bf)+_0x1084a8(0x494)+_0x1084a8(0x61f)+_0x1084a8(0x49e)+_0x1084a8(0x378)+_0x1084a8(0x30f)+_0x1084a8(0x1bb)+_0x1084a8(0x62d)+_0x1084a8(0x249)+_0x1084a8(0x3fb)+_0x1084a8(0x1d5)+_0x1084a8(0x4ed)+_0x1084a8(0x4e8)+_0x1084a8(0x1ab)+_0x1084a8(0x208)+_0x1084a8(0x194)+_0x1084a8(0x28e)+_0x1084a8(0x3ca)+_0x1084a8(0x5d7)+_0x1084a8(0x1a7)+_0x1084a8(0x5f1)+_0x1084a8(0x145)+_0x1084a8(0x570)+_0x1084a8(0x35f)+_0x1084a8(0x4ed)+_0x1084a8(0x582)+_0x1084a8(0x548)+_0x1084a8(0x32d)+_0x1084a8(0x55c)+_0x1084a8(0x26f)+_0x1084a8(0x12d)+_0x1084a8(0x4dd)+_0x1084a8(0x260)+_0x1084a8(0x610)+_0x1084a8(0x3c9)+_0x1084a8(0x500)+_0x1084a8(0x4f0)+_0x1084a8(0x5f5)+_0x1084a8(0x4ed)+_0x1084a8(0x3ad)+_0x1084a8(0x4ed)+_0x1084a8(0x443)+_0x1084a8(0x19a)+_0x1084a8(0x38e)+_0x1084a8(0x335)+_0x1084a8(0x627)+_0x1084a8(0x50b)+(_0x1084a8(0x56a)+_0x1084a8(0x396)+_0x1084a8(0x32c)+_0x1084a8(0x428)+_0x1084a8(0x128)+_0x1084a8(0x5a5)+_0x1084a8(0x4ed))+(DB[_0x1084a8(0x283)]||[])[_0x1084a8(0x656)](_0x2a3bf8=>_0x1084a8(0x532)+_0x1084a8(0x249)+_0x1084a8(0x34c)+_0x1084a8(0x2e8)+_0x1084a8(0x633)+_0x1084a8(0x1c8)+_0x1084a8(0x611)+_0x1084a8(0x4ed)+_0x1084a8(0x272)+'>'+esc(_0x2a3bf8[_0x1084a8(0x2a1)])+_0x1084a8(0x203)+safeNum(_0x2a3bf8[_0x1084a8(0x644)])[_0x1084a8(0x2e2)+_0x1084a8(0x584)]()+(_0x1084a8(0x43c)+_0x1084a8(0x4ed)+_0x1084a8(0x4ed)+_0x1084a8(0x40a)+_0x1084a8(0x509)+_0x1084a8(0x2fb)+_0x1084a8(0x662)+_0x1084a8(0x60d)+_0x1084a8(0x2e3)+_0x1084a8(0x492))+_0x2a3bf8[_0x1084a8(0x2a1)]+(_0x1084a8(0x5c1)+_0x1084a8(0x110)+_0x1084a8(0x4ed)+_0x1084a8(0x606)+_0x1084a8(0x4ed)+'\x20\x20'))[_0x1084a8(0x1d0)]('')+(_0x1084a8(0x491)+_0x1084a8(0x48b)+_0x1084a8(0x4a1)+_0x1084a8(0x52a)+_0x1084a8(0x36e)+_0x1084a8(0x423)+_0x1084a8(0x29e)+_0x1084a8(0x4f1)+_0x1084a8(0x3b8)+_0x1084a8(0x611)+_0x1084a8(0x579)+_0x1084a8(0x472)+_0x1084a8(0x191)+_0x1084a8(0x3d8)+_0x1084a8(0x236)+_0x1084a8(0x118)+_0x1084a8(0x359)+_0x1084a8(0x1f1))+_0x536bf8[_0x1084a8(0x63b)](esc,DB[_0x1084a8(0x44a)][_0x1084a8(0x21f)])+(_0x1084a8(0x605)+_0x1084a8(0x249)+_0x1084a8(0x14c)+_0x1084a8(0x180)+_0x1084a8(0x611)+_0x1084a8(0x2d6)+_0x1084a8(0x429)+_0x1084a8(0x49d)+_0x1084a8(0x5e1)+_0x1084a8(0x4f2)+_0x1084a8(0x523)+_0x1084a8(0x3df)+_0x1084a8(0x277)+_0x1084a8(0x4c6)+_0x1084a8(0x562)+_0x1084a8(0x143)+_0x1084a8(0x66d)+_0x1084a8(0x624)+_0x1084a8(0x480)+_0x1084a8(0x517)+_0x1084a8(0x394)+_0x1084a8(0x1d1)+_0x1084a8(0x5c6)+_0x1084a8(0x309)+_0x1084a8(0x52f)+_0x1084a8(0x4ed)+_0x1084a8(0x167)+_0x1084a8(0x298)+_0x1084a8(0x5f7))+(!DB[_0x1084a8(0x44a)][_0x1084a8(0x52c)+'e']?_0x536bf8[_0x1084a8(0x387)]:'')+(_0x1084a8(0x26e)+_0x1084a8(0x290)+_0x1084a8(0x30e)+_0x1084a8(0x4ea)+_0x1084a8(0x4ed)+_0x1084a8(0x3a6)+_0x1084a8(0x4e7)+_0x1084a8(0x62f))+(DB[_0x1084a8(0x44a)][_0x1084a8(0x52c)+'e']?_0x536bf8[_0x1084a8(0x387)]:'')+(_0x1084a8(0x551)+_0x1084a8(0x20b)+_0x1084a8(0x623)+_0x1084a8(0x511)+_0x1084a8(0x4ed)+_0x1084a8(0x311)+_0x1084a8(0x491)+_0x1084a8(0x48b)+_0x1084a8(0x48d)+_0x1084a8(0x223)+_0x1084a8(0x25d)+_0x1084a8(0x317)+_0x1084a8(0x3f0)+_0x1084a8(0x199)+_0x1084a8(0x40d)+_0x1084a8(0x1aa)+_0x1084a8(0x571)+_0x1084a8(0x377)+_0x1084a8(0x3ad)+_0x1084a8(0x4b3)+_0x1084a8(0x33c)+_0x1084a8(0x32a)+_0x1084a8(0x3e5)+_0x1084a8(0x18d)+_0x1084a8(0x404)+_0x1084a8(0x5ba)+_0x1084a8(0x3dc))+Object[_0x1084a8(0x54b)](DB[_0x1084a8(0x44a)][_0x1084a8(0x407)]||{})[_0x1084a8(0x656)](([_0x8b03a2,_0x4f39ca])=>_0x1084a8(0x532)+_0x1084a8(0x3de)+_0x1084a8(0x313)+_0x1084a8(0x132)+_0x1084a8(0x521)+_0x1084a8(0x307)+_0x1084a8(0x2c0)+_0x1084a8(0x43b)+_0x1084a8(0x2ff)+_0x1084a8(0x2c7)+_0x1084a8(0x4a2)+_0x1084a8(0x4ba)+_0x1084a8(0x592)+_0x1084a8(0x197)+_0x1084a8(0x45a)+_0x1084a8(0x409)+_0x1084a8(0x646)+_0x1084a8(0x3ed)+_0x8b03a2[_0x1084a8(0x2e1)+'e']()+(_0x1084a8(0x2a0)+_0x1084a8(0x532)+_0x1084a8(0x249)+_0x1084a8(0x406)+_0x1084a8(0x2de)+_0x1084a8(0x4a4)+_0x1084a8(0x4ed)+_0x1084a8(0x3dc))+Object[_0x1084a8(0x54b)](_0x4f39ca)[_0x1084a8(0x656)](([_0x45529b,_0x2741b0])=>_0x1084a8(0x532)+_0x1084a8(0x4ed)+_0x1084a8(0x582)+_0x1084a8(0x59d)+_0x1084a8(0x161)+_0x1084a8(0x3dd)+_0x1084a8(0x5ca)+_0x1084a8(0x231)+_0x1084a8(0x602)+_0x1084a8(0x5fc)+_0x1084a8(0x4ed)+_0x1084a8(0x4ed)+_0x1084a8(0x4b0)+_0x1084a8(0x49a)+_0x1084a8(0x575)+_0x1084a8(0x42c)+_0x1084a8(0x5c4)+'\x22>'+esc(_0x45529b)+(_0x1084a8(0x20d)+_0x1084a8(0x4ed)+_0x1084a8(0x4ed)+_0x1084a8(0x288)+_0x1084a8(0x483)+_0x1084a8(0x4ff)+_0x1084a8(0x2e4))+_0x2741b0+(_0x1084a8(0x48c)+_0x1084a8(0x297)+_0x1084a8(0x234)+_0x1084a8(0x607)+_0x1084a8(0x147)+_0x1084a8(0x4c7)+_0x1084a8(0x213)+_0x1084a8(0x157)+_0x1084a8(0x4b6)+_0x1084a8(0x18f)+_0x1084a8(0x373)+_0x1084a8(0x642)+_0x1084a8(0x214))+_0x8b03a2+_0x1084a8(0x47c)+_0x45529b+(_0x1084a8(0x38c)+_0x1084a8(0x235)+_0x1084a8(0x4ed)+_0x1084a8(0x4ed)+_0x1084a8(0x2f5)+_0x1084a8(0x665)+_0x1084a8(0x479)+_0x1084a8(0x182)+_0x1084a8(0x2f7)+_0x1084a8(0x20d)+_0x1084a8(0x4ed)+_0x1084a8(0x4ed)+_0x1084a8(0x3ad)+_0x1084a8(0x4ed)+_0x1084a8(0x31c)))[_0x1084a8(0x1d0)]('')+(_0x1084a8(0x532)+_0x1084a8(0x388)+_0x1084a8(0x370)+_0x1084a8(0x1cd)+_0x1084a8(0x2e6)+_0x1084a8(0x31f)))[_0x1084a8(0x1d0)]('')+(_0x1084a8(0x15d)+_0x1084a8(0x3a3));}window[_0x11acdc(0x327)+_0x11acdc(0x4ee)]=function(){const _0x415f25=_0x11acdc,_0x59d329={'BNegl':function(_0x3834c7,_0x59e4b9){return _0x3834c7(_0x59e4b9);},'Lcxyd':_0x415f25(0x2bc)+_0x415f25(0x661),'qYcOU':function(_0xb662a3,_0x362601){return _0xb662a3(_0x362601);},'EBbRB':_0x415f25(0x44a),'YcYdq':_0x415f25(0x1fe)+_0x415f25(0x210),'biSzH':function(_0x47464f,_0x4a6ef1,_0x7cc056){return _0x47464f(_0x4a6ef1,_0x7cc056);},'RuUwR':function(_0x21ec42,_0x3f02f2){return _0x21ec42(_0x3f02f2);},'AjdDE':_0x415f25(0x1fe)+_0x415f25(0x4d2),'SlJQY':function(_0x522080,_0x312732){return _0x522080(_0x312732);},'yFqym':_0x415f25(0x345)+_0x415f25(0x357)+'lệ','KQlzn':_0x415f25(0x51e),'ZoRpo':_0x415f25(0x12b)+_0x415f25(0x2ee),'AfJhc':function(_0x2b383f){return _0x2b383f();}},_0x951b7e=(_0x59d329[_0x415f25(0x117)]($,_0x59d329[_0x415f25(0x5aa)])?.[_0x415f25(0x350)]||'')[_0x415f25(0x3a8)]()[_0x415f25(0x2e1)+'e'](),_0xae1469=_0x59d329[_0x415f25(0x60c)](parseInt,_0x59d329[_0x415f25(0x338)]($,_0x59d329[_0x415f25(0x4d0)])?.[_0x415f25(0x350)]||'0',-0x23fe+0x52*0x20+0x19c8);if(!_0x951b7e||_0x59d329[_0x415f25(0x52b)](isNaN,_0xae1469))return _0x59d329[_0x415f25(0x60c)](notify,_0x59d329[_0x415f25(0x163)],_0x59d329[_0x415f25(0x3fa)]);DB[_0x415f25(0x283)]=DB[_0x415f25(0x283)]||[],DB[_0x415f25(0x283)][_0x415f25(0x46c)]({'code':_0x951b7e,'amount':_0xae1469,'active':!![],'usedBy':[],'note':_0x59d329[_0x415f25(0x30a)]}),_0x59d329[_0x415f25(0x46e)](saveNow)[_0x415f25(0x39e)](()=>{const _0x2fb005=_0x415f25;_0x59d329[_0x2fb005(0x651)](notify,_0x59d329[_0x2fb005(0x437)]),_0x59d329[_0x2fb005(0x117)](setAdminTab,_0x59d329[_0x2fb005(0x12f)]);});},window[_0x11acdc(0x24a)+_0x11acdc(0x660)]=function(_0x305999,_0x2d5b60){const _0x35920c=_0x11acdc,_0x53f5aa={'fTAow':function(_0x17b569,_0x65e3a1,_0x52aafc){return _0x17b569(_0x65e3a1,_0x52aafc);},'oKBap':function(_0x591a38,_0x4d133d){return _0x591a38(_0x4d133d);},'YdgMh':_0x35920c(0x282)+_0x35920c(0x5bc),'hfeAc':_0x35920c(0x462),'ybULl':function(_0x1eb21e){return _0x1eb21e();}},_0xf92da8=(DB[_0x35920c(0x58a)]||[])[_0x35920c(0x2ab)](_0x1e49fd=>_0x1e49fd['id']===_0x305999);if(!_0xf92da8)return;_0xf92da8[_0x35920c(0x567)]=_0x2d5b60,_0x53f5aa[_0x35920c(0x59b)](saveNow)[_0x35920c(0x39e)](()=>{const _0x1ddc8c=_0x35920c;if(_0xf92da8[_0x1ddc8c(0x21b)])_0x53f5aa[_0x1ddc8c(0x514)](addNotification,_0xf92da8[_0x1ddc8c(0x21b)],_0x1ddc8c(0x419)+_0xf92da8['id']+(_0x1ddc8c(0x248)+'\x20')+_0x2d5b60);_0x53f5aa[_0x1ddc8c(0x430)](notify,_0x53f5aa[_0x1ddc8c(0x243)]),_0x53f5aa[_0x1ddc8c(0x430)](setAdminTab,_0x53f5aa[_0x1ddc8c(0x5c9)]);});},window[_0x11acdc(0x468)+_0x11acdc(0x60f)+'ng']=function(_0x30b695,_0x47b2d3,_0x214bd9){const _0x5c9149=_0x11acdc,_0x1566b7={'MmTEa':function(_0xeb1c7,_0x4795f2,_0xcbe5fe){return _0xeb1c7(_0x4795f2,_0xcbe5fe);},'aWeUL':function(_0x22827e,_0x2d14c7){return _0x22827e||_0x2d14c7;},'etuMu':function(_0x1b1c22){return _0x1b1c22();}};DB[_0x5c9149(0x44a)][_0x5c9149(0x407)][_0x30b695][_0x47b2d3]=_0x1566b7[_0x5c9149(0x3d7)](parseInt,_0x1566b7[_0x5c9149(0x391)](_0x214bd9,'50'),0x7f*-0x1e+0xabc+0x430),_0x1566b7[_0x5c9149(0x126)](saveNow);},window[_0x11acdc(0x1be)]=function(_0x100e2d){const _0x4fe574=_0x11acdc,_0x1f1343={'pNoey':function(_0x7229c5){return _0x7229c5();}};DB[_0x4fe574(0x3bd)][_0x100e2d][_0x4fe574(0x411)]=!DB[_0x4fe574(0x3bd)][_0x100e2d][_0x4fe574(0x411)],_0x1f1343[_0x4fe574(0x1cf)](saveNow)[_0x4fe574(0x39e)](()=>setAdminTab(_0x4fe574(0x3bd)));},window[_0x11acdc(0x63f)+_0x11acdc(0x302)]=function(){const _0x1fb79b=_0x11acdc,_0x3623a8={'SdExq':function(_0x103bd5,_0xd4e792){return _0x103bd5(_0xd4e792);},'neNev':_0x1fb79b(0x5c2),'ERFQU':function(_0x53b2f2,_0x596bd6){return _0x53b2f2(_0x596bd6);},'dqjzf':_0x1fb79b(0x355)+_0x1fb79b(0x418),'ljtzT':function(_0x48a387,_0x15bc09){return _0x48a387(_0x15bc09);},'wBiZZ':_0x1fb79b(0x44a),'QiUpA':function(_0x79ae7a,_0x3e4702){return _0x79ae7a(_0x3e4702);},'EXLIs':function(_0x220a9a,_0x9c6839,_0x3d8622){return _0x220a9a(_0x9c6839,_0x3d8622);},'TEaFb':_0x1fb79b(0x4b8)+_0x1fb79b(0x402),'gyWPD':_0x1fb79b(0x51e),'NjYxW':function(_0xd2b95a){return _0xd2b95a();},'nJuiO':_0x1fb79b(0x590)+_0x1fb79b(0x3d9),'ZKRap':function(_0x2ee69a){return _0x2ee69a();},'hKWKf':_0x1fb79b(0x466),'WDzbb':function(_0x54cac5){return _0x54cac5();}},_0x3ed4c7=(_0x3623a8[_0x1fb79b(0x3b5)]($,_0x3623a8[_0x1fb79b(0x16f)])?.[_0x1fb79b(0x350)]||'')[_0x1fb79b(0x3a8)]();if(!_0x3ed4c7)return _0x3623a8[_0x1fb79b(0x528)](notify,_0x3623a8[_0x1fb79b(0x4c3)],_0x3623a8[_0x1fb79b(0x1e9)]);Object[_0x1fb79b(0x578)](DB[_0x1fb79b(0x3bd)]||{})[_0x1fb79b(0x4aa)](_0x269cc1=>addNotification(_0x269cc1,_0x3ed4c7,{'kind':_0x1fb79b(0x66e),'system':!![],'title':_0x1fb79b(0x590)+_0x1fb79b(0x3d9)})),DB[_0x1fb79b(0x4e5)+_0x1fb79b(0x4d8)][_0x1fb79b(0x1fc)]({'id':_0x3623a8[_0x1fb79b(0x15f)](uid),'title':_0x3623a8[_0x1fb79b(0x668)],'body':_0x3ed4c7,'pinned':!![],'author':_0x3623a8[_0x1fb79b(0x43e)](currentEmail)||_0x3623a8[_0x1fb79b(0x608)],'timestamp':_0x3623a8[_0x1fb79b(0x43e)](now)}),DB[_0x1fb79b(0x4e5)+_0x1fb79b(0x4d8)]=DB[_0x1fb79b(0x4e5)+_0x1fb79b(0x4d8)][_0x1fb79b(0x33a)](-0x1b4+0x6*0x223+0x2*-0x58f,-0x21a*-0x7+-0x80*-0x11+-0x170e),_0x3623a8[_0x1fb79b(0x2af)](saveNow)[_0x1fb79b(0x39e)](()=>{const _0x4df2d8=_0x1fb79b;if(_0x3623a8[_0x4df2d8(0x425)]($,_0x3623a8[_0x4df2d8(0x16f)]))_0x3623a8[_0x4df2d8(0x425)]($,_0x3623a8[_0x4df2d8(0x16f)])[_0x4df2d8(0x350)]='';_0x3623a8[_0x4df2d8(0x310)](notify,_0x3623a8[_0x4df2d8(0x113)]),_0x3623a8[_0x4df2d8(0x5ff)](setAdminTab,_0x3623a8[_0x4df2d8(0x27b)]);});},window[_0x11acdc(0x64c)+_0x11acdc(0x403)]=function(){const _0x206a52=_0x11acdc,_0x5278d2={'MWylf':function(_0x1003a7,_0x2a29cc){return _0x1003a7(_0x2a29cc);}};_0x5278d2[_0x206a52(0x159)](openModal,_0x206a52(0x491)+_0x206a52(0x569)+_0x206a52(0x395)+_0x206a52(0x1d9)+_0x206a52(0x591)+_0x206a52(0x2b5)+_0x206a52(0x22e)+_0x206a52(0x36d)+_0x206a52(0x173)+_0x206a52(0x3e6)+_0x206a52(0x271)+_0x206a52(0x276)+_0x206a52(0x3c7)+_0x206a52(0x4ed)+_0x206a52(0x52a)+_0x206a52(0x654)+_0x206a52(0x611)+_0x206a52(0x32c)+_0x206a52(0x33c)+_0x206a52(0x53f)+_0x206a52(0x54d)+_0x206a52(0x2b7)+_0x206a52(0x263)+_0x206a52(0x524)+_0x206a52(0x5d2)+_0x206a52(0x4d3)+_0x206a52(0x5fd)+_0x206a52(0x592)+_0x206a52(0x569)+_0x206a52(0x49b)+_0x206a52(0x3b6)+_0x206a52(0x1ad)+_0x206a52(0x501)+_0x206a52(0x4c5)+_0x206a52(0x2fa)+_0x206a52(0x3eb)+_0x206a52(0x451)+_0x206a52(0x4d6)+_0x206a52(0x18e)+_0x206a52(0x4ed)+_0x206a52(0x22f)+_0x206a52(0x592)+_0x206a52(0x569)+_0x206a52(0x621)+_0x206a52(0x4ed)+_0x206a52(0x582)+_0x206a52(0x548)+_0x206a52(0x32d)+_0x206a52(0x5cf)+_0x206a52(0x4d4)+_0x206a52(0x3ca)+_0x206a52(0x5cb)+_0x206a52(0x539)+_0x206a52(0x605)+_0x206a52(0x4ed)+_0x206a52(0x582)+_0x206a52(0x548)+_0x206a52(0x32d)+_0x206a52(0x1ef)+_0x206a52(0x4bd)+_0x206a52(0x12d)+_0x206a52(0x4cc)+_0x206a52(0x4fb)+_0x206a52(0x2ed)+_0x206a52(0x207)+_0x206a52(0x18e)+_0x206a52(0x4ed)+_0x206a52(0x22f)+_0x206a52(0x592)+_0x206a52(0x569)+_0x206a52(0x49b)+_0x206a52(0x3b6)+_0x206a52(0x61d)+_0x206a52(0x440)+_0x206a52(0x501)+_0x206a52(0x184)+_0x206a52(0x17e)+_0x206a52(0x129)+_0x206a52(0x3d0)+_0x206a52(0x275)+_0x206a52(0x370)+_0x206a52(0x600)+_0x206a52(0x5ec)+_0x206a52(0x510)+_0x206a52(0x1c0)+_0x206a52(0x127)+_0x206a52(0x57a)+_0x206a52(0x279)+_0x206a52(0x628)+_0x206a52(0x48e)+_0x206a52(0x617)+_0x206a52(0x57c)+_0x206a52(0x386)+_0x206a52(0x605)+_0x206a52(0x4ed)+_0x206a52(0x59f)+_0x206a52(0x448)+_0x206a52(0x2a4)+_0x206a52(0x504)+_0x206a52(0x13b)+(_0x206a52(0x2c9)+_0x206a52(0x426)+_0x206a52(0x484)+_0x206a52(0x3a1)+_0x206a52(0x18e)+_0x206a52(0x4ed)+_0x206a52(0x40a)+_0x206a52(0x509)+_0x206a52(0x5dd)+_0x206a52(0x344)+_0x206a52(0x41f)+_0x206a52(0x4cb)+_0x206a52(0x57e)+_0x206a52(0x3c6)+_0x206a52(0x2b1)+_0x206a52(0x155)));},window[_0x11acdc(0x5e4)+_0x11acdc(0x2dd)]=async function(_0x4de1cd){const _0x3ab7fd=_0x11acdc,_0x10e244={'vCWYx':function(_0x24c4e8,_0x513c59){return _0x24c4e8(_0x513c59);},'PkFgH':_0x3ab7fd(0x4de)+'n','RpCps':_0x3ab7fd(0x23f)+'e','ELMmP':_0x3ab7fd(0x176)+_0x3ab7fd(0x333),'CmOFp':function(_0x3d8cff,_0x5010a8){return _0x3d8cff(_0x5010a8);},'oSqWK':_0x3ab7fd(0x258)+_0x3ab7fd(0x367)+_0x3ab7fd(0x264),'Nkssm':_0x3ab7fd(0x211),'XbeHf':function(_0x568214,_0x445de0,_0x4ec596){return _0x568214(_0x445de0,_0x4ec596);},'XfQTi':function(_0x12a688,_0x271c8c){return _0x12a688(_0x271c8c);},'oewFM':_0x3ab7fd(0x652),'qdliv':_0x3ab7fd(0x51f),'sKLOH':_0x3ab7fd(0x3b0),'ELQHx':function(_0x19640b,_0x4320d3,_0x317329){return _0x19640b(_0x4320d3,_0x317329);},'YgwtE':function(_0x26317e,_0x4ef212){return _0x26317e(_0x4ef212);},'VRcGC':_0x3ab7fd(0x274),'LlmqT':function(_0x80cee9,_0x4bd371){return _0x80cee9(_0x4bd371);},'UHOgv':_0x3ab7fd(0x5e8),'yYhLn':_0x3ab7fd(0x12c),'zWtrE':_0x3ab7fd(0x2bb),'pSneQ':function(_0x5cee68){return _0x5cee68();},'JYsdw':function(_0x43453c,_0x3b0c8e,_0x52ce56){return _0x43453c(_0x3b0c8e,_0x52ce56);},'jeeEw':_0x3ab7fd(0x304)+_0x3ab7fd(0x1a2),'pmoYr':function(_0x3c9af5,_0x10f1ef){return _0x3c9af5(_0x10f1ef);},'yoCwU':_0x3ab7fd(0x4e2),'qpRoA':function(_0x3a14d5,_0x5857bd,_0x2b31a3){return _0x3a14d5(_0x5857bd,_0x2b31a3);},'ZPcBw':_0x3ab7fd(0x51e),'RxtbE':_0x3ab7fd(0x1e5)+'ẩm'};_0x4de1cd[_0x3ab7fd(0x41d)+_0x3ab7fd(0x348)]();const _0x4acb49=_0x10e244[_0x3ab7fd(0x299)]($,_0x10e244[_0x3ab7fd(0x5a4)]),_0x3a0359=_0x10e244[_0x3ab7fd(0x299)]($,_0x10e244[_0x3ab7fd(0x2a8)])?.[_0x3ab7fd(0x1b7)][-0x11d6*-0x1+-0x710+0x7*-0x18a];try{_0x4acb49[_0x3ab7fd(0x1b9)]=!![],_0x4acb49[_0x3ab7fd(0x42f)+'t']=_0x10e244[_0x3ab7fd(0x384)];let _0x44d76d='';if(_0x3a0359){_0x44d76d=await _0x10e244[_0x3ab7fd(0x5a0)](uploadToImgBB,_0x3a0359);if(!_0x44d76d)throw new Error(_0x10e244[_0x3ab7fd(0x36a)]);}const _0x597703={'id':Date[_0x3ab7fd(0x4a3)](),'name':_0x10e244[_0x3ab7fd(0x299)]($,_0x10e244[_0x3ab7fd(0x251)])[_0x3ab7fd(0x350)],'price':_0x10e244[_0x3ab7fd(0x59c)](parseInt,_0x10e244[_0x3ab7fd(0x43d)]($,_0x10e244[_0x3ab7fd(0x2ec)])[_0x3ab7fd(0x350)],-0x1d74+0x2608+-0x88a),'category':_0x10e244[_0x3ab7fd(0x43d)]($,_0x10e244[_0x3ab7fd(0x2b3)])[_0x3ab7fd(0x350)]||_0x10e244[_0x3ab7fd(0x527)],'stock':_0x10e244[_0x3ab7fd(0x580)](parseInt,_0x10e244[_0x3ab7fd(0x17f)]($,_0x10e244[_0x3ab7fd(0x5c3)])[_0x3ab7fd(0x350)],0x14ef+-0x5*0x107+-0xfc2),'image':_0x44d76d,'link':_0x10e244[_0x3ab7fd(0x535)]($,_0x10e244[_0x3ab7fd(0x3ce)])[_0x3ab7fd(0x350)],'desc':_0x10e244[_0x3ab7fd(0x535)]($,_0x10e244[_0x3ab7fd(0x44d)])[_0x3ab7fd(0x350)],'sold':0x0,'status':_0x10e244[_0x3ab7fd(0x3f2)],'createdAt':_0x10e244[_0x3ab7fd(0x193)](now)},_0x1dc2b1=(DB[_0x3ab7fd(0x4e2)]||[])[_0x3ab7fd(0x141)];await _0x10e244[_0x3ab7fd(0x65a)](dbSet,_0x3ab7fd(0x43a)+_0x1dc2b1,_0x597703),_0x10e244[_0x3ab7fd(0x17f)](notify,_0x10e244[_0x3ab7fd(0x62c)]),_0x10e244[_0x3ab7fd(0x193)](closeModal),_0x10e244[_0x3ab7fd(0x473)](setAdminTab,_0x10e244[_0x3ab7fd(0x5eb)]);}catch(_0x3b35a8){_0x10e244[_0x3ab7fd(0x4b9)](notify,_0x3b35a8[_0x3ab7fd(0x5a1)],_0x10e244[_0x3ab7fd(0x3b7)]);}finally{_0x4acb49[_0x3ab7fd(0x1b9)]=![],_0x4acb49[_0x3ab7fd(0x42f)+'t']=_0x10e244[_0x3ab7fd(0x3db)];}},window[_0x11acdc(0x340)+_0x11acdc(0x30b)]=function(_0x3761c2){const _0x32dc9e=_0x11acdc,_0x304525={'hfuMu':function(_0x32831c,_0x2c08e1){return _0x32831c(_0x2c08e1);},'YWAHo':_0x32dc9e(0x51c)+_0x32dc9e(0x5d9),'qmzct':function(_0x3f427f,_0x5db2af){return _0x3f427f(_0x5db2af);},'thlWH':_0x32dc9e(0x4e2),'DxPqE':function(_0x28fd49,_0xb0ef55){return _0x28fd49(_0xb0ef55);},'VsPzv':_0x32dc9e(0x253)+_0x32dc9e(0x2d2),'zQTqO':function(_0x2d88f9,_0x3cd126,_0x458d09){return _0x2d88f9(_0x3cd126,_0x458d09);}};if(!_0x304525[_0x32dc9e(0x3d5)](confirm,_0x304525[_0x32dc9e(0x123)]))return;const _0x5220c7=(DB[_0x32dc9e(0x4e2)]||[])[_0x32dc9e(0x554)](_0x53fe44=>String(_0x53fe44['id'])!==String(_0x3761c2));_0x304525[_0x32dc9e(0x375)](dbSet,_0x32dc9e(0x4e2),_0x5220c7)[_0x32dc9e(0x39e)](()=>{const _0x4c787e=_0x32dc9e;_0x304525[_0x4c787e(0x2f6)](notify,_0x304525[_0x4c787e(0x632)]),_0x304525[_0x4c787e(0x585)](setAdminTab,_0x304525[_0x4c787e(0x34a)]);});},window[_0x11acdc(0x3f3)+_0x11acdc(0x3a4)]=function(){const _0x41872e=_0x11acdc,_0x4fafa9={'SINDd':function(_0x2bea9d,_0x260893){return _0x2bea9d(_0x260893);}};_0x4fafa9[_0x41872e(0x26d)](openModal,_0x41872e(0x491)+_0x41872e(0x569)+_0x41872e(0x395)+_0x41872e(0x5b5)+_0x41872e(0x61b)+_0x41872e(0x49c)+_0x41872e(0x611)+_0x41872e(0x2aa)+_0x41872e(0x1d6)+_0x41872e(0x3be)+_0x41872e(0x38b)+_0x41872e(0x32b)+_0x41872e(0x543)+_0x41872e(0x25f)+_0x41872e(0x600)+_0x41872e(0x5ec)+_0x41872e(0x510)+_0x41872e(0x261)+_0x41872e(0x2ae)+_0x41872e(0x3ca)+_0x41872e(0x371)+_0x41872e(0x188)+_0x41872e(0x22f)+_0x41872e(0x592)+_0x41872e(0x569)+_0x41872e(0x621)+_0x41872e(0x4ed)+_0x41872e(0x582)+_0x41872e(0x548)+_0x41872e(0x32d)+_0x41872e(0x5cf)+_0x41872e(0x4d4)+_0x41872e(0x3ca)+_0x41872e(0x41a)+_0x41872e(0x4e6)+_0x41872e(0x3fe)+_0x41872e(0x532)+_0x41872e(0x249)+_0x41872e(0x14c)+_0x41872e(0x180)+_0x41872e(0x66c)+_0x41872e(0x385)+_0x41872e(0x2dc)+_0x41872e(0x252)+_0x41872e(0x62b)+_0x41872e(0x1e3)+_0x41872e(0x370)+_0x41872e(0x5e5)+_0x41872e(0x5fd)+_0x41872e(0x582)+_0x41872e(0x548)+_0x41872e(0x32d)+_0x41872e(0x5ac)+_0x41872e(0x233)+_0x41872e(0x64b)+_0x41872e(0x2dc)+_0x41872e(0x4f8)+_0x41872e(0x5e3)+_0x41872e(0x40f)+_0x41872e(0x353)+_0x41872e(0x5fd)+_0x41872e(0x582)+_0x41872e(0x548)+_0x41872e(0x32d)+_0x41872e(0x604)+_0x41872e(0x151)+_0x41872e(0x12d)+_0x41872e(0x4e4)+_0x41872e(0x17b)+_0x41872e(0x19d)+_0x41872e(0x1da)+_0x41872e(0x319)+_0x41872e(0x4af)+_0x41872e(0x249)+_0x41872e(0x14c)+_0x41872e(0x180)+_0x41872e(0x56e)+_0x41872e(0x254)+_0x41872e(0x2a6)+_0x41872e(0x550)+_0x41872e(0x325)+_0x41872e(0x637)+_0x41872e(0x53c)+_0x41872e(0x4ed)+_0x41872e(0x443)+_0x41872e(0x19a)+_0x41872e(0x38e)+_0x41872e(0x335)+_0x41872e(0x2e5)+_0x41872e(0x33f)+_0x41872e(0x29d)+_0x41872e(0x158)+_0x41872e(0x227)+_0x41872e(0x1e7)+_0x41872e(0x181));},window[_0x11acdc(0x2f1)+_0x11acdc(0x497)]=async function(_0x56bed1){const _0x57fefb=_0x11acdc,_0x5f188f={'QCNQf':function(_0x1a9a6e,_0x276f2d){return _0x1a9a6e(_0x276f2d);},'pkjpK':_0x57fefb(0x455)+'n','DTWUm':_0x57fefb(0x4dc)+'e','rEpsG':_0x57fefb(0x176)+_0x57fefb(0x333),'kTKlD':_0x57fefb(0x258)+_0x57fefb(0x367)+_0x57fefb(0x264),'DwrVf':_0x57fefb(0x305),'RQnJe':function(_0x23c688,_0x57652b){return _0x23c688(_0x57652b);},'JwpDG':_0x57fefb(0x1cb),'yrGFc':_0x57fefb(0x3b0),'pIipv':function(_0x24031c,_0xf722d9){return _0x24031c(_0xf722d9);},'SVHCJ':_0x57fefb(0x1e0),'hdaKK':_0x57fefb(0x300),'ytJqE':_0x57fefb(0x63a),'ugSOF':function(_0x2e907d){return _0x2e907d();},'Tlztk':function(_0x52e2c7,_0x3a9fe5,_0x5cd6b3){return _0x52e2c7(_0x3a9fe5,_0x5cd6b3);},'ukkHq':_0x57fefb(0x667)+_0x57fefb(0x553),'bIigq':function(_0x25024c){return _0x25024c();},'ypkUQ':function(_0x583fb5,_0x2b7810){return _0x583fb5(_0x2b7810);},'neFqi':_0x57fefb(0x629),'mbnag':_0x57fefb(0x51e),'XVyOE':_0x57fefb(0x164)+_0x57fefb(0x465)};_0x56bed1[_0x57fefb(0x41d)+_0x57fefb(0x348)]();const _0x24d12d=_0x5f188f[_0x57fefb(0x454)]($,_0x5f188f[_0x57fefb(0x3b4)]),_0x524ba7=_0x5f188f[_0x57fefb(0x454)]($,_0x5f188f[_0x57fefb(0x1ec)])?.[_0x57fefb(0x1b7)][-0x19*-0x9d+-0x6b8+-0x15*0x69];try{_0x24d12d[_0x57fefb(0x1b9)]=!![],_0x24d12d[_0x57fefb(0x42f)+'t']=_0x5f188f[_0x57fefb(0x323)];let _0x239d63='';if(_0x524ba7){_0x239d63=await _0x5f188f[_0x57fefb(0x454)](uploadToImgBB,_0x524ba7);if(!_0x239d63)throw new Error(_0x5f188f[_0x57fefb(0x499)]);}const _0x379e4b={'id':Date[_0x57fefb(0x4a3)](),'title':_0x5f188f[_0x57fefb(0x454)]($,_0x5f188f[_0x57fefb(0x65f)])[_0x57fefb(0x350)],'category':_0x5f188f[_0x57fefb(0x3a5)]($,_0x5f188f[_0x57fefb(0x37b)])[_0x57fefb(0x350)]||_0x5f188f[_0x57fefb(0x1b2)],'author':_0x5f188f[_0x57fefb(0x2df)]($,_0x5f188f[_0x57fefb(0x4b5)])[_0x57fefb(0x350)],'fileUrl':_0x5f188f[_0x57fefb(0x3a5)]($,_0x5f188f[_0x57fefb(0x5b6)])[_0x57fefb(0x350)],'thumbnail':_0x239d63,'desc':_0x5f188f[_0x57fefb(0x2df)]($,_0x5f188f[_0x57fefb(0x622)])[_0x57fefb(0x350)],'downloads':0x0,'date':_0x5f188f[_0x57fefb(0x5a8)](now)},_0x45185d=(DB[_0x57fefb(0x629)]||[])[_0x57fefb(0x141)];await _0x5f188f[_0x57fefb(0x11d)](dbSet,_0x57fefb(0x564)+_0x45185d,_0x379e4b),_0x5f188f[_0x57fefb(0x3a5)](notify,_0x5f188f[_0x57fefb(0x3ff)]),_0x5f188f[_0x57fefb(0x4f4)](closeModal),_0x5f188f[_0x57fefb(0x5e9)](setAdminTab,_0x5f188f[_0x57fefb(0x257)]);}catch(_0x1a3453){_0x5f188f[_0x57fefb(0x11d)](notify,_0x1a3453[_0x57fefb(0x5a1)],_0x5f188f[_0x57fefb(0x481)]);}finally{_0x24d12d[_0x57fefb(0x1b9)]=![],_0x24d12d[_0x57fefb(0x42f)+'t']=_0x5f188f[_0x57fefb(0x434)];}},window[_0x11acdc(0x4d5)+_0x11acdc(0x16d)]=function(_0x5953d9){const _0x548ae8=_0x11acdc,_0x49f88d={'xJnuU':function(_0x1e00b3,_0x4cef75){return _0x1e00b3(_0x4cef75);},'BUsiX':_0x548ae8(0x11e)+_0x548ae8(0x5e0),'ihBHh':function(_0x1d99a9,_0x443e78){return _0x1d99a9(_0x443e78);},'lPUYa':_0x548ae8(0x629),'iOaaF':_0x548ae8(0x1cc)+_0x548ae8(0x38a),'azqzG':function(_0x44469b,_0x8d26a9,_0x3a9935){return _0x44469b(_0x8d26a9,_0x3a9935);}};if(!_0x49f88d[_0x548ae8(0x244)](confirm,_0x49f88d[_0x548ae8(0x663)]))return;const _0x2fd390=(DB[_0x548ae8(0x629)]||[])[_0x548ae8(0x554)](_0x3eeffb=>String(_0x3eeffb['id'])!==String(_0x5953d9));_0x49f88d[_0x548ae8(0x555)](dbSet,_0x548ae8(0x629),_0x2fd390)[_0x548ae8(0x39e)](()=>{const _0x1c08d3=_0x548ae8;_0x49f88d[_0x1c08d3(0x244)](notify,_0x49f88d[_0x1c08d3(0x156)]),_0x49f88d[_0x1c08d3(0x55b)](setAdminTab,_0x49f88d[_0x1c08d3(0x3ae)]);});},window[_0x11acdc(0x25e)]=function(){const _0x50c57d=_0x11acdc,_0x62dee={'rUxwc':_0x50c57d(0x328)+_0x50c57d(0x21a),'pbeAu':_0x50c57d(0x619)+_0x50c57d(0x140)},_0x536a02=new Blob([JSON[_0x50c57d(0x3fd)](DB,null,-0x970+0x72a+0x2*0x124)],{'type':_0x62dee[_0x50c57d(0x301)]}),_0x523624=document[_0x50c57d(0x390)+_0x50c57d(0x659)]('a');_0x523624[_0x50c57d(0x18b)]=URL[_0x50c57d(0x54c)+_0x50c57d(0x489)](_0x536a02),_0x523624[_0x50c57d(0x330)]=_0x62dee[_0x50c57d(0x60b)],_0x523624[_0x50c57d(0x44c)](),URL[_0x50c57d(0x19e)+_0x50c57d(0x489)](_0x523624[_0x50c57d(0x18b)]);},window[_0x11acdc(0x4a8)+_0x11acdc(0x503)]=function(){const _0x3fbf3c=_0x11acdc,_0x5f328f={'oHtYs':function(_0x9aec92){return _0x9aec92();},'sGIdl':function(_0x551fe5,_0x29b236){return _0x551fe5(_0x29b236);},'tWMQu':_0x3fbf3c(0x40e),'VLtrH':_0x3fbf3c(0x2d1)+_0x3fbf3c(0x11c),'BKkvS':function(_0x21a447,_0x3baf1f,_0xdbc2e2){return _0x21a447(_0x3baf1f,_0xdbc2e2);},'bgftV':_0x3fbf3c(0x329)+_0x3fbf3c(0x357)+_0x3fbf3c(0x124),'LGtVl':_0x3fbf3c(0x51e),'RuOQs':_0x3fbf3c(0x487),'DbGSl':_0x3fbf3c(0x3c4),'LeThm':_0x3fbf3c(0x328)+_0x3fbf3c(0x21a)},_0x241dde=document[_0x3fbf3c(0x390)+_0x3fbf3c(0x659)](_0x5f328f[_0x3fbf3c(0x4bf)]);_0x241dde[_0x3fbf3c(0x65e)]=_0x5f328f[_0x3fbf3c(0x427)],_0x241dde[_0x3fbf3c(0x5f0)]=_0x5f328f[_0x3fbf3c(0x3a7)],_0x241dde[_0x3fbf3c(0x3bc)]=_0x3a28ec=>{const _0x47faee=_0x3fbf3c,_0x4be69c=_0x3a28ec[_0x47faee(0x2e9)][_0x47faee(0x1b7)][-0x25ea+-0x2df*0x4+0x2*0x18b3];if(!_0x4be69c)return;const _0x11a3bf=new FileReader();_0x11a3bf[_0x47faee(0x3ef)]=_0x77ab94=>{const _0x3de106=_0x47faee,_0x3a6196={'MuDTB':function(_0x477e18){const _0x53981e=_0x3207;return _0x5f328f[_0x53981e(0x4ae)](_0x477e18);},'EpRPs':function(_0x28847f,_0x10f5d9){const _0x160b71=_0x3207;return _0x5f328f[_0x160b71(0x349)](_0x28847f,_0x10f5d9);},'YQXCW':_0x5f328f[_0x3de106(0x475)],'behtX':_0x5f328f[_0x3de106(0x381)]};try{const _0x3b6061=JSON[_0x3de106(0x460)](_0x77ab94[_0x3de106(0x2e9)][_0x3de106(0x435)]);DB=_0x3b6061,_0x5f328f[_0x3de106(0x4ae)](saveNow)[_0x3de106(0x39e)](()=>{const _0x5580d2=_0x3de106;_0x3a6196[_0x5580d2(0x1f9)](updateUI),_0x3a6196[_0x5580d2(0x2eb)](navigate,_0x3a6196[_0x5580d2(0x294)]),_0x3a6196[_0x5580d2(0x2eb)](notify,_0x3a6196[_0x5580d2(0x56d)]);});}catch(_0x41c897){_0x5f328f[_0x3de106(0x66b)](notify,_0x5f328f[_0x3de106(0x2cf)],_0x5f328f[_0x3de106(0x614)]);}},_0x11a3bf[_0x47faee(0x461)](_0x4be69c);},_0x241dde[_0x3fbf3c(0x44c)]();},window[_0x11acdc(0x174)]=function(){const _0x5c5eec=_0x11acdc,_0x3f36ae={'ersBI':function(_0x29bae0,_0xdaa09f){return _0x29bae0(_0xdaa09f);},'cXOIO':_0x5c5eec(0x647)+_0x5c5eec(0x1e8)+_0x5c5eec(0x27c)+_0x5c5eec(0x134)};if(!_0x3f36ae[_0x5c5eec(0x5f3)](confirm,_0x3f36ae[_0x5c5eec(0x356)]))return;fbRef[_0x5c5eec(0x296)](null)[_0x5c5eec(0x39e)](()=>{const _0x490279=_0x5c5eec;location[_0x490279(0x664)]();});},window[_0x11acdc(0x18c)+_0x11acdc(0x540)]=function(){const _0x20d05e=_0x11acdc,_0x1a0e95={'toJCC':_0x20d05e(0x5d5),'vKhyg':function(_0x3b446d,_0x364656){return _0x3b446d(_0x364656);},'UqfuA':_0x20d05e(0x2ad)+_0x20d05e(0x5b8),'HjpJx':function(_0x401843,_0x5c677e){return _0x401843(_0x5c677e);},'OJAcG':_0x20d05e(0x50f)+'lo','hPwtk':function(_0x283a2d,_0x467b44){return _0x283a2d(_0x467b44);},'qcvTl':_0x20d05e(0x588)+_0x20d05e(0x190),'vmzsb':function(_0x20a12e,_0x11c0a5){return _0x20a12e(_0x11c0a5);},'SkSMA':_0x20d05e(0x316),'ohgyy':_0x20d05e(0x2db),'xheYO':function(_0x130937,_0x10f107){return _0x130937===_0x10f107;},'YrjrE':function(_0x5b33ec,_0x3c2fbd){return _0x5b33ec(_0x3c2fbd);},'jeRWH':_0x20d05e(0x26c)+_0x20d05e(0x4da),'uTEkF':_0x20d05e(0x557),'BeYcZ':function(_0x431bdc){return _0x431bdc();},'kxwRW':function(_0x144d3b,_0x5c527f,_0x57e12f){return _0x144d3b(_0x5c527f,_0x57e12f);},'rjHsf':_0x20d05e(0x5a7),'GboYF':_0x20d05e(0x51e),'egaJr':function(_0x5404e5){return _0x5404e5();}},_0x498ac5=_0x1a0e95[_0x20d05e(0x45c)][_0x20d05e(0x1c4)]('|');let _0x5a4eef=0x1740+-0x17e*0x11+0x21e;while(!![]){switch(_0x498ac5[_0x5a4eef++]){case'0':DB[_0x20d05e(0x44a)][_0x20d05e(0x2ef)+'o']={'facebook':_0x1a0e95[_0x20d05e(0x612)]($,_0x1a0e95[_0x20d05e(0x2a3)])?.[_0x20d05e(0x350)][_0x20d05e(0x3a8)]()||'','zalo':_0x1a0e95[_0x20d05e(0x5ae)]($,_0x1a0e95[_0x20d05e(0x4b2)])?.[_0x20d05e(0x350)][_0x20d05e(0x3a8)]()||'','telegram':_0x1a0e95[_0x20d05e(0x139)]($,_0x1a0e95[_0x20d05e(0x4d1)])?.[_0x20d05e(0x350)][_0x20d05e(0x3a8)]()||'','tiktok':''};continue;case'1':DB[_0x20d05e(0x44a)][_0x20d05e(0x21f)]=(_0x1a0e95[_0x20d05e(0x369)]($,_0x1a0e95[_0x20d05e(0x11a)])?.[_0x20d05e(0x350)]||_0x1a0e95[_0x20d05e(0x23e)])[_0x20d05e(0x3a8)]();continue;case'2':DB[_0x20d05e(0x44a)][_0x20d05e(0x52c)+'e']=_0x1a0e95[_0x20d05e(0x3b9)](_0x1a0e95[_0x20d05e(0x34e)]($,_0x1a0e95[_0x20d05e(0x281)])?.[_0x20d05e(0x350)],_0x1a0e95[_0x20d05e(0x431)]);continue;case'3':if(!_0x1a0e95[_0x20d05e(0x65d)](isAdmin))return _0x1a0e95[_0x20d05e(0x18a)](notify,_0x1a0e95[_0x20d05e(0x14b)],_0x1a0e95[_0x20d05e(0x3f5)]);continue;case'4':_0x1a0e95[_0x20d05e(0x54e)](saveNow)[_0x20d05e(0x39e)](()=>notify(_0x20d05e(0x4db)+_0x20d05e(0x470)));continue;}break;}},window[_0x11acdc(0x1be)]=function(_0x39d5dc){const _0x4d7bdd=_0x11acdc,_0x797457={'EEHhy':function(_0x1bc79c,_0x17be84){return _0x1bc79c(_0x17be84);},'pmdFE':_0x4d7bdd(0x21d),'HJLOX':_0x4d7bdd(0x34d),'GpocV':_0x4d7bdd(0x3bd),'vENaO':function(_0x1eaf52,_0x52fada,_0x5a4e13){return _0x1eaf52(_0x52fada,_0x5a4e13);}},_0x5875f1=DB[_0x4d7bdd(0x3bd)][_0x39d5dc];if(!_0x5875f1)return;const _0x4410f8=!_0x5875f1[_0x4d7bdd(0x411)];_0x797457[_0x4d7bdd(0x4b7)](dbUpdate,_0x4d7bdd(0x5da)+_0x797457[_0x4d7bdd(0x133)](encodeEmail,_0x39d5dc),{'tick':_0x4410f8})[_0x4d7bdd(0x39e)](()=>{const _0x3e06a8=_0x4d7bdd;_0x797457[_0x3e06a8(0x133)](notify,_0x3e06a8(0x1b5)+(_0x4410f8?_0x797457[_0x3e06a8(0x533)]:_0x797457[_0x3e06a8(0x5b2)])+(_0x3e06a8(0x3e3)+_0x3e06a8(0x1dd))+_0x5875f1[_0x3e06a8(0x295)]+'.'),_0x797457[_0x3e06a8(0x133)](setAdminTab,_0x797457[_0x3e06a8(0x24b)]);});};
+
+/* ============================================================
+   ADMIN MODULE - Loaded dynamically for security
+   ============================================================ */
+
+window._adminActiveTab = window._adminActiveTab || 'overview';
+
+window.setAdminTab = function(tab) {
+    window._adminActiveTab = tab;
+    const target = document.getElementById('page-admin');
+    if (target) {
+        target.innerHTML = adminHTML();
+    }
+};
+
+window.adminHTML = function() {
+    if (!isAdmin()) return `<div class="glass-panel"><p>Truy cập bị từ chối.</p></div>`;
+    
+    const tab = window._adminActiveTab;
+    const pendingDeposits = Object.entries(DB.users || {}).flatMap(([email, u]) => (u.depositRequests || []).map(r => ({ ...r, userEmail: email }))).filter(r => r.status === 'pending');
+    const pendingOrders = (DB.orders || []).filter(o => o.status === 'pending');
+    const pendingTickets = getAdminTickets().filter(ticket => (ticket.status || 'pending') === 'pending');
+    const pendingCustomOrders = getAdminCustomOrders().filter(o => (o.status || 'pending') === 'pending');
+    
+    const navItems = [
+        { id: 'overview', icon: 'bi-grid-1x2', label: 'Tổng quan' },
+        { id: 'users', icon: 'bi-people', label: 'Thành viên' },
+        { id: 'products', icon: 'bi-box-seam', label: 'Sản phẩm' },
+        { id: 'resources', icon: 'bi-folder2-open', label: 'Tài nguyên' },
+        { id: 'orders', icon: 'bi-cart-check', label: 'Đơn hàng' },
+        { id: 'tickets', icon: 'bi-life-preserver', label: 'Ticket' },
+        { id: 'custom-orders', icon: 'bi-code-slash', label: 'Web/Tool' },
+        { id: 'settings', icon: 'bi-gear', label: 'Cài đặt' }
+    ];
+
+    return `
+  <div class="hero" style="padding:24px;margin-bottom:18px;background:linear-gradient(135deg, rgba(99,102,241,0.2), rgba(6,182,212,0.1))">
+    <div style="display:flex;justify-content:space-between;align-items:center">
+        <div>
+            <h1 style="margin:0;font-size:1.8rem">Quản trị Hệ thống</h1>
+            <p style="margin:5px 0 0;opacity:0.7">Quản lý toàn bộ hoạt động của MMO Studio</p>
+        </div>
+        <div class="badge badge-blue"><i class="bi bi-shield-lock"></i> Firebase Security Active</div>
+    </div>
+  </div>
+
+  <div class="admin-tabs" style="display:flex;gap:10px;margin-bottom:20px;overflow-x:auto;padding-bottom:5px">
+    ${navItems.map(item => `
+        <button class="btn ${tab === item.id ? 'btn-primary' : 'btn-ghost'}" onclick="setAdminTab('${item.id}')" style="white-space:nowrap">
+            <i class="bi ${item.icon}"></i> ${item.label}
+        </button>
+    `).join('')}
+  </div>
+
+  <div class="admin-content-area animate-fade-in">
+    ${renderTabContent(tab, pendingDeposits, pendingOrders, pendingTickets, pendingCustomOrders)}
+  </div>
+    `;
+};
+
+function renderTabContent(tab, pendingDeposits, pendingOrders, pendingTickets, pendingCustomOrders) {
+    switch(tab) {
+        case 'overview': return renderOverview(pendingDeposits, pendingOrders, pendingTickets, pendingCustomOrders);
+        case 'users': return renderUsers();
+        case 'products': return renderProducts();
+        case 'resources': return renderResources();
+        case 'orders': return renderOrders();
+        case 'tickets': return renderTickets();
+        case 'custom-orders': return renderCustomOrders();
+        case 'settings': return renderSettings();
+        default: return '';
+    }
+}
+
+function renderOverview(pendingDeposits, pendingOrders, pendingTickets, pendingCustomOrders) {
+    return `
+    <div class="stats-grid">
+        <div class="stat" style="background:rgba(99,102,241,0.1)">
+            <div style="font-size:1.5rem;margin-bottom:8px;color:var(--indigo)"><i class="bi bi-people"></i></div>
+            <h3>${Object.keys(DB.users || {}).length}</h3><p>Thành viên</p>
+        </div>
+        <div class="stat" style="background:rgba(34,197,94,0.1)">
+            <div style="font-size:1.5rem;margin-bottom:8px;color:var(--green)"><i class="bi bi-cart-check"></i></div>
+            <h3>${(DB.orders || []).length}</h3><p>Đơn hàng</p>
+        </div>
+        <div class="stat" style="background:rgba(245,158,11,0.1)">
+            <div style="font-size:1.5rem;margin-bottom:8px;color:var(--amber)"><i class="bi bi-cash-stack"></i></div>
+            <h3>${pendingDeposits.length}</h3><p>Nạp chờ duyệt</p>
+        </div>
+        <div class="stat" style="background:rgba(6,182,212,0.1)">
+            <div style="font-size:1.5rem;margin-bottom:8px;color:var(--blue)"><i class="bi bi-box-seam"></i></div>
+            <h3>${(DB.products || []).length}</h3><p>Sản phẩm</p>
+        </div>
+        <div class="stat" style="background:rgba(59,130,246,0.1)">
+            <div style="font-size:1.5rem;margin-bottom:8px;color:var(--blue)"><i class="bi bi-life-preserver"></i></div>
+            <h3>${pendingTickets.length}</h3><p>Ticket chờ xử lý</p>
+        </div>
+        <div class="stat" style="background:rgba(99,102,241,0.1)">
+            <div style="font-size:1.5rem;margin-bottom:8px;color:var(--indigo)"><i class="bi bi-code-slash"></i></div>
+            <h3>${pendingCustomOrders.length}</h3><p>Web/Tool chờ xử lý</p>
+        </div>
+    </div>
+    
+    <div class="split">
+        <div class="glass-panel">
+            <h3>💵 Nạp tiền chờ duyệt (${pendingDeposits.length})</h3>
+            <div id="depositRequests">
+                ${pendingDeposits.map(r => `
+                    <div class="tx-item" style="margin-top:10px">
+                        <div>
+                            <b>${esc(r.userEmail)}</b>
+                            <div style="font-size:.8rem;color:var(--muted)">${esc(r.note || 'Không có ghi chú')}</div>
+                        </div>
+                        <div style="text-align:right">
+                            <div style="color:var(--green);font-weight:700">+${safeNum(r.amount).toLocaleString()}đ</div>
+                            <div class="toolbar" style="margin-top:5px">
+                                <button class="btn btn-primary btn-sm" onclick="approveDeposit('${r.userEmail}',${r.id})">Duyệt</button>
+                                <button class="btn btn-danger btn-sm" onclick="rejectDeposit('${r.userEmail}',${r.id})">Xóa</button>
+                            </div>
+                        </div>
+                    </div>
+                `).join('') || '<p style="opacity:0.5;text-align:center;padding:20px">Không có yêu cầu nào</p>'}
+            </div>
+        </div>
+        <div class="glass-panel">
+            <h3>📦 Đơn hàng mới (${pendingOrders.length})</h3>
+            ${pendingOrders.map(o => `
+                <div class="tx-item" style="margin-top:10px">
+                    <div>
+                        <b>${esc(o.service)}</b>
+                        <div style="font-size:.8rem;color:var(--muted)">${esc(o.userEmail)}</div>
+                    </div>
+                    <div style="text-align:right">
+                        <div style="font-weight:700">${safeNum(o.price).toLocaleString()}đ</div>
+                        <div class="toolbar" style="margin-top:5px">
+                            <button class="btn btn-primary btn-sm" onclick="setOrderStatus(${o.id},'approved')">Xử lý</button>
+                            <button class="btn btn-ghost btn-sm" onclick="setOrderStatus(${o.id},'rejected')">Hủy</button>
+                        </div>
+                    </div>
+                </div>
+            `).join('') || '<p style="opacity:0.5;text-align:center;padding:20px">Đã xử lý hết đơn hàng</p>'}
+        </div>
+    </div>
+    
+    <div class="glass-panel">
+        <h3>🚀 Tiện ích hệ thống</h3>
+        <div class="toolbar">
+            <button class="btn btn-ghost" onclick="exportDB()"><i class="bi bi-cloud-download"></i> Backup Database</button>
+            <button class="btn btn-ghost" onclick="importDBPrompt()"><i class="bi bi-cloud-upload"></i> Restore</button>
+            <button class="btn btn-danger" onclick="resetDB()"><i class="bi bi-exclamation-triangle"></i> Reset Toàn bộ</button>
+        </div>
+    </div>
+    `;
+}
+
+/* ============================================================
+   ADMIN ACTIONS
+   ============================================================ */
+
+window.approveDeposit = function(email, id) {
+    const u = DB.users[email];
+    if (!u) return notify('Không tìm thấy người dùng.', 'error');
+    
+    const reqIndex = (u.depositRequests || []).findIndex(r => r.id === id);
+    if (reqIndex === -1) return notify('Không tìm thấy yêu cầu.', 'error');
+    
+    const req = u.depositRequests[reqIndex];
+    if (req.status !== 'pending') return notify('Yêu cầu này đã được xử lý.');
+
+    const amount = safeNum(req.amount);
+    const newBalance = safeNum(u.balance) + amount;
+
+    // Firebase Granular Update
+    const encoded = encodeEmail(email);
+    const updates = {};
+    updates[`users/${encoded}/balance`] = newBalance;
+    updates[`users/${encoded}/depositRequests/${reqIndex}/status`] = 'approved';
+    
+    // Thêm thông báo
+    const notifId = uid();
+    const notif = {
+        id: notifId,
+        userEmail: email,
+        message: `✅ Yêu cầu nạp tiền ${amount.toLocaleString()}đ của bạn đã được DUYỆT thành công.`,
+        timestamp: now(),
+        read: false
+    };
+    
+    dbUpdate('/', updates)
+        .then(() => dbPush(`notifications`, notif))
+        .then(() => {
+            notify(`✅ Đã duyệt +${amount.toLocaleString()}đ cho ${u.name}`);
+            setAdminTab('overview');
+        })
+        .catch(err => notify('Lỗi Firebase: ' + err.message, 'error'));
+};
+
+window.rejectDeposit = function(email, id) {
+    if (!confirm('Bạn có chắc chắn muốn xóa yêu cầu này?')) return;
+    const u = DB.users[email];
+    if (!u) return;
+    const encoded = encodeEmail(email);
+    const filtered = (u.depositRequests || []).filter(r => r.id !== id);
+    dbSet(`users/${encoded}/depositRequests`, filtered).then(() => {
+        notify('Đã xóa yêu cầu nạp tiền.');
+        setAdminTab('overview');
+    });
+};
+
+window.adjustBalance = function(email) {
+    const u = DB.users[email];
+    if (!u) return;
+    const n = prompt(`Nhập số tiền muốn CỘNG cho ${u.name} (ví dụ: 10000 hoặc -10000):`, '0');
+    if (n === null) return;
+    const amount = parseInt(n, 10);
+    if (isNaN(amount)) return notify('Số tiền không hợp lệ.', 'error');
+    
+    const newBalance = safeNum(u.balance) + amount;
+    dbSet(`users/${encodeEmail(email)}/balance`, newBalance).then(() => {
+        notify(`Đã cập nhật số dư cho ${u.name}`);
+        setAdminTab('users');
+    });
+};
+
+window.setRole = function(email) {
+    const u = DB.users[email];
+    if (!u) return;
+    const newRole = prompt(`Nhập role cho ${u.name} (admin hoặc member):`, u.role || 'member');
+    if (!newRole) return;
+    dbSet(`users/${encodeEmail(email)}/role`, newRole.trim().toLowerCase()).then(() => {
+        notify(`Đã đổi role của ${u.name}`);
+        setAdminTab('users');
+    });
+};
+
+window.deleteUser = function(email) {
+    if (email === currentEmail()) return notify('Bạn không thể tự xóa chính mình.', 'error');
+    if (!confirm(`Xóa vĩnh viễn người dùng ${email}?`)) return;
+    dbSet(`users/${encodeEmail(email)}`, null).then(() => {
+        notify('Đã xóa người dùng.');
+        setAdminTab('users');
+    });
+};
+
+function renderUsers() {
+    return `
+    <div class="glass-panel">
+        <div style="display:flex;justify-content:space-between;align-items:center;margin-bottom:15px">
+            <h3 style="margin:0">Quản lý Thành viên</h3>
+            <div class="badge badge-blue">${Object.keys(DB.users || {}).length} users</div>
+        </div>
+        <div style="display:grid;gap:10px">
+            ${Object.entries(DB.users || {}).map(([email, u]) => `
+                <div class="tx-item">
+                    <div style="display:flex;gap:12px;align-items:center">
+                        <div class="avatar-sm" style="background:var(--indigo-grad)">${(u.name || '?').charAt(0).toUpperCase()}</div>
+                        <div>
+                            <b>${esc(u.name)}</b> ${u.tick ? '<i class="bi bi-patch-check-fill" style="color:var(--blue)"></i>' : ''}
+                            <div style="font-size:.8rem;color:var(--muted)">${esc(email)} | <span class="badge ${u.role === 'admin' ? 'badge-amber' : 'badge-blue'}">${u.role}</span></div>
+                        </div>
+                    </div>
+                    <div style="text-align:right">
+                        <div style="font-weight:700;color:var(--green)">${safeNum(u.balance).toLocaleString()}đ</div>
+                        <div class="toolbar" style="margin-top:8px;justify-content:flex-end">
+                            <button class="btn btn-ghost btn-sm" onclick="toggleTick('${email}')" title="Bật/Tắt tích xanh"><i class="bi bi-patch-check-fill" style="color:${u.tick ? 'var(--blue)' : 'var(--muted)'}"></i></button>
+                            <button class="btn btn-ghost btn-sm" onclick="adjustBalance('${email}')">Tiền</button>
+                            <button class="btn btn-ghost btn-sm" onclick="setRole('${email}')">Role</button>
+                            <button class="btn btn-danger btn-sm" onclick="deleteUser('${email}')"><i class="bi bi-trash"></i></button>
+                        </div>
+                    </div>
+                </div>
+            `).join('')}
+        </div>
+    </div>
+    `;
+}
+
+function renderProducts() {
+    return `
+    <div class="glass-panel">
+        <div style="display:flex;justify-content:space-between;align-items:center;margin-bottom:15px">
+            <h3 style="margin:0">Danh sách Sản phẩm</h3>
+            <button class="btn btn-primary btn-sm" onclick="openAddProductModal()"><i class="bi bi-plus-lg"></i> Thêm mới</button>
+        </div>
+        <div style="display:grid;grid-template-columns:repeat(auto-fill, minmax(280px, 1fr));gap:15px">
+            ${(DB.products || []).map(p => `
+                <div class="tx-item" style="flex-direction:column;align-items:flex-start">
+                    <div style="display:flex;gap:12px;width:100%">
+                        <div class="history-thumb" style="background-image:url('${esc(p.image || '')}');width:60px;height:60px"></div>
+                        <div style="flex:1">
+                            <b>${esc(p.name)}</b>
+                            <div style="color:var(--indigo);font-weight:700">${safeNum(p.price).toLocaleString()}đ</div>
+                            <div style="font-size:.75rem;color:var(--muted)">Kho: ${p.stock} | Đã bán: ${p.sold}</div>
+                        </div>
+                    </div>
+                    <div class="toolbar" style="width:100%;margin-top:12px;justify-content:space-between">
+                        <span class="badge badge-blue">${esc(p.category)}</span>
+                        <button class="btn btn-danger btn-sm" onclick="deleteProduct(${p.id})"><i class="bi bi-trash"></i> Xóa</button>
+                    </div>
+                </div>
+            `).join('') || '<p>Chưa có sản phẩm nào</p>'}
+        </div>
+    </div>
+    `;
+}
+
+function renderResources() {
+    return `
+    <div class="glass-panel">
+        <div style="display:flex;justify-content:space-between;align-items:center;margin-bottom:15px">
+            <h3 style="margin:0">Kho Tài nguyên</h3>
+            <button class="btn btn-primary btn-sm" onclick="openAddResourceModal()"><i class="bi bi-plus-lg"></i> Đăng tải</button>
+        </div>
+        <div style="display:grid;gap:10px">
+            ${(DB.resources || []).map(r => `
+                <div class="tx-item">
+                    <div>
+                        <b>${esc(r.title)}</b>
+                        <div style="font-size:.8rem;color:var(--muted)">${esc(r.category)} | Tác giả: ${esc(r.author)}</div>
+                    </div>
+                    <div class="toolbar">
+                        <button class="btn btn-danger btn-sm" onclick="deleteResource(${r.id})"><i class="bi bi-trash"></i></button>
+                    </div>
+                </div>
+            `).join('') || '<p>Trống</p>'}
+        </div>
+    </div>
+    `;
+}
+
+function renderOrders() {
+    return `
+    <div class="glass-panel">
+        <h3>Lịch sử Đơn hàng</h3>
+        <div style="display:grid;gap:10px">
+            ${(DB.orders || []).slice().reverse().map(o => `
+                <div class="tx-item">
+                    <div>
+                        <span class="badge ${o.status === 'approved' ? 'badge-green' : (o.status === 'rejected' ? 'badge-red' : 'badge-amber')}">#${o.id}</span>
+                        <b>${esc(o.service)}</b>
+                        <div style="font-size:.8rem;color:var(--muted)">${esc(o.userEmail)} | ${esc(o.type)}</div>
+                    </div>
+                    <div style="text-align:right">
+                        <div style="font-weight:700">${safeNum(o.price).toLocaleString()}đ</div>
+                        <div style="font-size:.7rem;opacity:0.6">${o.createdAt || ''}</div>
+                    </div>
+                </div>
+            `).join('') || '<p>Chưa có đơn hàng nào</p>'}
+        </div>
+    </div>
+    `;
+}
+
+function getAdminTickets() {
+    const raw = DB.tickets || [];
+    const list = Array.isArray(raw) ? raw.filter(Boolean) : Object.values(raw).filter(Boolean);
+    return list.sort((a, b) => new Date(b.updatedAt || b.createdAt || b.date || 0).getTime() - new Date(a.updatedAt || a.createdAt || a.date || 0).getTime());
+}
+
+function adminTicketStatusLabel(status) {
+    return ({ pending: 'Đang chờ', processing: 'Đang xử lý', closed: 'Đã đóng' })[status] || status || 'Đang chờ';
+}
+
+function adminTicketStatusClass(status) {
+    return status === 'closed' ? 'badge-green' : (status === 'processing' ? 'badge-blue' : 'badge-amber');
+}
+
+function renderAdminTicketReplies(ticket) {
+    const replies = ensureArray(ticket?.replies).filter(Boolean);
+    if (!replies.length) return '';
+    return `<div style="margin-top:12px;display:grid;gap:8px">
+        ${replies.map(reply => `<div style="padding:10px 12px;border-radius:12px;background:rgba(59,130,246,0.08);border:1px solid rgba(59,130,246,0.18)">
+            <div style="display:flex;justify-content:space-between;gap:10px;align-items:center">
+                <strong style="font-size:.85rem">${esc(reply.authorName || reply.author || 'Admin')}</strong>
+                <span style="font-size:.72rem;color:var(--muted)">${new Date(reply.time || now()).toLocaleString('vi-VN')}</span>
+            </div>
+            <div style="white-space:pre-wrap;margin-top:6px;color:#dbe4f0">${esc(reply.message || '')}</div>
+        </div>`).join('')}
+    </div>`;
+}
+
+function renderTickets() {
+    const rows = getAdminTickets();
+    return `
+    <div class="glass-panel">
+        <div style="display:flex;justify-content:space-between;align-items:center;margin-bottom:15px;gap:12px;flex-wrap:wrap">
+            <h3 style="margin:0">Hỗ trợ / Ticket</h3>
+            <div class="badge badge-blue">${rows.length} ticket</div>
+        </div>
+        <div style="display:grid;gap:10px">
+            ${rows.map(ticket => `
+                <div class="tx-item" style="align-items:flex-start">
+                    <div style="min-width:0">
+                        <span class="badge ${adminTicketStatusClass(ticket.status)}">#${ticket.id} • ${adminTicketStatusLabel(ticket.status)}</span>
+                        <div style="font-weight:800;margin-top:8px">${esc(ticket.title || 'Ticket')}</div>
+                        <div style="font-size:.8rem;color:var(--muted);margin-top:6px">${esc(ticket.userEmail || '')} | ${new Date(ticket.createdAt || ticket.date || now()).toLocaleString('vi-VN')}</div>
+                        <div style="white-space:pre-wrap;margin-top:10px;color:#e5e7eb">${esc(ticket.content || ticket.detail || '')}</div>
+                        ${renderAdminTicketReplies(ticket)}
+                        <div style="margin-top:12px">
+                            <textarea id="ticketReply-${ticket.id}" rows="3" placeholder="Nhập phản hồi cho người dùng..." style="width:100%;padding:12px;background:#030712;border:1px solid var(--border);border-radius:14px;color:#fff;resize:vertical"></textarea>
+                        </div>
+                    </div>
+                    <div class="toolbar" style="justify-content:flex-end">
+                        <button class="btn btn-primary btn-sm" onclick="replyTicket(${ticket.id})">Phản hồi</button>
+                        <button class="btn btn-primary btn-sm" onclick="setTicketStatus(${ticket.id},'processing')">Xử lý</button>
+                        <button class="btn btn-ghost btn-sm" onclick="setTicketStatus(${ticket.id},'pending')">Chờ</button>
+                        <button class="btn btn-success btn-sm" onclick="setTicketStatus(${ticket.id},'closed')">Đóng</button>
+                    </div>
+                </div>
+            `).join('') || '<p>Chưa có ticket nào.</p>'}
+        </div>
+    </div>
+    `;
+}
+
+function getAdminCustomOrders() {
+    const raw = DB.customOrders || [];
+    const list = Array.isArray(raw) ? raw.filter(Boolean) : Object.values(raw).filter(Boolean);
+    return list
+        .filter(o => o.kind === 'web_tool' || o.type === 'web_tool' || o.title === 'Đặt làm Web/Tool')
+        .sort((a, b) => new Date(b.date || b.createdAt || b.time || 0).getTime() - new Date(a.date || a.createdAt || a.time || 0).getTime());
+}
+
+function adminCustomStatusLabel(status) {
+    return ({ pending: 'Đang chờ', approved: 'Đã duyệt', rejected: 'Từ chối' })[status] || status || 'Đang chờ';
+}
+
+function adminCustomStatusClass(status) {
+    return status === 'approved' ? 'badge-green' : (status === 'rejected' ? 'badge-red' : 'badge-amber');
+}
+
+function renderCustomOrders() {
+    const rows = getAdminCustomOrders();
+    return `
+    <div class="glass-panel">
+        <div style="display:flex;justify-content:space-between;align-items:center;margin-bottom:15px;gap:12px;flex-wrap:wrap">
+            <h3 style="margin:0">Yêu cầu làm Web/Tool</h3>
+            <div class="badge badge-blue">${rows.length} yêu cầu</div>
+        </div>
+        <div style="display:grid;gap:10px">
+            ${rows.map(o => `
+                <div class="tx-item" style="align-items:flex-start">
+                    <div style="min-width:0">
+                        <span class="badge ${adminCustomStatusClass(o.status)}">#${o.id} • ${adminCustomStatusLabel(o.status)}</span>
+                        <div style="font-size:.8rem;color:var(--muted);margin-top:8px">${esc(o.userEmail || 'Ẩn danh')} | ${new Date(o.date || o.createdAt || o.time || now()).toLocaleString('vi-VN')}</div>
+                        <div style="white-space:pre-wrap;margin-top:8px;color:#e5e7eb">${esc(o.detail || o.description || '')}</div>
+                    </div>
+                    <div class="toolbar" style="justify-content:flex-end">
+                        <button class="btn btn-primary btn-sm" onclick="setCustomOrderStatus(${o.id},'approved')">Duyệt</button>
+                        <button class="btn btn-ghost btn-sm" onclick="setCustomOrderStatus(${o.id},'pending')">Chờ</button>
+                        <button class="btn btn-danger btn-sm" onclick="setCustomOrderStatus(${o.id},'rejected')">Từ chối</button>
+                    </div>
+                </div>
+            `).join('') || '<p>Chưa có yêu cầu Web/Tool nào.</p>'}
+        </div>
+    </div>
+    `;
+}
+
+function renderSettings() {
+    return `
+    <div class="glass-panel">
+        <h3>📢 Thông báo hệ thống (Broadcast)</h3>
+        <div style="display:flex;gap:10px">
+            <input id="bulkMsg" placeholder="Nhập nội dung thông báo gửi đến toàn bộ user..." style="flex:1;padding:12px;background:#030712;border:1px solid var(--border);border-radius:14px;color:#fff">
+            <button class="btn btn-primary" onclick="sendAdminNotif()">Gửi ngay</button>
+        </div>
+    </div>
+
+    <div class="glass-panel">
+        <h3>🎁 Quản lý Voucher</h3>
+        <form id="voucherAdminForm" onsubmit="event.preventDefault(); saveVoucherFromAdmin();">
+            <div class="split">
+                <div class="form-group"><label>Mã Voucher</label><input id="voucherAdminCode" placeholder="MMO2026" required></div>
+                <div class="form-group"><label>Số tiền tặng</label><input id="voucherAdminAmount" type="number" value="5000" required></div>
+            </div>
+            <button class="btn btn-primary btn-block">Tạo Voucher</button>
+        </form>
+        <div style="margin-top:15px">
+            ${(DB.vouchers || []).map(v => `
+                <div class="tx-item" style="margin-top:5px">
+                    <span><b>${esc(v.code)}</b> (+${safeNum(v.amount).toLocaleString()}đ)</span>
+                    <button class="btn btn-danger btn-sm" onclick="deleteVoucherAdmin('${v.code}')">Xóa</button>
+                </div>
+            `).join('')}
+        </div>
+    </div>
+
+    <div class="glass-panel">
+        <h3>⚙️ Cấu hình nhanh</h3>
+        <div class="form-group"><label>Tên Website</label><input id="siteName" value="${esc(DB.settings.siteName)}"></div>
+        <div class="form-group">
+            <label>Chế độ bảo trì</label>
+            <select id="maintenanceMode" class="btn-block" style="padding:10px;background:#030712;color:#fff;border:1px solid var(--border);border-radius:12px">
+                <option value="false" ${!DB.settings.maintenance ? 'selected' : ''}>Tắt (Hoạt động bình thường)</option>
+                <option value="true" ${DB.settings.maintenance ? 'selected' : ''}>Bật (Chỉ Admin mới vào được)</option>
+            </select>
+        </div>
+        <div class="form-group"><label>Thưởng giới thiệu (VNĐ)</label><input id="referralReward" type="number" min="0" value="${safeNum(DB.settings.referralReward || 5000)}"></div>
+        <div class="split">
+            <div class="form-group"><label>Facebook</label><input id="contactFacebook" value="${esc(DB.settings.contactInfo?.facebook || '')}"></div>
+            <div class="form-group"><label>Zalo</label><input id="contactZalo" value="${esc(DB.settings.contactInfo?.zalo || '')}"></div>
+        </div>
+        <div class="split">
+            <div class="form-group"><label>Telegram</label><input id="contactTelegram" value="${esc(DB.settings.contactInfo?.telegram || '')}"></div>
+            <div class="form-group"><label>TikTok</label><input id="contactTiktok" value="${esc(DB.settings.contactInfo?.tiktok || '')}"></div>
+        </div>
+        <button class="btn btn-primary btn-block" onclick="saveQuickSettings()">Lưu thay đổi</button>
+    </div>
+    
+    <div class="glass-panel">
+        <h3>💰 Giá dịch vụ Buff</h3>
+        ${Object.entries(DB.settings.buffPrices || {}).map(([platform, types]) => `
+            <details style="margin-top:10px;background:rgba(255,255,255,0.03);padding:10px;border-radius:12px">
+                <summary style="cursor:pointer;font-weight:700">${platform.toUpperCase()}</summary>
+                <div style="padding-top:10px">
+                    ${Object.entries(types).map(([type, val]) => `
+                        <div style="display:flex;align-items:center;gap:10px;margin-bottom:8px">
+                            <span style="min-width:120px;font-size:.9rem">${esc(type)}</span>
+                            <input type="number" value="${val}" style="width:80px;padding:5px;background:#000;color:#fff;border:1px solid var(--border)" onchange="updateBuffPriceSetting('${platform}','${type}',this.value)">
+                            <span style="font-size:.8rem;opacity:0.6">đ/1k</span>
+                        </div>
+                    `).join('')}
+                </div>
+            </details>
+        `).join('')}
+    </div>
+    `;
+}
+
+window.saveVoucherFromAdmin = function() {
+    const code = ($('#voucherAdminCode')?.value || '').trim().toUpperCase();
+    const amount = parseInt($('#voucherAdminAmount')?.value || '0', 10);
+    if(!code || isNaN(amount)) return notify('Thông tin không hợp lệ', 'error');
+    
+    DB.vouchers = DB.vouchers || [];
+    DB.vouchers.push({ code, amount, active: true, usedBy: [], note: 'Admin created' });
+    saveNow().then(() => { notify('Đã tạo Voucher'); setAdminTab('settings'); });
+};
+
+/* These functions use saveNow() for reliable Firebase persistence */
+
+window.setOrderStatus = function (id, status) {
+    const o = (DB.orders || []).find(x => x.id === id); if (!o) return;
+    o.status = status;
+    saveNow().then(() => {
+        if (o.userEmail) addNotification(o.userEmail, `Đơn #${o.id} cập nhật: ${status}`);
+        notify('Đã cập nhật đơn.');
+        setAdminTab('overview');
+    });
+};
+
+window.setTicketStatus = function(id, status) {
+    const list = getAdminTickets();
+    const ticket = list.find(x => String(x.id) === String(id));
+    if (!ticket) return notify('Không tìm thấy ticket.', 'error');
+
+    ticket.status = status;
+    ticket.updatedAt = now();
+    const notificationList = getNotificationList();
+    if (ticket.userEmail) {
+        notificationList.unshift(createNotificationRecord(ticket.userEmail, `Ticket #${ticket.id} cập nhật: ${adminTicketStatusLabel(status)}`, { title: 'Hỗ trợ', kind: 'ticket_status', ticketId: ticket.id }));
+    }
+
+    Promise.all([
+        persistTicketList(list),
+        persistNotifications(notificationList)
+    ]).then(() => {
+        notify('Đã cập nhật ticket.');
+        setAdminTab('tickets');
+    }).catch(err => notify('Lỗi Firebase: ' + (err?.message || err), 'error'));
+};
+
+window.replyTicket = function(id) {
+    const list = getAdminTickets();
+    const ticket = list.find(x => String(x.id) === String(id));
+    if (!ticket) return notify('Không tìm thấy ticket.', 'error');
+
+    const input = document.getElementById(`ticketReply-${id}`);
+    const message = (input?.value || '').trim();
+    if (message.length < 2) return notify('Nhập nội dung phản hồi.', 'error');
+
+    ticket.replies = ensureArray(ticket.replies);
+    ticket.replies.push({
+        id: uid(),
+        author: currentEmail() || 'admin',
+        authorName: (user()?.name || 'Admin'),
+        message,
+        time: now()
+    });
+    ticket.status = ticket.status === 'closed' ? 'closed' : 'processing';
+    ticket.updatedAt = now();
+
+    const notificationList = getNotificationList();
+    notificationList.unshift(createNotificationRecord(ticket.userEmail, `Admin đã phản hồi ticket #${ticket.id}.`, {
+        title: 'Phản hồi ticket',
+        detail: message,
+        kind: 'ticket_reply',
+        ticketId: ticket.id
+    }));
+
+    Promise.all([
+        persistTicketList(list),
+        persistNotifications(notificationList)
+    ]).then(() => {
+        notify('Đã gửi phản hồi cho ticket.');
+        setAdminTab('tickets');
+    }).catch(err => notify('Lỗi Firebase: ' + (err?.message || err), 'error'));
+};
+
+window.setCustomOrderStatus = function(id, status) {
+    const raw = DB.customOrders || [];
+    let order = null;
+
+    if (Array.isArray(raw)) {
+        order = raw.find(x => String(x.id) === String(id));
+    } else {
+        const key = Object.keys(raw).find(k => String(raw[k]?.id) === String(id));
+        if (key) order = raw[key];
+    }
+
+    if (!order) return notify('Không tìm thấy yêu cầu Web/Tool.', 'error');
+
+    order.status = status;
+    order.updatedAt = now();
+
+    if (order.userEmail) {
+        DB.notifications = DB.notifications || [];
+        DB.notifications.unshift({
+            id: uid(),
+            userEmail: order.userEmail,
+            title: 'Web/Tool',
+            message: `Yêu cầu Web/Tool #${order.id} cập nhật: ${adminCustomStatusLabel(status)}`,
+            read: false,
+            kind: 'normal',
+            system: false,
+            timestamp: now()
+        });
+        DB.notifications = DB.notifications.slice(0, 400);
+    }
+
+    saveNow().then(() => {
+        notify('Đã cập nhật yêu cầu Web/Tool.');
+        setAdminTab('custom-orders');
+    }).catch(err => notify('Lỗi Firebase: ' + (err?.message || err), 'error'));
+};
+
+window.updateBuffPriceSetting = function (platform, type, val) {
+    DB.settings.buffPrices[platform][type] = parseInt(val || '50', 10);
+    saveNow();
+};
+
+window.toggleTick = function (email) {
+    DB.users[email].tick = !DB.users[email].tick;
+    saveNow().then(() => setAdminTab('users'));
+};
+
+window.sendAdminNotif = function () {
+    const msg = ($('#bulkMsg')?.value || '').trim(); if (!msg) return notify('Nhập nội dung.', 'error');
+    Object.keys(DB.users || {}).forEach(email => addNotification(email, msg, { kind: 'broadcast', system: true, title: 'Thông báo hệ thống' }));
+    DB.announcements.unshift({ id: uid(), title: 'Thông báo hệ thống', body: msg, pinned: true, author: currentEmail() || 'admin', timestamp: now() });
+    DB.announcements = DB.announcements.slice(0, 40);
+    saveNow().then(() => {
+        if ($('#bulkMsg')) $('#bulkMsg').value = '';
+        notify('Đã gửi thông báo.'); setAdminTab('settings');
+    });
+};
+
+window.openAddProductModal = function() {
+    openModal(`
+        <div class="hero"><h1>Thêm sản phẩm mới</h1></div>
+        <form id="addProductForm" onsubmit="saveProductAdmin(event)">
+            <div class="split">
+                <div class="form-group"><label>Tên sản phẩm</label><input id="pName" required></div>
+                <div class="form-group"><label>Giá (đ)</label><input id="pPrice" type="number" value="10000" required></div>
+            </div>
+            <div class="split">
+                <div class="form-group"><label>Danh mục</label><input id="pCat" value="Tool"></div>
+                <div class="form-group"><label>Số lượng kho</label><input id="pStock" type="number" value="999"></div>
+            </div>
+            <div class="form-group"><label>Hình ảnh sản phẩm</label><input type="file" id="pImageFile" accept="image/*"></div>
+            <div class="form-group"><label>Link sản phẩm / Source</label><input id="pLink" placeholder="Link tải hoặc truy cập"></div>
+            <div class="form-group"><label>Mô tả ngắn</label><textarea id="pDesc" rows="3"></textarea></div>
+            <button class="btn btn-primary btn-block" id="pSubmitBtn">Lưu sản phẩm</button>
+        </form>
+    `);
+}
+
+window.saveProductAdmin = async function(e) {
+    e.preventDefault();
+    const btn = $('#pSubmitBtn');
+    const file = $('#pImageFile')?.files[0];
+    
+    try {
+        btn.disabled = true;
+        btn.textContent = 'Đang tải ảnh...';
+        
+        let imageUrl = '';
+        if (file) {
+            imageUrl = await uploadToImgBB(file);
+            if (!imageUrl) throw new Error('Không thể tải ảnh lên ImgBB');
+        }
+
+        const newProduct = {
+            id: Date.now(),
+            name: $('#pName').value,
+            price: parseInt($('#pPrice').value, 10),
+            category: $('#pCat').value || 'Khác',
+            stock: parseInt($('#pStock').value, 10),
+            image: imageUrl,
+            link: $('#pLink').value,
+            desc: $('#pDesc').value,
+            sold: 0, status: 'active', createdAt: now()
+        };
+
+        // Tìm index tiếp theo trong mảng products (nếu coi như array)
+        const nextIndex = (DB.products || []).length;
+        await dbSet(`products/${nextIndex}`, newProduct);
+        
+        notify('Đã thêm sản phẩm.'); 
+        closeModal(); 
+        setAdminTab('products');
+    } catch (err) {
+        notify(err.message, 'error');
+    } finally {
+        btn.disabled = false;
+        btn.textContent = 'Lưu sản phẩm';
+    }
+}
+
+window.deleteProduct = function(id) {
+    if (!confirm('Xóa sản phẩm này?')) return;
+    const filtered = (DB.products || []).filter(p => String(p.id) !== String(id));
+    dbSet(`products`, filtered).then(() => { 
+        notify('Đã xóa sản phẩm.'); 
+        setAdminTab('products'); 
+    });
+}
+
+window.openAddResourceModal = function() {
+    openModal(`
+        <div class="hero"><h1>Thêm tài nguyên mới</h1></div>
+        <form id="addResourceForm" onsubmit="saveResourceAdmin(event)">
+            <div class="form-group"><label>Tiêu đề</label><input id="rTitle" required></div>
+            <div class="split">
+                <div class="form-group"><label>Danh mục</label><input id="rCat" value="Source"></div>
+                <div class="form-group"><label>Tác giả</label><input id="rAuthor" value="Admin"></div>
+            </div>
+            <div class="form-group"><label>Link tải file (URL)</label><input id="rUrl" placeholder="https://..."></div>
+            <div class="form-group"><label>Ảnh minh họa</label><input type="file" id="rThumbFile" accept="image/*"></div>
+            <div class="form-group"><label>Mô tả</label><textarea id="rDesc" rows="3"></textarea></div>
+            <button class="btn btn-primary btn-block" id="rSubmitBtn">Lưu tài nguyên</button>
+        </form>
+    `);
+}
+
+window.saveResourceAdmin = async function(e) {
+    e.preventDefault();
+    const btn = $('#rSubmitBtn');
+    const file = $('#rThumbFile')?.files[0];
+
+    try {
+        btn.disabled = true;
+        btn.textContent = 'Đang tải ảnh...';
+
+        let thumbUrl = '';
+        if (file) {
+            thumbUrl = await uploadToImgBB(file);
+            if (!thumbUrl) throw new Error('Không thể tải ảnh lên ImgBB');
+        }
+
+        const newRes = {
+            id: Date.now(),
+            title: $('#rTitle').value,
+            category: $('#rCat').value || 'Khác',
+            author: $('#rAuthor').value,
+            fileUrl: $('#rUrl').value,
+            thumbnail: thumbUrl,
+            desc: $('#rDesc').value,
+            downloads: 0, date: now()
+        };
+
+        const nextIndex = (DB.resources || []).length;
+        await dbSet(`resources/${nextIndex}`, newRes);
+        
+        notify('Đã thêm tài nguyên.'); 
+        closeModal(); 
+        setAdminTab('resources');
+    } catch (err) {
+        notify(err.message, 'error');
+    } finally {
+        btn.disabled = false;
+        btn.textContent = 'Lưu tài nguyên';
+    }
+}
+
+window.deleteResource = function(id) {
+    if (!confirm('Xóa tài nguyên này?')) return;
+    const filtered = (DB.resources || []).filter(r => String(r.id) !== String(id));
+    dbSet(`resources`, filtered).then(() => { 
+        notify('Đã xóa tài nguyên.'); 
+        setAdminTab('resources'); 
+    });
+}
+
+window.exportDB = function() {
+    const blob = new Blob([JSON.stringify(DB, null, 2)], { type: 'application/json' });
+    const a = document.createElement('a'); a.href = URL.createObjectURL(blob); a.download = 'mmo-firebase-db.json'; a.click(); URL.revokeObjectURL(a.href);
+}
+
+window.importDBPrompt = function() {
+    const inp = document.createElement('input'); inp.type = 'file'; inp.accept = 'application/json';
+    inp.onchange = e => {
+        const file = e.target.files[0]; if (!file) return;
+        const reader = new FileReader();
+        reader.onload = ev => {
+            try { const obj = JSON.parse(ev.target.result); DB = obj; saveNow().then(() => { updateUI(); navigate('home'); notify('Đã nhập dữ liệu.'); }); }
+            catch (err) { notify('File JSON không hợp lệ.', 'error'); }
+        };
+        reader.readAsText(file);
+    };
+    inp.click();
+}
+
+window.resetDB = function() {
+    if (!confirm('Reset toàn bộ dữ liệu trên Firebase?')) return;
+    // Note: makeDefaultDB needs to be accessible or redefined
+    fbRef.set(null).then(() => {
+        location.reload();
+    });
+}
+
+window.saveQuickSettings = function () {
+    if (!isAdmin()) return notify('Chỉ admin.', 'error');
+    DB.settings.siteName = ($('#siteName')?.value || 'MMO Studio').trim();
+    DB.settings.maintenance = $('#maintenanceMode')?.value === 'true';
+    DB.settings.referralReward = Math.max(0, safeNum($('#referralReward')?.value || DB.settings.referralReward || 5000));
+    const currentContact = DB.settings.contactInfo || {};
+    const facebookInput = $('#contactFacebook');
+    const zaloInput = $('#contactZalo');
+    const telegramInput = $('#contactTelegram');
+    const tiktokInput = $('#contactTiktok');
+    DB.settings.contactInfo = {
+        facebook: facebookInput ? facebookInput.value.trim() : (currentContact.facebook || ''),
+        zalo: zaloInput ? zaloInput.value.trim() : (currentContact.zalo || ''),
+        telegram: telegramInput ? telegramInput.value.trim() : (currentContact.telegram || ''),
+        tiktok: tiktokInput ? tiktokInput.value.trim() : (currentContact.tiktok || '')
+    };
+    saveNow().then(() => notify('Đã lưu cài đặt.'));
+};
+
+window.toggleTick = function(email) {
+    const u = DB.users[email]; if (!u) return;
+    const newStatus = !u.tick;
+    dbUpdate(`users/${encodeEmail(email)}`, { tick: newStatus }).then(() => {
+        notify(`Đã ${newStatus ? 'bật' : 'tắt'} tích xanh cho ${u.name}.`);
+        setAdminTab('users');
+    });
+};
